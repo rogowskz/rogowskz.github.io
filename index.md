@@ -1,3 +1,3 @@
-# ZR GitHub Pages
+# Zbigniew Rogowski
 
 [Cyfrowy Spadek, rozkodowanie](CyfrowySpadekRozkodowanie)
