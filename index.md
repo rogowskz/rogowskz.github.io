@@ -1,3 +1,3 @@
 # Zbigniew Rogowski
 
-[Cyfrowy Spadek, rozkodowanie](CyfrowySpadekRozkodowanie)
+[Cyfrowy Spadek, rozszyfrowanie](CyfrowySpadekRozkodowanie)
