@@ -24,12 +24,12 @@
 |                     |            |                     |
 | **Dom, inne:**      | **2,980**  |                     |
 | Meble, wyposażenie  |            | 518                 |
-| Ogród               |            | 1,848[^ogród]       |
+| Ogród               |            | 1,848[^ogrod]       |
 | Konserwacje         |            | 615[^konserwacje]   |
 |                     |            |                     |
 
 ----
 [^gospodarcze]: W tym $621 na odśnieżacz bateryjny.
-[^ogród]: W tym $... dodatkowych kosztów napraw szkód po tornado w roku 2018.
+[^ogrod]: W tym $... dodatkowych kosztów napraw szkód po tornado w roku 2018.
 [^konserwacje]: W tym $367 za inspekcję dachu po tornado.
 
