@@ -67,7 +67,7 @@ Wydatki roczne w CAD.
 | Książki[^ksiazki]              |            | 205[^safaribooks]   |
 | Czasopisma[^czasopisma]        |            | 14                  |
 | Komputery, sprzęt              |            | 552[^kompsprzet]    |
-| Komputery, software            |            | 34                  |
+| Komputery, software            |            | 34[^software]       |
 | Inne[^inneinne]                |            | 760                 |
 |                                |            |                     |
 | **Obsługa kredytów**           | **0**      |                     |
@@ -78,11 +78,11 @@ Wydatki roczne w CAD.
 
 [^wydgosp]: Przybory domowe i kuchenne, środki czyszczące i do prania, drobne narzędzia, elektryczne szczoteczki do zębów, drobne akcesoria domowe, pościel, baterie, itp ...
 [^gospodarcze]: W tym $621 na odśnieżacz bateryjny.
-[^ogrod]: W tym $... dodatkowych kosztów napraw szkód po tornado w roku 2018.
+[^ogrod]: W tym $1126 dodatkowych kosztów napraw szkód po tornado w roku 2018.
 [^konserwacje]: W tym $367 za inspekcję dachu po tornado.
 [^hipoteka]: Dom kupiony 1997-04-14. Spłacanie zakończono 2015-02-19.
-[^renowacje]: W tym: $... Wymiana trzech okien na piętrze.
-[^netflix]: Opłata dzielona po połowie z Zosią.
+[^renowacje]: W tym: $4340 Wymiana trzech okien na piętrze.
+[^netflix]: Opłata dzielona po połowie z dziećmi.
 [^komorkisprzet]: Za jeden nowy telefon.
 [^samochodkons]: Wymiany oleju, żarówek, płynów, antykorozja, itp...
 [^samochodinne]: Mycie, parking, mandaty, odnowienie praw jazdy, itp...
@@ -93,7 +93,8 @@ Wydatki roczne w CAD.
 [^ksiazki]: Łącznie z audiobukami, subskrypcjami internetowymi oraz karami za opóźnione zwroty do biblioteki.
 [^safaribooks]: W tym $118 roczna subskrypcja Safari Books Online.
 [^czasopisma]: Łącznie z subskrypcjami internetowymi.
-[^kompsprzet]: W tym: $... za tablet Samsung.
+[^kompsprzet]: W tym: $337 za tablet Samsung.
+[^software]: Program TurboTax do sporządzania zeznań podatkowych.
 [^inneinne]: Poczta, materiały biurowe, Costco membership, fryzjer, domeny internetowe, itp...
 [^dentysta]: $1429 brutto minus $1100 zwroty ubezpieczeniowe.
 [^lekinne]: Badanie wzroku i nowe okulary.
