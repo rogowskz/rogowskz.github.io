@@ -36,7 +36,7 @@
 | Komórki, airtime           |                       | 293                 |
 | Komórki, sprzęt            |                       | 169[^komorkisprzet] |
 |                            |                       |                     |
-| **"Samochody"**            | **5,053**             |                     |
+| **Samochody**              | **5,053**             |                     |
 | Ubezpieczenie              |                       | 1,031               |
 | Benzyna                    |                       | 2,741               |
 | Konserwacje[^samochodkons] |                       | 281                 |
