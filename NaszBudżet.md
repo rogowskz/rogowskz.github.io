@@ -44,14 +44,16 @@ Wydatki roczne w CAD.
 | Rejestracja                |            | 120                 |
 | Inne[^samochodinne]        |            | 300                 |
 |                            |            |                     |
-| **Inne**                   | **2,817**  |                     |
+| **Inne**                   | **2,818**  |                     |
 | "Latte factor"[^latte]     |            | 274                 |
 | Opłaty bankowe[^bankowe]   |            | 105                 |
 | Rekreacja[^rekreacja]      |            | 544                 |
 | Rozrywki[^rozrywki]        |            | 330                 |
-| Książki, czasopisma        |            | 101                 |
-|                            |            |                     |
-|                            |            |                     |
+| Książki[^ksiazki]          |            | 205[^safaribooks]   |
+| Czasopisma[^czasopisma]    |            | 14                  |
+| Komputery, sprzęt          |            | 552[^kompsprzet]    |
+| Komputery, software        |            | 34                  |
+| Inne[^inneinne]            |            | 760                 |
 |                            |            |                     |
 |                            |            |                     |
 |                            |            |                     |
@@ -73,4 +75,8 @@ Wydatki roczne w CAD.
 [^bankowe]: Opłaty za operacje na kontach.
 [^rekreacja]: Fitness, spa, sprzęt sportowy.
 [^rozrywki]: Kino, teatr, koncerty, muzea, wykłady, itp...
-
+[^ksiazki]: Łącznie z audiobukami, subskrypcjami internetowymi oraz karami za opóźnione zwroty do biblioteki.
+[^safaribooks]: W tym $118 roczna subskrypcja Safari Books Online.
+[^czasopisma]: Łącznie z subskrypcjami internetowymi.
+[^kompsprzet]: W tym: $... za tablet Samsung.
+[^inneinne]: Poczta, materiały biurowe, Costco membership, fryzjer, domeny internetowe, itp...
