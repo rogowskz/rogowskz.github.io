@@ -10,7 +10,7 @@ Wydatki roczne w CAD.
 | Żywność                        |            | 8,803               |
 | Ubranie                        |            | 1,031               |
 | Kosmetyki                      |            | 558                 |
-| Wydatki gospodarcze            |            | 2,325[^gospodarcze] |
+| Wydatki gospodarcze[^wydgosp]  |            | 2,325[^gospodarcze] |
 | Transport publiczny            |            | 190                 |
 |                                |            |                     |
 | **Dom, posiadanie:**           | **9,400**  |                     |
@@ -76,6 +76,7 @@ Wydatki roczne w CAD.
 |                                |            |                     |
 
 
+[^wydgosp]: Przybory domowe i kuchenne, środki czyszczące i do prania, drobne narzędzia, elektryczne szczoteczki do zębów, drobne akcesoria domowe, pościel, baterie, itp ...
 [^gospodarcze]: W tym $621 na odśnieżacz bateryjny.
 [^ogrod]: W tym $... dodatkowych kosztów napraw szkód po tornado w roku 2018.
 [^konserwacje]: W tym $367 za inspekcję dachu po tornado.
@@ -102,4 +103,5 @@ Wydatki roczne w CAD.
 [^benzyna]: Przebieg w roku 2019: 21,153 km
 [^karciane]: Osetki od nieterminowo spłacanych obciążeń na kartach kredytowych.
 [^odsinne]: Odsetki roczne w wysokości $4,200 od kredytów stanowiących lewar inwestycyjny nie są tu uwzględnione.
+
 
