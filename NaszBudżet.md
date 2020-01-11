@@ -4,15 +4,13 @@ Wydatki roczne w CAD.
 
 |                                | Rok 2019   |                     |
 | ---                            | --:        | --:                 |
-| **Razem**                      | **54,500** |                     |
+| **Razem**                      | **47,276** |                     |
 |                                |            |                     |
-| **"Życie"**                    | **13,390** |                     |
+| **"Życie"**                    | **12,907** |                     |
 | Żywność                        |            | 8,803               |
 | Ubranie                        |            | 1,031               |
 | Kosmetyki                      |            | 558                 |
-| Gospodarcze                    |            | 2,325[^gospodarcze] |
-| Alkohole                       |            | 241                 |
-| Suplementy diety               |            | 242                 |
+| Wydatki gospodarcze            |            | 2,325[^gospodarcze] |
 | Transport publiczny            |            | 190                 |
 |                                |            |                     |
 | **Dom, posiadanie:**           | **9,400**  |                     |
@@ -44,9 +42,10 @@ Wydatki roczne w CAD.
 | Komórki, airtime               |            | 293                 |
 | Komórki, sprzęt                |            | 169[^komorkisprzet] |
 |                                |            |                     |
-| **Zdrowie**                    | **1,499**  |                     |
+| **Zdrowie**                    | **1,741**  |                     |
 | Lekarstwa na receptę           |            | 153                 |
 | Lekarstwa bez recept           |            | 85                  |
+| Suplementy diety               |            | 242                 |
 | Zabiegi i badania              |            | 87                  |
 | Dentysta netto[^dentysta]      |            | 329                 |
 | Inne                           |            | 845[^lekinne]       |
@@ -59,8 +58,9 @@ Wydatki roczne w CAD.
 | Bilety lotnicze do Europy      |            | 3908                |
 | Pozostałe wydatki[^podrinne]   |            | 533                 |
 |                                |            |                     |
-| **Inne**                       | **2,818**  |                     |
+| **Inne**                       | **3,059**  |                     |
 | "Latte factor"[^latte]         |            | 274                 |
+| Alkohole                       |            | 241                 |
 | Opłaty bankowe[^bankowe]       |            | 105                 |
 | Rekreacja[^rekreacja]          |            | 544                 |
 | Rozrywki[^rozrywki]            |            | 330                 |
