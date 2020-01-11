@@ -2,68 +2,74 @@
 
 Wydatki roczne w CAD.
 
-|                            | Rok 2019   |                     |
-| ---                        | --:        | --:                 |
-| **Razem**                  | **54,500** |                     |
-|                            |            |                     |
-| **"Życie"**                | **13,390** |                     |
-| Żywność                    |            | 8,803               |
-| Ubranie                    |            | 1,031               |
-| Kosmetyki                  |            | 558                 |
-| Gospodarcze                |            | 2,325[^gospodarcze] |
-| Alkohole                   |            | 241                 |
-| Suplementy diety           |            | 242                 |
-| Transport publiczny        |            | 190                 |
-|                            |            |                     |
-| **Dom, posiadanie:**       | **9,400**  |                     |
-| Podatek gruntowy           |            | 3,757               |
-| Ubezpieczenie              |            | 904                 |
-| Spłata hipoteki            |            | 0                   |
-| Renowacje                  |            | 4,740[^renowacje]   |
-|                            |            |                     |
-| **Dom, używanie:**         | **5,490**  |                     |
-| Gaz                        |            | 1,181               |
-| Prąd                       |            | 748                 |
-| Woda                       |            | 581                 |
-| Meble, wyposażenie         |            | 518                 |
-| Ogród                      |            | 1,848[^ogrod]       |
-| Konserwacje                |            | 615[^konserwacje]   |
-|                            |            |                     |
-| **"Media"**                | **1,515**  |                     |
-| Telefon stacjonarny        |            | 110                 |
-| Internet                   |            | 868                 |
-| Netflix                    |            | 84[^netflix]        |
-| Komórki, airtime           |            | 293                 |
-| Komórki, sprzęt            |            | 169[^komorkisprzet] |
-|                            |            |                     |
-| **Samochody**              | **5,053**  |                     |
-| Ubezpieczenie              |            | 1,031               |
-| Benzyna                    |            | 2,741               |
-| Konserwacje[^samochodkons] |            | 281                 |
-| Reperacje                  |            | 580                 |
-| Rejestracja                |            | 120                 |
-| Inne[^samochodinne]        |            | 300                 |
-|                            |            |                     |
-| **Inne**                   | **2,818**  |                     |
-| "Latte factor"[^latte]     |            | 274                 |
-| Opłaty bankowe[^bankowe]   |            | 105                 |
-| Rekreacja[^rekreacja]      |            | 544                 |
-| Rozrywki[^rozrywki]        |            | 330                 |
-| Książki[^ksiazki]          |            | 205[^safaribooks]   |
-| Czasopisma[^czasopisma]    |            | 14                  |
-| Komputery, sprzęt          |            | 552[^kompsprzet]    |
-| Komputery, software        |            | 34                  |
-| Inne[^inneinne]            |            | 760                 |
-|                            |            |                     |
-| **Zdrowie**                | **1,499**  |                     |
-| Lekarstwa na receptę       |            | 153                 |
-| Lekarstwa bez recept       |            | 85                  |
-| Zabiegi i badania          |            | 87                  |
-| Dentysta netto[^dentysta]  |            | 329                 |
-| Inne                       |            | 845[^lekinne]       |
-|                            |            |                     |
-|                            |            |                     |
-|                            |            |                     |
+|                                | Rok 2019   |                     |
+| ---                            | --:        | --:                 |
+| **Razem**                      | **54,500** |                     |
+|                                |            |                     |
+| **"Życie"**                    | **13,390** |                     |
+| Żywność                        |            | 8,803               |
+| Ubranie                        |            | 1,031               |
+| Kosmetyki                      |            | 558                 |
+| Gospodarcze                    |            | 2,325[^gospodarcze] |
+| Alkohole                       |            | 241                 |
+| Suplementy diety               |            | 242                 |
+| Transport publiczny            |            | 190                 |
+|                                |            |                     |
+| **Dom, posiadanie:**           | **9,400**  |                     |
+| Podatek gruntowy               |            | 3,757               |
+| Ubezpieczenie                  |            | 904                 |
+| Spłata hipoteki                |            | 0                   |
+| Renowacje                      |            | 4,740[^renowacje]   |
+|                                |            |                     |
+| **Dom, używanie:**             | **5,490**  |                     |
+| Gaz                            |            | 1,181               |
+| Prąd                           |            | 748                 |
+| Woda                           |            | 581                 |
+| Meble, wyposażenie             |            | 518                 |
+| Ogród                          |            | 1,848[^ogrod]       |
+| Konserwacje                    |            | 615[^konserwacje]   |
+|                                |            |                     |
+| **Samochody**                  | **5,053**  |                     |
+| Ubezpieczenie                  |            | 1,031               |
+| Benzyna                        |            | 2,741[^benzyna]     |
+| Konserwacje[^samochodkons]     |            | 281                 |
+| Reperacje                      |            | 580                 |
+| Rejestracja                    |            | 120                 |
+| Inne[^samochodinne]            |            | 300                 |
+|                                |            |                     |
+| **"Media"**                    | **1,515**  |                     |
+| Telefon stacjonarny            |            | 110                 |
+| Internet                       |            | 868                 |
+| Netflix                        |            | 84[^netflix]        |
+| Komórki, airtime               |            | 293                 |
+| Komórki, sprzęt                |            | 169[^komorkisprzet] |
+|                                |            |                     |
+| **Zdrowie**                    | **1,499**  |                     |
+| Lekarstwa na receptę           |            | 153                 |
+| Lekarstwa bez recept           |            | 85                  |
+| Zabiegi i badania              |            | 87                  |
+| Dentysta netto[^dentysta]      |            | 329                 |
+| Inne                           |            | 845[^lekinne]       |
+|                                |            |                     |
+| **Prezenty**                   | **3,670**  |                     |
+| Osobiste[^prezentyosobiste]    |            | 3036                |
+| Donacje charytatywne[^donacje] |            | 634                 |
+|                                |            |                     |
+| **Podróże**                    | **4,441**  |                     |
+| Bilety lotnicze do Europy      |            | 3908                |
+| Pozostałe wydatki[^podrinne]   |            | 533                 |
+|                                |            |                     |
+| **Inne**                       | **2,818**  |                     |
+| "Latte factor"[^latte]         |            | 274                 |
+| Opłaty bankowe[^bankowe]       |            | 105                 |
+| Rekreacja[^rekreacja]          |            | 544                 |
+| Rozrywki[^rozrywki]            |            | 330                 |
+| Książki[^ksiazki]              |            | 205[^safaribooks]   |
+| Czasopisma[^czasopisma]        |            | 14                  |
+| Komputery, sprzęt              |            | 552[^kompsprzet]    |
+| Komputery, software            |            | 34                  |
+| Inne[^inneinne]                |            | 760                 |
+|                                |            |                     |
 
 
 
@@ -86,3 +92,7 @@ Wydatki roczne w CAD.
 [^inneinne]: Poczta, materiały biurowe, Costco membership, fryzjer, domeny internetowe, itp...
 [^dentysta]: $1429 brutto minus $1100 zwroty ubezpieczeniowe.
 [^lekinne]: Badanie wzroku i nowe okulary.
+[^prezentyosobiste]: Urodzinowe, świąteczne, okolicznościowe, itp.. bez okazji :)
+[^donacje]: Plan Canada, WOŚP, Oko Press, ...
+[^podrinne]: Dojazdy na miejscu, noclegi, wynajęcie samochodów i benzyna, mapy, przewodniki, itp...
+[^benzyna]: Przebieg w roku 2019: 21,153 km
