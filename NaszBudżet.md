@@ -55,8 +55,12 @@ Wydatki roczne w CAD.
 | Komputery, software        |            | 34                  |
 | Inne[^inneinne]            |            | 760                 |
 |                            |            |                     |
-|                            |            |                     |
-|                            |            |                     |
+| **Zdrowie**                | **1,499**  |                     |
+| Lekarstwa na receptę       |            | 153                 |
+| Lekarstwa bez recept       |            | 85                  |
+| Zabiegi i badania          |            | 87                  |
+| Dentysta netto[^dentysta]  |            | 329                 |
+| Inne                       |            | 845[^lekinne]       |
 |                            |            |                     |
 |                            |            |                     |
 |                            |            |                     |
@@ -80,3 +84,5 @@ Wydatki roczne w CAD.
 [^czasopisma]: Łącznie z subskrypcjami internetowymi.
 [^kompsprzet]: W tym: $... za tablet Samsung.
 [^inneinne]: Poczta, materiały biurowe, Costco membership, fryzjer, domeny internetowe, itp...
+[^dentysta]: $1429 brutto minus $1100 zwroty ubezpieczeniowe.
+[^lekinne]: Badanie wzroku i nowe okulary.
