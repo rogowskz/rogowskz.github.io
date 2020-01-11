@@ -16,7 +16,7 @@ Wydatki roczne w CAD.
 | **Dom, posiadanie:**           | **9,400**  |                     |
 | Podatek gruntowy               |            | 3,757               |
 | Ubezpieczenie                  |            | 904                 |
-| Spłata hipoteki                |            | 0                   |
+| Spłata hipoteki                |            | 0[^hipoteka]        |
 | Renowacje                      |            | 4,740[^renowacje]   |
 |                                |            |                     |
 | **Dom, używanie:**             | **5,490**  |                     |
@@ -76,10 +76,10 @@ Wydatki roczne w CAD.
 |                                |            |                     |
 
 
-
 [^gospodarcze]: W tym $621 na odśnieżacz bateryjny.
 [^ogrod]: W tym $... dodatkowych kosztów napraw szkód po tornado w roku 2018.
 [^konserwacje]: W tym $367 za inspekcję dachu po tornado.
+[^hipoteka]: Dom kupiony 1997-04-14. Spłacanie zakończono 2015-02-19.
 [^renowacje]: W tym: $... Wymiana trzech okien na piętrze.
 [^netflix]: Opłata dzielona po połowie z Zosią.
 [^komorkisprzet]: Za jeden nowy telefon.
@@ -101,5 +101,5 @@ Wydatki roczne w CAD.
 [^podrinne]: Dojazdy na miejscu, noclegi, wynajęcie samochodów i benzyna, mapy, przewodniki, itp...
 [^benzyna]: Przebieg w roku 2019: 21,153 km
 [^karciane]: Osetki od nieterminowo spłacanych obciążeń na kartach kredytowych.
-[^odsinne]: Lewar inwestycyjny.
+[^odsinne]: Odsetki roczne w wysokości $4,200 od kredytów stanowiących lewar inwestycyjny nie są tu uwzględnione.
 
