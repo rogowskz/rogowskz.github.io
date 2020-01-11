@@ -1,5 +1,7 @@
 # Nasz budżet
 
+Wydatki roczne w CAD.
+
 |                            | Rok 2019              |                     |
 | ---                        | --:                   | --:                 |
 | **Razem**                  | **54,500**            |                     |
