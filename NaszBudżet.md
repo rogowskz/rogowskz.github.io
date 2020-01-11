@@ -70,6 +70,10 @@ Wydatki roczne w CAD.
 | Komputery, software            |            | 34                  |
 | Inne[^inneinne]                |            | 760                 |
 |                                |            |                     |
+| **Obsługa kredytów**           | **0**      |                     |
+| Długi "karciane"[^karciane]    |            | 0                   |
+| Odsetki inne                   |            | 0[^odsinne]         |
+|                                |            |                     |
 
 
 
@@ -96,3 +100,6 @@ Wydatki roczne w CAD.
 [^donacje]: Plan Canada, WOŚP, Oko Press, ...
 [^podrinne]: Dojazdy na miejscu, noclegi, wynajęcie samochodów i benzyna, mapy, przewodniki, itp...
 [^benzyna]: Przebieg w roku 2019: 21,153 km
+[^karciane]: Osetki od nieterminowo spłacanych obciążeń na kartach kredytowych.
+[^odsinne]: Lewar inwestycyjny.
+
