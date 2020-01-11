@@ -12,7 +12,7 @@ Wydatki roczne w CAD.
 | Ubranie                    |                       | 1,031               |
 | Gospodarcze                |                       | 2,325[^gospodarcze] |
 | Alkohole                   |                       | 241                 |
-| Suplementy                 |                       | 242                 |
+| Suplementy diety           |                       | 242                 |
 | Transport publiczny        |                       | 190                 |
 |                            |                       |                     |
 | **Dom, podatki:**          | **4,660**             |                     |
