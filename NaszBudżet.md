@@ -44,6 +44,19 @@ Wydatki roczne w CAD.
 | Rejestracja                |            | 120                 |
 | Inne[^samochodinne]        |            | 300                 |
 |                            |            |                     |
+| **Inne**                   | **2,817**  |                     |
+| "Latte factor"[^latte]     |            | 274                 |
+| Opłaty bankowe[^bankowe]   |            | 105                 |
+| Rekreacja[^rekreacja]      |            | 544                 |
+| Rozrywki[^rozrywki]        |            | 330                 |
+| Książki, czasopisma        |            | 101                 |
+|                            |            |                     |
+|                            |            |                     |
+|                            |            |                     |
+|                            |            |                     |
+|                            |            |                     |
+|                            |            |                     |
+|                            |            |                     |
 |                            |            |                     |
 
 
@@ -56,4 +69,8 @@ Wydatki roczne w CAD.
 [^komorkisprzet]: Za jeden nowy telefon.
 [^samochodkons]: Wymiany oleju, żarówek, płynów, antykorozja, itp...
 [^samochodinne]: Mycie, parking, mandaty, odnowienie praw jazdy, itp...
+[^latte]: Kawiarnie, restauracje, lody, itp. "zachciewajki"
+[^bankowe]: Opłaty za operacje na kontach.
+[^rekreacja]: Fitness, spa, sprzęt sportowy.
+[^rozrywki]: Kino, teatr, koncerty, muzea, wykłady, itp...
 
