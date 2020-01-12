@@ -1,66 +1,66 @@
 # Nasz budżet
 
-Wydatki roczne w CAD.
+Wydatki roczne w CAD:
 
-|                                | Rok 2019   |                     |
+|                                | Rok 2018   | Rok 2019            |
 | ---                            | --:        | --:                 |
-| **Razem**                      | **47,276** |                     |
+| **Razem**                      |            | **47,276**          |
 |                                |            |                     |
-| **"Życie"**                    | **12,907** |                     |
-| Żywność                        |            | 8,803               |
-| Ubranie                        |            | 1,031               |
-| Kosmetyki                      |            | 558                 |
+| **"Życie"**                    |            | **12,907**          |
+| Żywność                        | 8,151      | 8,803               |
+| Ubranie                        | 1,044      | 1,031               |
+| Kosmetyki                      | 482        | 558                 |
 | Wydatki gospodarcze[^wydgosp]  |            | 2,325[^gospodarcze] |
-| Transport publiczny            |            | 190                 |
+| Transport publiczny            | 273        | 190                 |
 |                                |            |                     |
-| **Dom, posiadanie:**           | **9,400**  |                     |
-| Podatek gruntowy               |            | 3,757               |
-| Ubezpieczenie                  |            | 904                 |
-| Spłata hipoteki                |            | 0[^hipoteka]        |
-| Renowacje                      |            | 4,740[^renowacje]   |
+| **Dom, posiadanie:**           | **19,408** | **9,400**           |
+| Podatek gruntowy               | 3,660      | 3,757               |
+| Ubezpieczenie                  | 955        | 904                 |
+| Spłata hipoteki                | 0          | 0[^hipoteka]        |
+| Renowacje                      | 14,793     | 4,740[^renowacje]   |
 |                                |            |                     |
-| **Dom, używanie:**             | **5,490**  |                     |
-| Gaz                            |            | 1,181               |
-| Prąd                           |            | 748                 |
-| Woda                           |            | 581                 |
-| Meble, wyposażenie             |            | 518                 |
-| Ogród                          |            | 1,848[^ogrod]       |
-| Konserwacje                    |            | 615[^konserwacje]   |
+| **Dom, używanie:**             | **3,739**  | **5,490**           |
+| Gaz                            | 1,147      | 1,181               |
+| Prąd                           | 785        | 748                 |
+| Woda                           | 821        | 581                 |
+| Meble, wyposażenie             | 73         | 518                 |
+| Ogród                          | 447        | 1,848[^ogrod]       |
+| Konserwacje                    | 466        | 615[^konserwacje]   |
 |                                |            |                     |
-| **Samochody**                  | **5,053**  |                     |
-| Ubezpieczenie                  |            | 1,031               |
-| Benzyna                        |            | 2,741[^benzyna]     |
-| Konserwacje[^samochodkons]     |            | 281                 |
-| Reperacje                      |            | 580                 |
-| Rejestracja                    |            | 120                 |
-| Inne[^samochodinne]            |            | 300                 |
+| **Samochody**                  | **6,447**  | **5,053**           |
+| Ubezpieczenie                  | 968        | 1,031               |
+| Benzyna                        | 2,627      | 2,741[^benzyna]     |
+| Konserwacje[^samochodkons]     | 352        | 281                 |
+| Reperacje                      | 2,243      | 580                 |
+| Rejestracja                    | 152        | 120                 |
+| Inne[^samochodinne]            | 104        | 300                 |
 |                                |            |                     |
-| **"Media"**                    | **1,515**  |                     |
-| Telefon stacjonarny            |            | 110                 |
-| Internet                       |            | 868                 |
-| Netflix                        |            | 84[^netflix]        |
-| Komórki, airtime               |            | 293                 |
-| Komórki, sprzęt                |            | 169[^komorkisprzet] |
+| **"Media"**                    | **1,309**  | **1,515**           |
+| Telefon stacjonarny            | 101        | 101                 |
+| Internet                       | 813        | 868                 |
+| Netflix                        | 84         | 84[^netflix]        |
+| Komórki, airtime               | 311        | 293                 |
+| Komórki, sprzęt                | 0          | 169[^komorkisprzet] |
 |                                |            |                     |
-| **Zdrowie**                    | **1,741**  |                     |
-| Lekarstwa na receptę           |            | 153                 |
-| Lekarstwa bez recept           |            | 85                  |
-| Suplementy diety               |            | 242                 |
-| Zabiegi i badania              |            | 87                  |
-| Dentysta netto[^dentysta]      |            | 329                 |
-| Inne                           |            | 845[^lekinne]       |
+| **Zdrowie**                    | **806**    | **1,741**           |
+| Lekarstwa na receptę           | 188        | 153                 |
+| Lekarstwa bez recept           | 10         | 85                  |
+| Suplementy diety               | 249        | 242                 |
+| Zabiegi i badania              | 0          | 87                  |
+| Dentysta netto[^dentysta]      | 359        | 329                 |
+| Inne                           | 0          | 845[^lekinne]       |
 |                                |            |                     |
-| **Prezenty**                   | **3,670**  |                     |
-| Osobiste[^prezentyosobiste]    |            | 3036                |
-| Donacje charytatywne[^donacje] |            | 634                 |
+| **Prezenty**                   | **3,692**  | **3,670**           |
+| Osobiste[^prezentyosobiste]    | 3,144      | 3036                |
+| Donacje charytatywne[^donacje] | 548        | 634                 |
 |                                |            |                     |
-| **Podróże**                    | **4,441**  |                     |
-| Bilety lotnicze do Europy      |            | 3908                |
-| Pozostałe wydatki[^podrinne]   |            | 533                 |
+| **Podróże**                    | **5,617**  | **4,441**           |
+| Bilety lotnicze do Europy      | 3,762      | 3908                |
+| Pozostałe wydatki[^podrinne]   | 1,855      | 533                 |
 |                                |            |                     |
-| **Inne**                       | **3,059**  |                     |
-| "Latte factor"[^latte]         |            | 274                 |
-| Alkohole                       |            | 241                 |
+| **Inne**                       |            | **3,059**           |
+| "Latte factor"[^latte]         | 185        | 274                 |
+| Alkohole                       | 151        | 241                 |
 | Opłaty bankowe[^bankowe]       |            | 105                 |
 | Rekreacja[^rekreacja]          |            | 544                 |
 | Rozrywki[^rozrywki]            |            | 330                 |
@@ -70,9 +70,9 @@ Wydatki roczne w CAD.
 | Komputery, software            |            | 34[^software]       |
 | Inne[^inneinne]                |            | 760                 |
 |                                |            |                     |
-| **Obsługa kredytów**           | **0**      |                     |
-| Długi "karciane"[^karciane]    |            | 0                   |
-| Odsetki inne                   |            | 0[^odsinne]         |
+| **Obsługa kredytów**           | **55**     | **0**               |
+| Długi "karciane"[^karciane]    | 55         | 0                   |
+| Odsetki inne                   | 0          | 0[^odsinne]         |
 |                                |            |                     |
 
 
@@ -102,7 +102,7 @@ Wydatki roczne w CAD.
 [^donacje]: Plan Canada, WOŚP, OKO Press, ...
 [^podrinne]: Dojazdy na miejscu, noclegi, wynajęcie samochodów i benzyna, mapy, przewodniki, itp...
 [^benzyna]: Przebieg w roku 2019: 21,153 km
-[^karciane]: Osetki od nieterminowo spłacanych obciążeń na kartach kredytowych.
+[^karciane]: Opłaty roczne za karty kredytowe i osetki od nieterminowo spłacanych obciążeń.
 [^odsinne]: Odsetki roczne w wysokości $4,200 od kredytów stanowiących lewar inwestycyjny nie są tu uwzględnione.
 
 
