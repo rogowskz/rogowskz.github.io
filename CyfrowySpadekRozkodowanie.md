@@ -17,7 +17,7 @@
 
 Kroki od 2 do 5 włącznie w powyższej procedurze mogą być realizowane programowo.    
 
-Jako proste ćwiczenie w programowaniu proszę na pykład wziąć taki oto zaszyfrowany tekst ("ciphertext"):    
+Jako proste ćwiczenie w programowaniu proszę na przykład wziąć taki oto zaszyfrowany tekst ("ciphertext"):    
 
     EE18C38E9D70762CD54730FCD7F067793396A4DD86EF700564EDC0B9BD5EF0DEED7CBF32FB7B38355C44EDCAAA1EF4870F260F891814
     2AE2F9C6F2CC17A55AE0A6EEF5AD8D68B5E3AE694715B124F1D749FB69A5C0A0DAEB332AF2DA5CFE7A9A04C4E1A7FA8BBCB3C0712804
