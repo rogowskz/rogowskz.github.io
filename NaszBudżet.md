@@ -95,10 +95,7 @@ Prywatne[^prywatne] wydatki roczne w CAD:
 | Odsetki inne                            | 0                     | 0                       | 0                   |
 |                                         |                       |                         |                     |
 
-[^prywatne]: W zakres wydatków prywatnych nie wchodzą między innymi: 
-    1) Koszty posiadania biznesów i ich koszty operacyjne (na przykład: koszty podatkowe i eksploatacyjne nieruchomości posiadanych a wynajmowanych w formie biznesu)
-    2) Odsetki od  kredytów stanowiących lewar inwestycyjny.
-    3) Wybrane znaczniejsze darowizny poczynione za życia na rzecz ustawowych spadkobierców (czyli: "zarządzanie spadkiem za życia").
+[^prywatne]: W zakres wydatków prywatnych nie wchodzą między innymi: 1) Koszty posiadania biznesów i ich koszty operacyjne (na przykład: koszty podatkowe i eksploatacyjne nieruchomości posiadanych a wynajmowanych w formie biznesu). 2) Odsetki od  kredytów stanowiących lewar inwestycyjny. 3) Wybrane znaczniejsze darowizny poczynione za życia na rzecz ustawowych spadkobierców (czyli: "zarządzanie spadkiem za życia").
 [^wydgosp]: Przybory domowe i kuchenne, środki czyszczące i do prania, drobne narzędzia, elektryczne szczoteczki do zębów, drobne akcesoria domowe, pościel, baterie, itp ...
 [^gospodarcze]: W tym $621 na odśnieżacz bateryjny.
 [^gosp2018]: W tym nowa pralka i suszarka: $2,079
