@@ -103,7 +103,7 @@ Prywatne[^prywatne] wydatki roczne w CAD:
 [^konserwacje]: W tym $367 za inspekcję dachu po tornado.
 [^hipoteka]: Dom kupiony 1997-04-14. Spłacanie zakończono 2015-02-19.
 [^mieszinne2017]: Wynajęte jako biznes więc brak kosztów za ten rok w prywatnym budżecie.
-[^mieszinne2018]: Wynajęte jako biznes przez 8 miesięcy w roku więc koszty prywatne stanowią 1/3 człkowitych kosztów rocznych.
+[^mieszinne2018]: Wynajęte jako biznes przez 8 miesięcy w roku więc koszty prywatne stanowią 1/3 całkowitych kosztów rocznych.
 [^minreno2018]: 26.40% łącznych opłat wspólnotowych.
 [^minreno2019]: 26.40% łącznych opłat wspólnotowych.
 [^renowacje]: W tym: $4,340 Wymiana trzech okien na piętrze.

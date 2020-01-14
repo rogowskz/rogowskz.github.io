@@ -46,6 +46,7 @@ i postarać się napisać program deszyfrujący w Pythonie, zakładając że tek
 ```python
 #!/usr/bin/python
 # Umieść swoje rozwiązanie tutaj :)
+
 ```
 
 Program deszyfrujący powinien emitować tekst rozszyfrowany ("cleartext") do konsoli systemowej.    
