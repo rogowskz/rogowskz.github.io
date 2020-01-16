@@ -6,17 +6,19 @@ Prywatne[^prywatne] wydatki roczne w CAD:
 | ---                                                                                     | --:                   | --:                     | --:                 |
 | **Razem**                                                                               | **48,552**            | **57,795**              | **50,216**          |
 |                                                                                         |                       |                         |                     |
-| **"Życie"**                                                                             | **13,681**            | **12,793**              | **12,717**          |
+| **"Życie"**                                                                             | **11,172**            | **9,677**               | **10,392**          |
 | Żywność                                                                                 | 9,668                 | 8,151                   | 8,803               |
 | Ubranie                                                                                 | 904                   | 1,044                   | 1,031               |
 | Kosmetyki                                                                               | 583                   | 482                     | 558                 |
-| Wydatki gospodarcze[^wydgosp]                                                           | 2,506                 | 3,116[^gosp2018]        | 2,325[^gospodarcze] |
+|                                                                                         |                       |                         |                     |
+| **Wydatki gospodarcze**                                                                 | **2,506**             | **3,116**               | **2,325**           |
+| Gospodarcze[^wydgosp]                                                                   | 2,506                 | 3,116[^gosp2018]        | 2,325[^gospodarcze] |
 |                                                                                         |                       |                         |                     |
 | **Mieszkanie podstawowe, posiadanie**                                                   | **4,492**             | **19,408**              | **9,400**           |
 | Podatek od własności                                                                    | 3,589                 | 3,660                   | 3,757               |
 | Odsetki hipoteczne[^hipoteka]                                                           | 0                     | 0                       | 0                   |
-| Renowacje                                                                               | 0                     | 14,793[^reno2018]       | 4,740[^renowacje]   |
 | Ubezpieczenie                                                                           | 903                   | 955                     | 904                 |
+| Renowacje                                                                               | 0                     | 14,793[^reno2018]       | 4,740[^renowacje]   |
 |                                                                                         |                       |                         |                     |
 | **Mieszkanie podstawowe, używanie:**                                                    | **7,717**             | **3,739**               | **5,490**           |
 | Gaz                                                                                     | 1,034                 | 1,147                   | 1,181               |
@@ -29,8 +31,8 @@ Prywatne[^prywatne] wydatki roczne w CAD:
 | **Mieszkania inne, posiadanie**                                                         | **0**[^mieszinne2017] | **248**[^mieszinne2018] | **633**             |
 | Podatek od własności                                                                    | 0                     | 97                      | 273                 |
 | Odsetki hipoteczne                                                                      | 0                     | 0                       | 0                   |
-| Opłaty wspólnotowe, remontowe                                                           | 0                     | 151[^minreno2018]       | 396[^minreno2019]   |
 | Ubezpieczenie                                                                           | 0                     | 0                       | 0                   |
+| Opłaty wspólnotowe, remontowe                                                           | 0                     | 151[^minreno2018]       | 396[^minreno2019]   |
 |                                                                                         |                       |                         |                     |
 | **Mieszkania inne, używanie:**                                                          | **0**[^mieszinne2017] | **942**[^mieszinne2018] | **2,271**           |
 | Gaz                                                                                     | 0                     | 30                      | 18                  |
