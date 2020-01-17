@@ -44,11 +44,7 @@ Jako proste ćwiczenie w programowaniu proszę na przykład wziąć taki oto zas
     
 i postarać się napisać program deszyfrujący w Pythonie, zakładając że tekst zaszyfrowany jest zapisany w pliku tekstowym.
 
-```python
-#!/usr/bin/python
-# Umieść swoje rozwiązanie tutaj :)
-
-```
+Umieść swoje rozwiązanie [w tym repozytorium :)](https://github.com/rogowskz/one-time-pad)    
 
 Program deszyfrujący powinien emitować tekst rozszyfrowany ("cleartext") do konsoli systemowej.    
 Rozwiazanie powinno też podawać komendę uruchamiającą deszyfrowanie.    
