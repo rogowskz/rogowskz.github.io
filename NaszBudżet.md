@@ -6,7 +6,7 @@ Prywatne[^prywatne] wydatki roczne w CAD:
 | ---                                                                                     | --:               | --:                | --:               |
 | [CPI](https://www.bankofcanada.ca/rates/price-indexes/cpi/)[^cpi]                       | 130.4             | 134.3              | 137.0             |
 |                                                                                         |                   |                    |                   |
-| **Razem**                                                                               | **48,532**        | **59,763**         | **50,182**        |
+| **Wydatki razem**                                                                       | **48,532**        | **59,763**         | **50,182**        |
 |                                                                                         |                   |                    |                   |
 | **Wydatki regularne**                                                                   | **39,119**        | **40,618**         | **41,977**        |
 |                                                                                         |                   |                    |                   |
