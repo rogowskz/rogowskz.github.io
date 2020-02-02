@@ -127,7 +127,7 @@ Prywatne[^prywatne] wydatki roczne w CAD:
 
 [^prywatne]: W zakres wydatków prywatnych nie wchodzą między innymi: 1) Koszty posiadania biznesów i ich koszty operacyjne (na przykład: koszty podatkowe i eksploatacyjne nieruchomości posiadanych a wynajmowanych w formie biznesu). 2) Odsetki od  kredytów stanowiących lewar inwestycyjny. 3) Wybrane znaczniejsze darowizny poczynione za życia na rzecz ustawowych spadkobierców (czyli: "zarządzanie spadkiem za życia").
 [^cpi]: CPI w dniu 1 lipca każdego roku.
-[^dniereg]: Jedznorazowe wydatki powyżej $100 ponoszone rzadziej niż co dwa lata.
+[^dniereg]: Jednorazowe wydatki powyżej $100 ponoszone rzadziej niż co dwa lata.
 [^wydgosp]: Przybory domowe i kuchenne, środki czyszczące i do prania, drobne narzędzia, elektryczne szczoteczki do zębów, drobne akcesoria domowe, pościel, baterie, itp ...
 [^gosp2017]: Mikser Vitamix: $452, Lodówka mała do piwnicy: $158, Metalowe krzesła ogrodowe: $131
 [^gosp2019]: Odśnieżacz bateryjny: $621
@@ -141,14 +141,14 @@ Prywatne[^prywatne] wydatki roczne w CAD:
 [^minn2018]: Wynajęte jako biznes przez 8 miesięcy w roku więc koszty prywatne stanowią 1/3 całkowitych kosztów rocznych.
 [^minreno2018]: 26.40% łącznych opłat wspólnotowych.
 [^minreno2019]: 26.40% łącznych opłat wspólnotowych.
-[^reno2019]: W tym: $4,340 Wymiana trzech okien na piętrze.
+[^reno2019]: W tym: $4,340 wymiana trzech okien na piętrze.
 [^reno2018]: Przebudowa łazienki na piętrze.
 [^ogrod2017]: Wycięcie starego drzewa w ogrodzie: $1,017 
 [^komsp2019]: Za jeden nowy telefon.
 [^komsp2017]: Za dwa nowe telefony.
 [^samochodkons]: Wymiany oleju, żarówek, płynów, antykorozja, itp...
 [^samochodinne]: Mycie, parking, mandaty, odnowienie praw jazdy, itp...
-[^latte]: Kawiarnie, restauracje, lody, itp. "zachciewajki". http://financialmentor.com/calculator/latte-factor-calculator
+[^latte]: Kawiarnie, restauracje, lody, itp. "zachciewajki".
 [^bankowe]: Opłaty za operacje na kontach.
 [^rekreacja]: Fitness, spa, sprzęt sportowy.
 [^rozrywki]: Kino, teatr, koncerty, muzea, wykłady, TV, Netflix, itp...
