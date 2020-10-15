@@ -1,12 +1,14 @@
 
 # 2020
 
-- _"Life At the Extremes, the science of survival" / Frances Ashcroft_ / ----
-- _"Solitude" / Anthony Storr_ / ----
-- _"Life Undercover, coming of age in he CIA" / Amarylis Fox_ / ----
+- _"Solitude" / Anthony Storr_ / -----
+- _"Life At the Extremes, the science of survival" / Frances Ashcroft_ / -----
 - 
-- _"A Little Book of Language" / David Crystal_ / ****
-- 
+- "Life Undercover, coming of age in he CIA" / Amarylis Fox / **-
+- "Nacja" / Terry Pratchett / ****
+- "Napkin Finance, build your wealth in 30 seconds or less" / Tina Hay / ***+
+- "f*ck no!, how to stop saying yes when you can't, you shouldn't or you just don't want to" / Sarah Knight / **+
+- "A Little Book of Language" / David Crystal / ****
 - "The Gifts of Imperfection" / René Brown / **
 - "One Giant Leap, The impossible mission that flew us to the moon" / Charles Fishman / *****
 - "Debt, The first 5000 years" / David Graeber / *****
