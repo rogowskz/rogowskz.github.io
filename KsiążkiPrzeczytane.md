@@ -1,9 +1,25 @@
 
 # 2020
 
+## W trakcie, obecnie wypożyczone z biblioteki:
+
+- "The Age of Surveillance Capitalism, The Fight foe a Human Future and the New Frontier of Power" / Shoshana Zuboff / -----
+- 
+- _"Overload!, How Too Much Information is Hazardous to Your Organization" / Jonathan B. Spira / -----
+- _"Happy Money, The Science of Smarter Spending" / Elizabeth Dunn & Michael Norton / -----
+- 
+## W trakcie, wziąć ponownie z biblioteki:
+- _"Happy Go Money, Spend Smart Save Right & Enjoy Life" / Melissa Leong / ****+
+- _"Fair Play, A Game-Changing Solution for When You Have Too Much to Do (and More Life to Live)" / Eve Rodsky / -----
+
+## Własne:
 - _"Solitude" / Anthony Storr_ / -----
 - _"Life At the Extremes, the science of survival" / Frances Ashcroft_ / -----
-- 
+
+## Ukończone:
+
+- _"Happy Money, The Japanese Art of Making Peace with Your Money" / Ken Honda / ***
+- "The Antidote, Happiness for People Who Can't Stand Positive Thinking" / Oliver Burkeman / ****
 - "Life Undercover, coming of age in he CIA" / Amarylis Fox / **-
 - "Nacja" / Terry Pratchett / ****
 - "Napkin Finance, build your wealth in 30 seconds or less" / Tina Hay / ***+
@@ -24,3 +40,13 @@
 - "The Utopia of Rules : On technology, stupidity, and the secret joys of bureaucracy" / David Graeber / ****
 - "Range, Why Generalists Triumph in A Specialized World" / David J Epstein / ****
 - "Bullshit Jobs: A Theory " / David Graeber / *****
+
+# 2017
+
+- "A Field Guide to Lies, Critical Thinking in the Information Age" / Daniel J. Levitin / *****+
+
+# 2016
+
+- "The News, A User's Manual" / Alain De Botton / *****+
+
+
