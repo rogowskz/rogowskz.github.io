@@ -122,7 +122,7 @@ Prywatne[^prywatne] wydatki roczne w CAD:
 | Inne                                                                                    | 0              | 0                | 0          | 0                 | 0                  | 845[^lekinne2019] | 0                 | 0                 |
 |                                                                                         |                |                  |            |                   |                    |                   |                   |                   |
 | **Inne**                                                                                | **923**        | **1,642**        | **0**      | **399**           | **547**            | **337**           | **0**             | **784**           |
-| Komputery, sprzęt                                                                       | 552            | 0                | 0          | 399[^kompsp2017]  | 0                  | 337[^kompsp2019]  | 0                 | 251[^komsp2021]   |
+| Komputery, sprzęt                                                                       | 552            | 0                | 0          | 399[^kompsp2017]  | 0                  | 337[^kompsp2019]  | 0                 | 251[^kompsp2021]  |
 | Domeny Internetowe                                                                      | 0              | 247[^domeny2015] | 0          | 0                 | 227[^domeny2018]   | 0                 | 0                 | 533[^domeny2021]  |
 | Inne                                                                                    | 371[^inin2014] | 1,395[^inin2015] | 0          | 0                 | 320[^inin2018]     | 0                 | 0                 |                   |
 
@@ -165,6 +165,7 @@ Prywatne[^prywatne] wydatki roczne w CAD:
 [^czasopisma]: Łącznie z subskrypcjami internetowymi.
 [^kompsp2017]: Desktop HP Slimline: $399
 [^kompsp2019]: Tablet Samsung: $337
+[^kompsp2021]: Drukarka laserowa Brother
 [^software]: Kupno (TurboTax) i subskrypcje (BitDefender, etc.)
 [^inneinne]: Poczta, materiały biurowe, Costco membership, fryzjer, domeny internetowe, itp...
 [^inin2018]: Odnowienie dwóch paszportów Kanadyjskich na 10 lat: $320
