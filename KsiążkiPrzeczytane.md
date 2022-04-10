@@ -1,6 +1,18 @@
 
 # 2022
 
+- "Silk" / Alessandro Barrico / *****
+- "Rebel. My Escape From Saudi Arabia to Freedom" / Rahaf Mohammed / ****+
+- "Sex Cult Nun. Breaking Away From the Children of God, A Wild, Radical Religious Cult" / Faith Jones / ****+
+- "The Bomber Mafia. A Dream, A Temptation, and the Longest Night of the Second World War" / Malcolm Gladwell / ***+
+- "Reboot Your Portfolio. 9 Steps to Successful Investing With ETFs" / Dan Bortolotti / ****
+- "The Dawn of Everything. A New History of Humanity" / David Graeber / ***** (jeszcze nie skończona)
+- "Ottawa Road Trips. Your 100-km Getaway Guide" / Laura Byrne Paquet / **** (wypożyczyć ponownie)
+- "A Field Guide to A Happy Life. 53 Brief Lessons for Living" / Massimo Pugliucci / ****
+- "Letters From A Stoic. The Ancient Classic" / Lucius Anneaus Seneca / ***** (wypożyczyć ponownie)
+- "The Life-changing Science of Detecting Bullshit" / John V. Petrocelli / *****
+- "On the Shortness of Life" / Lucius Anneaus Seneca / *****
+
 # 2021
 
 # 2020
