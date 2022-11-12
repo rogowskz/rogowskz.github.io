@@ -1,17 +1,19 @@
 
 # 2022
 
+- "10 Days That Shaped Modern Canada" / Aaron W. Hughes/ 4+
+- "Thinking 101, How to Reason Better to Live Better" / Woo-Kyoung Ahn /  5-
 - "Silk" / Alessandro Barrico / *****
-- "Rebel. My Escape From Saudi Arabia to Freedom" / Rahaf Mohammed / ****+
-- "Sex Cult Nun. Breaking Away From the Children of God, A Wild, Radical Religious Cult" / Faith Jones / ****+
-- "The Bomber Mafia. A Dream, A Temptation, and the Longest Night of the Second World War" / Malcolm Gladwell / ***+
-- "Reboot Your Portfolio. 9 Steps to Successful Investing With ETFs" / Dan Bortolotti / ****
-- "The Dawn of Everything. A New History of Humanity" / David Graeber / ***** (jeszcze nie skończona)
-- "Ottawa Road Trips. Your 100-km Getaway Guide" / Laura Byrne Paquet / **** (wypożyczyć ponownie)
-- "A Field Guide to A Happy Life. 53 Brief Lessons for Living" / Massimo Pugliucci / ****
-- "Letters From A Stoic. The Ancient Classic" / Lucius Anneaus Seneca / ***** (wypożyczyć ponownie)
-- "The Life-changing Science of Detecting Bullshit" / John V. Petrocelli / *****
-- "On the Shortness of Life" / Lucius Anneaus Seneca / *****
+- "Rebel. My Escape From Saudi Arabia to Freedom" / Rahaf Mohammed / 4+
+- "Sex Cult Nun. Breaking Away From the Children of God, A Wild, Radical Religious Cult" / Faith Jones / 4+
+- "The Bomber Mafia. A Dream, A Temptation, and the Longest Night of the Second World War" / Malcolm Gladwell / 3+
+- "Reboot Your Portfolio. 9 Steps to Successful Investing With ETFs" / Dan Bortolotti / 4
+- "The Dawn of Everything. A New History of Humanity" / David Graeber / 4 
+- "Ottawa Road Trips. Your 100-km Getaway Guide" / Laura Byrne Paquet / 4 (wypożyczyć ponownie)
+- "A Field Guide to A Happy Life. 53 Brief Lessons for Living" / Massimo Pugliucci / 4
+- "Letters From A Stoic. The Ancient Classic" / Lucius Anneaus Seneca / 5 (wypożyczyć ponownie)
+- "The Life-changing Science of Detecting Bullshit" / John V. Petrocelli / 5
+- "On the Shortness of Life" / Lucius Anneaus Seneca / 5
 
 # 2021
 
