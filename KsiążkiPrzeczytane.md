@@ -1,9 +1,15 @@
 
+
+# 2023
+
+- "Lost On Planet China" / J.Maarten Troost / 5
+
 # 2022
 
+- "Weapons of Math Destuction, How Big Data Increases Inequality and Threatens Democracy" / Cathy O'Neil / 5+
 - "10 Days That Shaped Modern Canada" / Aaron W. Hughes/ 4+
 - "Thinking 101, How to Reason Better to Live Better" / Woo-Kyoung Ahn /  5-
-- "Silk" / Alessandro Barrico / *****
+- "Silk" / Alessandro Barrico / 5
 - "Rebel. My Escape From Saudi Arabia to Freedom" / Rahaf Mohammed / 4+
 - "Sex Cult Nun. Breaking Away From the Children of God, A Wild, Radical Religious Cult" / Faith Jones / 4+
 - "The Bomber Mafia. A Dream, A Temptation, and the Longest Night of the Second World War" / Malcolm Gladwell / 3+
