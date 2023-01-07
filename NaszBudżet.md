@@ -1,6 +1,7 @@
 # Nasz budżet prywatny
 
-Prywatne[^prywatne] wydatki roczne w CAD:
+Prywatne[^prywatne] wydatki roczne w CAD, nominalne:    
+([see inflation adjusted version](NaszBudżet-cpi))
 
 | Rok                                                                                     | 2014           | 2015             | 2016       | 2017              | 2018               | 2019              | 2020              | 2021              | 2022              |
 | ---                                                                                     | --:            | --:              | --:        | --:               | --:                | --:               | --:               | --:               | --:               |
