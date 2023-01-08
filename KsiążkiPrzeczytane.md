@@ -2,13 +2,17 @@
 
 # 2023
 
-- "Lost On Planet China" / J.Maarten Troost / 5
+- "The Shame Machine, Who Profits in the New Age of Humiliation" / Cathy O'Neil/ 4
+- "Lost On Planet China, The Strange and True Story of One Man's Attempt to Understand the World's Most Mystifying Nation" / J.Maarten Troost / 5
+- "2023 Night Sky Almanac, a Month-by-month Guide to North America's Skies From the Royal Astronomical Society of Canada" / Nicole Mirtillaro / 4+
 
 # 2022
 
 - "Weapons of Math Destuction, How Big Data Increases Inequality and Threatens Democracy" / Cathy O'Neil / 5+
+- "I Have Nothing to Hide, And 20 Other Myths About Surveillance and Privacy" / Heidi Bhogosian / 4- 
 - "10 Days That Shaped Modern Canada" / Aaron W. Hughes/ 4+
 - "Thinking 101, How to Reason Better to Live Better" / Woo-Kyoung Ahn /  5-
+- "The Age of Surveillance Capitalism, The Fight for a Human Future and the New Frontier of Power" / Shoshana Zuboff / 5+
 - "Silk" / Alessandro Barrico / 5
 - "Rebel. My Escape From Saudi Arabia to Freedom" / Rahaf Mohammed / 4+
 - "Sex Cult Nun. Breaking Away From the Children of God, A Wild, Radical Religious Cult" / Faith Jones / 4+
@@ -25,22 +29,9 @@
 
 # 2020
 
-## W trakcie, obecnie wypożyczone z biblioteki:
-
-- "The Age of Surveillance Capitalism, The Fight foe a Human Future and the New Frontier of Power" / Shoshana Zuboff / -----
-- 
-- _"Overload!, How Too Much Information is Hazardous to Your Organization" / Jonathan B. Spira / -----
-- _"Happy Money, The Science of Smarter Spending" / Elizabeth Dunn & Michael Norton / -----
-- 
-## W trakcie, wziąć ponownie z biblioteki:
-- _"Happy Go Money, Spend Smart Save Right & Enjoy Life" / Melissa Leong / ****+
-- _"Fair Play, A Game-Changing Solution for When You Have Too Much to Do (and More Life to Live)" / Eve Rodsky / -----
-
 ## Własne:
 - _"Solitude" / Anthony Storr_ / -----
 - _"Life At the Extremes, the science of survival" / Frances Ashcroft_ / -----
-
-## Ukończone:
 
 - _"Happy Money, The Japanese Art of Making Peace with Your Money" / Ken Honda / ***
 - "The Antidote, Happiness for People Who Can't Stand Positive Thinking" / Oliver Burkeman / ****
