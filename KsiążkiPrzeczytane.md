@@ -30,8 +30,11 @@
 # 2020
 
 ## Własne:
+
 - _"Solitude" / Anthony Storr_ / -----
 - _"Life At the Extremes, the science of survival" / Frances Ashcroft_ / -----
+
+## Z biblioteki:
 
 - _"Happy Money, The Japanese Art of Making Peace with Your Money" / Ken Honda / ***
 - "The Antidote, Happiness for People Who Can't Stand Positive Thinking" / Oliver Burkeman / ****
