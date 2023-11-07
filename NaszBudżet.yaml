@@ -1,0 +1,220 @@
+
+CPI:
+    2014: 125.7
+    2015: 127.3
+    2016: 128.9
+    2017: 130.4
+    2018: 134.4
+    2019: 137.0
+    2020: 137.2
+    2021: 142.3
+    2022: 153.1
+    2023: 158.1
+
+Text:
+    Para_nom_1: "# Nasz budżet prywatny"
+    Para_nom_2: "Prywatne[^prywatne] wydatki roczne w CAD **nominalnych**" 
+    Para_nom_3: "([see inflation adjusted version](NaszBudżet-cpi))"
+
+    # Para_ia_1: "# Nasz budżet prywatny (inflation adjusted)"
+    # Para_ia_2: "Prywatne[^prywatne] wydatki roczne w CAD **yROK**"
+    # Para_ia_3: "(see nominal version)"
+
+    Para_cpi: "[CPI](https://www.bankofcanada.ca/rates/price-indexes/cpi/)[^cpi]"                       
+
+Wydatki regularne:
+
+    - - [ '"Życie"', ]
+      - [ "Żywność", { 2014: 8679, 2015: 7979, 2016: 9606, 2017: 9668, 2018: 8151, 2019: 8803, 2020: 6931, 2021: 7593, 2022: 7844, 2023: , }] 
+      - [ "Ubranie", { 2014: , 2015: , 2016: , 2017: , 2018: , 2019: , 2020: , 2021: , 2022: , 2023: , }] # TODO
+      - [ "Kosmetyki", { 2014: , 2015: , 2016: , 2017: , 2018: , 2019: , 2020: , 2021: , 2022: , 2023: , }] # TODO
+
+    - - [ "Wydatki gospodarcze", ]
+      - [ "Gospodarcze[^wydgosp]", { 2014: , 2015: , 2016: , 2017: , 2018: , 2019: , 2020: , 2021: , 2022: , 2023: , }] # TODO
+
+    - - [ "Mieszkanie główne, posiadanie", ]
+      - [ "Podatek od własności", { 2014: , 2015: , 2016: , 2017: , 2018: , 2019: , 2020: , 2021: , 2022: , 2023: , }] # TODO
+      - [ "Odsetki hipoteczne[^hipoteka]", { 2014: , 2015: , 2016: , 2017: , 2018: , 2019: , 2020: , 2021: , 2022: , 2023: , }] # TODO
+      - [ "Ubezpieczenie", { 2014: , 2015: , 2016: , 2017: , 2018: , 2019: , 2020: , 2021: , 2022: , 2023: , }]  # TODO
+
+    - - [ "Mieszkanie główne, używanie", ]
+      - [ "Gaz", { 2014: , 2015: , 2016: , 2017: , 2018: , 2019: , 2020: , 2021: , 2022: , 2023: , }] # TODO
+      - [ "Prąd", { 2014: , 2015: , 2016: , 2017: , 2018: , 2019: , 2020: , 2021: , 2022: , 2023: , }] # TODO
+      - [ "Woda", { 2014: , 2015: , 2016: , 2017: , 2018: , 2019: , 2020: , 2021: , 2022: , 2023: , }] # TODO
+      - [ "Meble, wyposażenie", { 2014: , 2015: , 2016: , 2017: , 2018: , 2019: , 2020: , 2021: , 2022: , 2023: , }] # TODO
+      - [ "Ogród", { 2014: , 2015: , 2016: , 2017: , 2018: , 2019: , 2020: , 2021: , 2022: , 2023: , }] # TODO
+      - [ "Konserwacje", { 2014: , 2015: , 2016: , 2017: , 2018: , 2019: , 2020: , 2021: , 2022: , 2023: , }] # TODO
+
+    - - [ "Mieszkanie inne, posiadanie", {2014:, 2015:, 2016:, 2017: "0[^minn2017]", 2018: "0[^minn2018]", 2019:, 2020:, 2021:, 2022:, 2023:,}]
+      - [ "Podatek od własności", { 2014: 0, 2015: 0, 2016: 0, 2017: 0, 2018: 97, 2019: 273, 2020: "-137[^minpod2020]", 2021: 16, 2022: "30[^minpod2022]" , 2023: 18, }]
+      - [ "Ubezpieczenie", { 2014: , 2015: , 2016: , 2017: , 2018: , 2019: , 2020: , 2021: , 2022: , 2023: , }] # TODO
+      - [ "Opłaty wspólnotowe, remontowe", { 2014: , 2015: , 2016: , 2017: , 2018: , 2019: , 2020: , 2021: , 2022: , 2023: , }] # TODO
+
+    - - [ "Mieszkanie inne, używanie", ]
+      - [ "Gaz", { 2014: , 2015: , 2016: , 2017: , 2018: , 2019: , 2020: , 2021: , 2022: , 2023: , }] # TODO
+      - [ "Prąd", { 2014: , 2015: , 2016: , 2017: , 2018: , 2019: , 2020: , 2021: , 2022: , 2023: , }] # TODO
+      - [ "Woda, rozliczenie", { 2014: , 2015: , 2016: , 2017: , 2018: , 2019: , 2020: , 2021: , 2022: , 2023: , }] # TODO
+      - [ "Internet", { 2014: , 2015: , 2016: , 2017: , 2018: , 2019: , 2020: , 2021: , 2022: , 2023: , }] # TODO
+      - [ "Opłaty wspólnotowe, eksploatacyjne", { 2014: , 2015: , 2016: , 2017: , 2018: , 2019: , 2020: , 2021: , 2022: , 2023: , }] # TODO
+      - [ "Meble, wyposażenie", { 2014: , 2015: , 2016: , 2017: , 2018: , 2019: , 2020: , 2021: , 2022: , 2023: , }] # TODO
+      - [ "Konserwacje", { 2014: , 2015: , 2016: , 2017: , 2018: , 2019: , 2020: , 2021: , 2022: , 2023: , }] # TODO
+
+    - - [ "Transport", ]
+      - [ "Komuikacja publiczna", { 2014: , 2015: , 2016: , 2017: , 2018: , 2019: , 2020: , 2021: , 2022: , 2023: , }] # TODO 
+      - [ "Samochody, benzyna", { 2014: , 2015: , 2016: , 2017: , 2018: , 2019: , 2020: , 2021: , 2022: , 2023: , }] # TODO 
+      - [ "Samochody, ubezpieczenie", { 2014: , 2015: , 2016: , 2017: , 2018: , 2019: , 2020: , 2021: , 2022: , 2023: , }] # TODO 
+      - [ "Samochody, konserwacje", { 2014: , 2015: , 2016: , 2017: , 2018: , 2019: , 2020: , 2021: , 2022: , 2023: , }] # TODO 
+      - [ "Samochody, reperacje", { 2014: , 2015: , 2016: , 2017: , 2018: , 2019: , 2020: , 2021: , 2022: , 2023: , }] # TODO 
+      - [ "Samochody, rejestracja", { 2014: , 2015: , 2016: , 2017: , 2018: , 2019: , 2020: , 2021: , 2022: , 2023: , }] # TODO 
+      - [ "Samochody, inne", { 2014: , 2015: , 2016: , 2017: , 2018: , 2019: , 2020: , 2021: , 2022: , 2023: , }] # TODO 
+
+    - - [ "Telekomunikacja", ]
+      - [ "Telefon stacjonarny", { 2014: , 2015: , 2016: , 2017: , 2018: , 2019: , 2020: , 2021: , 2022: , 2023: , }] # TODO 
+      - [ "Internet", { 2014: , 2015: , 2016: , 2017: , 2018: , 2019: , 2020: , 2021: , 2022: , 2023: , }] # TODO 
+      - [ "Komórki, airtime", { 2014: , 2015: , 2016: , 2017: , 2018: , 2019: , 2020: , 2021: , 2022: , 2023: , }] # TODO 
+
+    - - [ "Zdrowie", ]
+      - [ "Lekarstwa na receptę", { 2014: , 2015: , 2016: , 2017: , 2018: , 2019: , 2020: , 2021: , 2022: , 2023: , }] # TODO 
+      - [ "Lekarstwa bez recept", { 2014: , 2015: , 2016: , 2017: , 2018: , 2019: , 2020: , 2021: , 2022: , 2023: , }] # TODO 
+      - [ "Zabiegi i badania, netto", { 2014: , 2015: , 2016: , 2017: , 2018: , 2019: , 2020: , 2021: , 2022: , 2023: , }] # TODO 
+      - [ "Dentysta okresowy, netto", { 2014: , 2015: , 2016: , 2017: , 2018: , 2019: , 2020: , 2021: , 2022: , 2023: , }] # TODO 
+
+    - - [ "Prywatne ubezpieczenia osób", ]
+      - [ "Na życie", { 2014: , 2015: , 2016: , 2017: , 2018: , 2019: , 2020: , 2021: , 2022: , 2023: , }] # TODO 
+      - [ "Medyczne i dentystyczne", { 2014: , 2015: , 2016: , 2017: , 2018: , 2019: , 2020: , 2021: , 2022: , 2023: , }] # TODO 
+      - [ "Od kosztów opieki długoterminowej", { 2014: , 2015: , 2016: , 2017: , 2018: , 2019: , 2020: , 2021: , 2022: , 2023: , }] # TODO 
+
+    - - [ "Prezenty", ]
+      - [ "Osobiste", { 2014: , 2015: , 2016: , 2017: , 2018: , 2019: , 2020: , 2021: , 2022: , 2023: , }] # TODO 
+      - [ "Donacje charytatywne", { 2014: , 2015: , 2016: , 2017: , 2018: , 2019: , 2020: , 2021: , 2022: , 2023: , }] # TODO 
+
+    - - [ "Podróże", ]
+      - [ "Bilety lotnicze do Europy", { 2014: , 2015: , 2016: , 2017: , 2018: , 2019: , 2020: , 2021: , 2022: , 2023: , }] # TODO 
+      - [ "Pozostałe wydatki", { 2014: , 2015: , 2016: , 2017: , 2018: , 2019: , 2020: , 2021: , 2022: , 2023: , }] # TODO 
+
+    - - [ "Inne", ]
+      - [ '"Latte factor"', { 2014: , 2015: , 2016: , 2017: , 2018: , 2019: , 2020: , 2021: , 2022: , 2023: , }] # TODO 
+      - [ "Alkohole", { 2014: , 2015: , 2016: , 2017: , 2018: , 2019: , 2020: , 2021: , 2022: , 2023: , }] # TODO 
+      - [ "Suplementy diety", { 2014: , 2015: , 2016: , 2017: , 2018: , 2019: , 2020: , 2021: , 2022: , 2023: , }] # TODO 
+      - [ "Opłaty bankowe", { 2014: , 2015: , 2016: , 2017: , 2018: , 2019: , 2020: , 2021: , 2022: , 2023: , }] # TODO 
+      - [ "Rekreacja", { 2014: , 2015: , 2016: , 2017: , 2018: , 2019: , 2020: , 2021: , 2022: , 2023: , }] # TODO 
+      - [ "Rozrywki", { 2014: , 2015: , 2016: , 2017: , 2018: , 2019: , 2020: , 2021: , 2022: , 2023: , }] # TODO 
+      - [ "Książki", { 2014: , 2015: , 2016: , 2017: , 2018: , 2019: , 2020: , 2021: , 2022: , 2023: , }] # TODO 
+      - [ "Czasopisma", { 2014: , 2015: , 2016: , 2017: , 2018: , 2019: , 2020: , 2021: , 2022: , 2023: , }] # TODO 
+      - [ "Safari Books Online", { 2014: , 2015: , 2016: , 2017: , 2018: , 2019: , 2020: , 2021: , 2022: , 2023: , }] # TODO 
+      - [ "Komputery, sprzęt", { 2014: , 2015: , 2016: , 2017: , 2018: , 2019: , 2020: , 2021: , 2022: , 2023: , }] # TODO 
+      - [ "Komputery, software", { 2014: , 2015: , 2016: , 2017: , 2018: , 2019: , 2020: , 2021: , 2022: , 2023: , }] # TODO 
+      - [ "Inne", { 2014: , 2015: , 2016: , 2017: , 2018: , 2019: , 2020: , 2021: , 2022: , 2023: , }] # TODO 
+
+    - - [ "Obsługa kredytów", ]
+      - [ 'Opłaty i długi "karciane"', { 2014: 11 ,  2015: 12,             2016:   13,  2017: 14,    2018: 15,    2019: 16,    2020: 17,    2021: 18,    2022: 19,    2023: 20, }] # TODO 
+      - [ "Odsetki inne",              { 2014: 1000, 2015: 2000, 2016: 3000,          2017: 4000,  2018: 5000,  2019: 6000,  2020: 7000,  2021: 8000,  2022: 9000,  2023: 10000, }] # TODO
+
+Wydatki duże i nieregularne:
+
+    - - [ "Wydatki gospodarcze", ]
+      - [ "Gospodarcze", { 2014: , 2015: , 2016: , 2017: , 2018: , 2019: , 2020: , 2021: , 2022: , 2023: , }] # TODO
+
+    - - [ "Mieszkanie główne, posiadanie", { 2014: , 2015: , 2016: , 2017: 0, 2018: 0, 2019: , 2020: , 2021: , 2022: , 2023: , }]
+      - [" Renowacje", { 2014: , 2015: , 2016: , 2017: , 2018: , 2019: , 2020: , 2021: , 2022: , 2023: , }] # TODO
+
+    - - [ "Mieszkanie główne, używanie", ]
+      - [ "Meble, wyposażenie", { 2014: , 2015: , 2016: , 2017: , 2018: , 2019: , 2020: , 2021: , 2022: , 2023: , }] # TODO
+      - [ "Ogród",       { 2014: 11 ,  2015:   12,           2016: 13,  2017:  14,   2018:  15,   2019:  16,   2020:  17,   2021:  18,   2022:  19,   2023:  20, }] # TODO
+      - [ "Konserwacje", { 2014: 1000, 2015: 2000, 2016: 3000,          2017: 4000,  2018: 5000,  2019: 6000,  2020: 7000,  2021: 8000,  2022: 9000,  2023: 10000, }] # TODO
+
+    - - [ "Transport", ]
+      - [ "Samochody, kupno", { 2014: , 2015: , 2016: , 2017: , 2018: , 2019: , 2020: , 2021: , 2022: , 2023: , }] # TODO 
+
+    - - [ "Telekomunikacja", ]
+      - [ "Komórki, sprzęt", { 2014: , 2015: , 2016: , 2017: , 2018: , 2019: , 2020: , 2021: , 2022: , 2023: , }] # TODO 
+
+    - - [ "Zdrowie", ]
+      - [ "Dentysta", { 2014: , 2015: , 2016: , 2017: , 2018: , 2019: , 2020: , 2021: , 2022: , 2023: , }] # TODO 
+      - [ "Zabiegi i badania", { 2014: , 2015: , 2016: , 2017: , 2018: , 2019: , 2020: , 2021: , 2022: , 2023: , }] # TODO 
+      - [ "Inne", { 2014: , 2015: , 2016: , 2017: , 2018: , 2019: , 2020: , 2021: , 2022: , 2023: , }] # TODO 
+
+    - - [ "Inne", ]
+      - [ "Komputery, sprzęt", { 2014: , 2015: , 2016: , 2017: , 2018: , 2019: , 2020: , 2021: , 2022: , 2023: , }] # TODO 
+      - [ "Domeny Internetowe", { 2014: , 2015: , 2016: , 2017: , 2018: , 2019: , 2020: , 2021: , 2022: , 2023: , }] # TODO 
+      - [ "Inne", { 2014: , 2015: , 2016: , 2017: , 2018: , 2019: , 2020: , 2021: , 2022: , 2023: , }] # TODO 
+
+Annotacje:
+- '[^prywatne]: W zakres wydatków prywatnych nie wchodzą między innymi: 1) Koszty posiadania biznesów i ich koszty operacyjne (na przykład: koszty podatkowe i eksploatacyjne nieruchomości posiadanych a wynajmowanych w formie biznesu). 2) Odsetki od  kredytów stanowiących lewar inwestycyjny. 3) Wybrane znaczniejsze darowizny poczynione za życia na rzecz ustawowych spadkobierców (czyli: "zarządzanie spadkiem za życia").'
+- '[^cpi]: CPI w dniu 1 lipca każdego roku.'
+- '[^dniereg]: Jednorazowe wydatki powyżej $100 ponoszone rzadziej niż co dwa lata.'
+- '[^wydgosp]: Przybory domowe i kuchenne, środki czyszczące i do prania, drobne narzędzia, elektryczne szczoteczki do zębów, drobne akcesoria domowe, pościel, baterie, itp ...'
+- '[^gosp2017]: Mikser Vitamix: $452, Lodówka mała do piwnicy: $158, Metalowe krzesła ogrodowe: $131'
+- '[^gosp2018]: Nowa pralka i suszarka: $2,079'
+- '[^gosp2019]: Odśnieżacz bateryjny: $621'
+- '[^gosp2020]: Odkurzacz.'
+- '[^gosp2022]: Lodówka do piwnicy.'
+- '[^meble2017]: Kanapa i otomana do livingu: $1331, Buirko, komoda i dywan do gabinetu: $686'
+- '[^ogrod2019]: Koszty napraw szkód po tornado w roku 2018: $1126'
+- '[^domkons2017]: Uszczelnienie dachu przeciekającego przy kominie: $452'
+- '[^domkons2019]: Za inspekcję dachu po tornado: $367'
+- '[^hipoteka]: Dom kupiony 1997-04-14. Spłacanie zakończono 2015-02-19.'
+- '[^minn2017]: Wynajęte jako biznes więc brak kosztów za ten rok w prywatnym budżecie.'
+- '[^minn2018]: Wynajęte jako biznes przez 8 miesięcy w roku więc koszty prywatne stanowią 1/3 całkowitych kosztów rocznych.'
+- '[^minreno2018]: 26.40% łącznych opłat wspólnotowych.'
+- '[^minreno2019]: 26.40% łącznych opłat wspólnotowych.'
+- '[^minreno2020]: 20.00% łącznych opłat wspólnotowych.'
+- '[^minreno2021]: 22.74% łącznych opłat wspólnotowych.'
+- '[^minreno2022]: 18.42% łącznych opłat wspólnotowych.'
+- '[^minpod2020]: W tym, zwrot nadpłaty za wieczyste użytkowanie gruntu.'
+- '[^minpod2022]: Omyłkowo zapłacony dwukrotnie.'
+- '[^reno2018]: Przebudowa łazienki na piętrze.'
+- '[^reno2019]: W tym: $4,340 wymiana trzech okien na piętrze.'
+- '[^reno2020]: Nowa beczka ogrzewcza do wody.'
+- '[^reno2021]: Wymiana elewacji na domu: $20,812. Nowe rynny: $1,249. Wymiana pieca ogrzewczego: $4,617. Wymiana kranu w pralni w piwnicy i instalacja kranu ogrodowego: $1,263.'
+- '[^reno2022]: Naprawa elewacji na domu "derecho": %5,223. Zakup i instalacje lamp podsufitowych i zewnętzrnych: $2,519'
+- '[^ogrod2017]: Wycięcie starego drzewa w ogrodzie: $1,017'
+- '[^komsp2017]: Za dwa nowe telefony.'
+- '[^komsp2019]: Za jeden nowy telefon.'
+- '[^komsp2020]: Za jeden nowy telefon.'
+- '[^komsp2022]: Telefon mój w Polsce.'
+- '[^samochodkons]: Wymiany oleju, żarówek, płynów, antykorozja, itp...'
+- '[^samochodinne]: Mycie, parking, mandaty, odnowienie praw jazdy, itp...'
+- '[^latte]: Kawiarnie, restauracje, lody, itp. "zachciewajki".'
+- '[^bankowe]: Opłaty za operacje na kontach.'
+- '[^rekreacja]: Fitness, spa, sprzęt sportowy.'
+- '[^rozrywki]: Kino, teatr, koncerty, muzea, wykłady, TV, Netflix, itp...'
+- '[^ksiazki]: Łącznie z audiobukami, subskrypcjami internetowymi (z wyjątkim literatury zawodowej) oraz karami za opóźnione zwroty do biblioteki.'
+- '[^safaribooks]: Roczna subskrypcja Safari Books Online (literatura zawodowa): $118'
+- '[^czasopisma]: Łącznie z subskrypcjami internetowymi.'
+- '[^kompsp2017]: Desktop HP Slimline: $399'
+- '[^kompsp2019]: Tablet Samsung: $337'
+- '[^kompsp2021]: Drukarka laserowa Brother'
+- '[^kompsp2022]: Laptop Acer Aspire 3 15.6'
+- '[^software]: Kupno (TurboTax) i subskrypcje (BitDefender, Google space, etc.)'
+- '[^inneinne]: Poczta, materiały biurowe, Costco membership, fryzjer, domeny internetowe, itp...'
+- '[^inin2018]: Odnowienie dwóch paszportów Kanadyjskich na 10 lat: $320'
+- '[^inin2015]: LinkedIn Job Seeker subscription: $300 , Zwrot kosztów naprawy stłuczki innemu kierowcy: $1,095'
+- '[^inin2014]: LinkedIn Job Seeker subscription: $371'
+- '[^dent2018]: $1,602 brutto minus $1,245 zwroty ubezpieczeniowe.'
+- '[^dent2019]: $1,429 brutto minus $1,100 zwroty ubezpieczeniowe.'
+- '[^dent2020]: $1,989 brutto minus $1,633 zwroty ubezpieczeniowe.'
+- '[^dent2021]: $1,771 brutto minus $1,201 zwroty ubezpieczeniowe.'
+- '[^dent2022]: $2,463 brutto minus $2,050 zwroty ubezpieczeniowe.'
+- '[^zab2022]: $745 brutto minus $662 zwroty ubezpieczeniowe.'
+- '[^dentd2018]: Implant: $1,953'
+- '[^dent2017]: $2,911 brutto minus $2,134 zwroty ubezpieczeniowe.'
+- '[^dentd2017]: Implant: $4,255'
+- '[^lekinne2019]: Badanie wzroku i nowe okulary.'
+- '[^prezentyosobiste]: Urodzinowe, świąteczne, okolicznościowe, itp.. bez okazji :)'
+- '[^donacje]: Plan Canada, Ottawa Humane Society, WOŚP, fundacje, ...'
+- '[^podrinne]: Dojazdy na miejscu, noclegi, wynajęcie samochodów i benzyna, mapy, przewodniki, itp...'
+- '[^benz2019]: Przebieg w roku 2019: 21,153 km'
+- '[^benz2020]: Przebieg w roku 2020: 6,650 km'
+- '[^benz2021]: Przebieg w roku 2021: 6,922 km'
+- '[^benz2022]: Przebieg w roku 2022: 7,504 km'
+- '[^samrej2022]: Zwrot z prowincji Ontario.'
+- '[^karciane]: Opłaty roczne za karty kredytowe i osetki od nieterminowo spłacanych obciążeń.'
+- '[^samkupno]: Suma jednorazowa gdy zakup za gotówkę lub suma rocznych spłat pożyczek samochodowych gdy zakup na kredyt.'
+- '[^insmeddent]: Opłacane dodatkowo, ponad opłaty obowiązkowe na ubezpieczenia grupowe w miejscu pracy.'
+- '[^ltd]: LTD (Long Term Disability) + Critical Illness insurance -- opłacane dodatkowo, ponad opłaty obowiązkowe na ubezpieczenia grupowe w miejscu pracy.'
+- '[^domeny2015]: Odnowienie domen Internetowych na 3 lata.'
+- '[^domeny2018]: Odnowienie domen Internetowych na 3 lata.'
+- '[^domeny2021]: Odnowienie domen Internetowych na 9 lat.'
+
+
