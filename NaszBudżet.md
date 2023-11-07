@@ -33,14 +33,14 @@ Prywatne[^prywatne] wydatki roczne w CAD **nominalnych**
 | Ubezpieczenie | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Opłaty wspólnotowe, remontowe | 0 | 0 | 0 | 0 | 151[^minreno2018] | 396[^minreno2019] | 338[^minreno2020] | 325[^minreno2021] | 332[^minreno2022] | 0 |
 |      |      |      |      |      |      |      |      |      |      |      |
-| **Mieszkanie inne, używanie** | **0** | **0** | **0** | **0** | **0** | **0** | **0** | **0** | **0** | **0** |
-| Gaz | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Prąd | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Woda, rozliczenie | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Internet | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Opłaty wspólnotowe, eksploatacyjne | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Meble, wyposażenie | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Konserwacje | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| **Mieszkanie inne, używanie** | **0** | **0** | **0** | **0** | **924** | **2,271** | **1,652** | **1,236** | **2,124** | **0** |
+| Gaz | 0 | 0 | 0 | 0 | 30 | 18 | 31 | 41 | 32 | 0 |
+| Prąd | 0 | 0 | 0 | 0 | 83 | 136 | 54 | 57 | 59 | 0 |
+| Woda, rozliczenie | 0 | 0 | 0 | 0 | 54 | 0 | -32 | 6 | 0 | 0 |
+| Internet | 0 | 0 | 0 | 0 | 122 | 353 | 144 | 0 | 0 | 0 |
+| Opłaty wspólnotowe, eksploatacyjne | 0 | 0 | 0 | 0 | 421 | 1,103 | 1,351 | 1,105 | 1,469 | 0 |
+| Meble, wyposażenie | 0 | 0 | 0 | 0 | 117 | 529 | 104 | 0 | 181 | 0 |
+| Konserwacje | 0 | 0 | 0 | 0 | 97 | 132 | 0 | 27 | 383 | 0 |
 |      |      |      |      |      |      |      |      |      |      |      |
 | **Transport** | **0** | **0** | **0** | **0** | **0** | **0** | **0** | **0** | **0** | **0** |
 | Komuikacja publiczna | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
