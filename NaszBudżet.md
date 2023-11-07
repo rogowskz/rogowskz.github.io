@@ -42,14 +42,14 @@ Prywatne[^prywatne] wydatki roczne w CAD **nominalnych**
 | Meble, wyposażenie | 0 | 0 | 0 | 0 | 117 | 529 | 104 | 0 | 181 | 0 |
 | Konserwacje | 0 | 0 | 0 | 0 | 97 | 132 | 0 | 27 | 383 | 0 |
 |      |      |      |      |      |      |      |      |      |      |      |
-| **Transport** | **0** | **0** | **0** | **0** | **0** | **0** | **0** | **0** | **0** | **0** |
-| Komuikacja publiczna | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Samochody, benzyna | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Samochody, ubezpieczenie | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Samochody, konserwacje | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Samochody, reperacje | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Samochody, rejestracja | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Samochody, inne | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| **Transport** | **5,120** | **4,634** | **4,620** | **4,777** | **6,719** | **5,243** | **3,388** | **4,568** | **4,381** | **0** |
+| Komuikacja publiczna | 15 | 132 | 895 | 1,111 | 273 | 190 | 200 | 0 | 232 | 0 |
+| Samochody, benzyna | 2,083 | 1,654 | 1,513 | 1,609 | 2,627 | 2,741[^benz2019] | 788[^benz2020] | 1,002[^benz2021] | 1,280[^benz2022] | 0 |
+| Samochody, ubezpieczenie | 1,648 | 1,333 | 1,104 | 960 | 968 | 1,031 | 964 | 798 | 773 | 0 |
+| Samochody, konserwacje | 917 | 1,349 | 157 | 119 | 352 | 281 | 157 | 100 | 158 | 0 |
+| Samochody, reperacje | 0 | 0 | 759 | 799 | 2,243 | 580 | 1,096 | 2,340 | 1,982 | 0 |
+| Samochody, rejestracja | 196 | 98 | 108 | 120 | 152 | 120 | 120 | 120 | -310[^samrej2022] | 0 |
+| Samochody, inne | 261 | 68 | 84 | 59 | 104 | 300 | 63 | 208 | 266 | 0 |
 |      |      |      |      |      |      |      |      |      |      |      |
 | **Telekomunikacja** | **0** | **0** | **0** | **0** | **0** | **0** | **0** | **0** | **0** | **0** |
 | Telefon stacjonarny | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
