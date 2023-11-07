@@ -28,10 +28,10 @@ Prywatne[^prywatne] wydatki roczne w CAD **nominalnych**
 | Ogród | 0 | 490 | 508 | 699 | 447 | 722 | 848 | 2,031 | 844 | 0 |
 | Konserwacje | 0 | 438 | 6 | 578 | 466 | 248 | 459 | 117 | 314 | 0 |
 |      |      |      |      |      |      |      |      |      |      |      |
-| **Mieszkanie inne, posiadanie** | **0** | **0** | **0** | **0[^minn2017]** | **97[^minn2018]** | **273** | **-137** | **16** | **30** | **18** |
+| **Mieszkanie inne, posiadanie** | **0** | **0** | **0** | **0[^minn2017]** | **248[^minn2018]** | **669** | **201** | **341** | **362** | **18** |
 | Podatek od własności | 0 | 0 | 0 | 0 | 97 | 273 | -137[^minpod2020] | 16 | 30[^minpod2022] | 18 |
 | Ubezpieczenie | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Opłaty wspólnotowe, remontowe | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Opłaty wspólnotowe, remontowe | 0 | 0 | 0 | 0 | 151[^minreno2018] | 396[^minreno2019] | 338[^minreno2020] | 325[^minreno2021] | 332[^minreno2022] | 0 |
 |      |      |      |      |      |      |      |      |      |      |      |
 | **Mieszkanie inne, używanie** | **0** | **0** | **0** | **0** | **0** | **0** | **0** | **0** | **0** | **0** |
 | Gaz | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
