@@ -56,11 +56,11 @@ Prywatne[^prywatne] wydatki roczne w CAD **nominalnych**
 | Internet | 801 | 664 | 725 | 732 | 813 | 868 | 1,346 | 687 | 610 | 0 |
 | Komórki, airtime | 226 | 107 | 113 | 327 | 311 | 293 | 371 | 282 | 246 | 0 |
 |      |      |      |      |      |      |      |      |      |      |      |
-| **Zdrowie** | **0** | **0** | **0** | **0** | **0** | **0** | **0** | **0** | **0** | **0** |
-| Lekarstwa na receptę | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Lekarstwa bez recept | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Zabiegi i badania, netto | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Dentysta okresowy, netto | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| **Zdrowie** | **3,001** | **1,856** | **1,168** | **1,066** | **555** | **654** | **403** | **859** | **859** | **0** |
+| Lekarstwa na receptę | 363 | 280 | 282 | 244 | 188 | 153 | 47 | 68 | 292 | 0 |
+| Lekarstwa bez recept | 0 | 0 | 0 | 45 | 10 | 85 | 0 | 221 | 71 | 0 |
+| Zabiegi i badania, netto | 103 | 0 | 0 | 0 | 0 | 87 | 0 | 0 | 83[^zab2022] | 0 |
+| Dentysta okresowy, netto | 2,535 | 1,576 | 886 | 777[^dent2017] | 357[^dent2018] | 329[^dent2019] | 356[^dent2020] | 570[^dent2021] | 413[^dent2022] | 0 |
 |      |      |      |      |      |      |      |      |      |      |      |
 | **Prywatne ubezpieczenia osób** | **0** | **0** | **0** | **0** | **0** | **0** | **0** | **0** | **0** | **0** |
 | Na życie | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
