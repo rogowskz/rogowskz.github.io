@@ -93,32 +93,32 @@ Prywatne[^prywatne] wydatki roczne w CAD **nominalnych**
 | Opłaty i długi "karciane[^karciane]" | 0 | 43 | 29 | 51 | 55 | 0 | 0 | 0 | 0 | 0 |
 | Odsetki inne | 0 | 55 | 40 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 |      |      |      |      |      |      |      |      |      |      |      |
-| **Wydatki gospodarcze** | **0** | **0** | **0** | **0** | **0** | **0** | **0** | **0** | **0** | **0** |
-| Gospodarcze | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| **Wydatki gospodarcze** | **0** | **0** | **0** | **741** | **2,079** | **621** | **428** | **0** | **678** | **0** |
+| Gospodarcze | 0 | 0 | 0 | 741[^gosp2017] | 2,079[^gosp2018] | 621[^gosp2019] | 428[^gosp2020] | 0 | 678[^gosp2022] | 0 |
 |      |      |      |      |      |      |      |      |      |      |      |
-| **Mieszkanie główne, posiadanie** | **0** | **0** | **0** | **0** | **0** | **0** | **0** | **0** | **0** | **0** |
-|  Renowacje | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| **Mieszkanie główne, posiadanie** | **1,693** | **0** | **2,968** | **0** | **14,793** | **4,740** | **1,208** | **27,961** | **7,742** | **0** |
+|  Renowacje | 1,693 | 0 | 2,968 | 0 | 14,793[^reno2018] | 4,740[^reno2019] | 1,208[^reno2020] | 27,961[^reno2021] | 7,742[^reno2022] | 0 |
 |      |      |      |      |      |      |      |      |      |      |      |
-| **Mieszkanie główne, używanie** | **1,011** | **2,012** | **3,013** | **4,014** | **5,015** | **6,016** | **7,017** | **8,018** | **9,019** | **10,020** |
-| Meble, wyposażenie | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Ogród | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 |
-| Konserwacje | 1,000 | 2,000 | 3,000 | 4,000 | 5,000 | 6,000 | 7,000 | 8,000 | 9,000 | 10,000 |
+| **Mieszkanie główne, używanie** | **2,542** | **0** | **0** | **3,486** | **0** | **1,493** | **0** | **0** | **0** | **0** |
+| Meble, wyposażenie | 0 | 0 | 0 | 2,017[^meble2017] | 0 | 0 | 0 | 0 | 0 | 0 |
+| Ogród | 2,542 | 0 | 0 | 1,017[^ogrod2017] | 0 | 1,126[^ogrod2019] | 0 | 0 | 0 | 0 |
+| Konserwacje | 0 | 0 | 0 | 452[^domkons2017] | 0 | 367[^domkons2019] | 0 | 0 | 0 | 0 |
 |      |      |      |      |      |      |      |      |      |      |      |
 | **Transport** | **0** | **0** | **0** | **0** | **0** | **0** | **0** | **0** | **0** | **0** |
-| Samochody, kupno | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Samochody, kupno[^samkupno] | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 |      |      |      |      |      |      |      |      |      |      |      |
-| **Telekomunikacja** | **0** | **0** | **0** | **0** | **0** | **0** | **0** | **0** | **0** | **0** |
-| Komórki, sprzęt | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| **Telekomunikacja** | **218** | **218** | **0** | **224** | **0** | **169** | **169** | **0** | **223** | **0** |
+| Komórki, sprzęt | 218 | 218 | 0 | 224[^komsp2017] | 0 | 169[^komsp2019] | 169[^komsp2020] | 0 | 223[^komsp2022] | 0 |
 |      |      |      |      |      |      |      |      |      |      |      |
-| **Zdrowie** | **0** | **0** | **0** | **0** | **0** | **0** | **0** | **0** | **0** | **0** |
-| Dentysta | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Zabiegi i badania | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Inne | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| **Zdrowie** | **0** | **0** | **0** | **4,563** | **1,953** | **845** | **0** | **0** | **0** | **0** |
+| Dentysta | 0 | 0 | 0 | 4,255[^dentd2017] | 1,953[^dentd2018] | 0 | 0 | 0 | 0 | 0 |
+| Zabiegi i badania | 0 | 0 | 0 | 308 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Inne | 0 | 0 | 0 | 0 | 0 | 845[^lekinne2019] | 0 | 0 | 0 | 0 |
 |      |      |      |      |      |      |      |      |      |      |      |
-| **Inne** | **0** | **0** | **0** | **0** | **0** | **0** | **0** | **0** | **0** | **0** |
-| Komputery, sprzęt | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Domeny Internetowe | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Inne | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| **Inne** | **923** | **1,642** | **0** | **399** | **547** | **337** | **0** | **784** | **451** | **0** |
+| Komputery, sprzęt | 552 | 0 | 0 | 399[^kompsp2017] | 0 | 337[^kompsp2019] | 0 | 251[^kompsp2021] | 451[^kompsp2022] | 0 |
+| Domeny Internetowe | 0 | 247[^domeny2015] | 0 | 0 | 227[^domeny2018] | 0 | 0 | 533[^domeny2021] | 0 | 0 |
+| Inne | 371[^inin2014] | 1,395[^inin2015] | 0 | 0 | 320[^inin2018] | 0 | 0 | 0 | 0 | 0 |
 
 [^prywatne]: W zakres wydatków prywatnych nie wchodzą między innymi: 1) Koszty posiadania biznesów i ich koszty operacyjne (na przykład: koszty podatkowe i eksploatacyjne nieruchomości posiadanych a wynajmowanych w formie biznesu). 2) Odsetki od  kredytów stanowiących lewar inwestycyjny. 3) Wybrane znaczniejsze darowizny poczynione za życia na rzecz ustawowych spadkobierców (czyli: "zarządzanie spadkiem za życia").
 [^cpi]: CPI w dniu 1 lipca każdego roku.
