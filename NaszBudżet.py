@@ -31,7 +31,6 @@ cwd = os.getcwd()
 APPHOME, _ = os.path.split(sys.argv[0])
 APPHOME = os.path.abspath(APPHOME)
 
-MARKDOWN_LINEBREAK = "    "
 REGEXP_NUMBER = re.compile(r'^(\*\*)?([0-9,]+)(\[\^.+\])?(\*\*)?$')
 
 def readYaml(fpath):
@@ -40,12 +39,11 @@ def readYaml(fpath):
     return yaml.load(txt, Loader=yaml.FullLoader)
 
 def emitDocHeader(dd):
-    txt = ""
-    txt += "# Nasz budżet prywatny" + "\n"
-    txt += "\n"
-    txt += "Prywatne[^prywatne] wydatki roczne w CAD **nominalnych**" + MARKDOWN_LINEBREAK + "\n"
-    txt += "([see inflation adjusted version](NaszBudżet-cpi))" + "\n"
-    return txt
+    return f'''# Nasz budżet
+
+Prywatne[^prywatne] wydatki roczne w CAD **nominalnych**    
+([see inflation adjusted version](NaszBudżet-cpi))
+'''
 
 def emitEmptyTableRow(nn):
     return f'''{'|      ' * nn}|\n'''
@@ -233,7 +231,7 @@ def generateCpiAdjusted(txt):
     table_lines_cpi_adjusted = getCipAdjustedTableLines(table_rows, cpi_mul)
     #
     head_rows[0] += " (inflation adjusted)"
-    head_rows[2] = head_rows[2].replace(" CAD **nominalnych**", f" CAD **y{getLastYear(table_rows)}**{MARKDOWN_LINEBREAK}")
+    head_rows[2] = head_rows[2].replace(" CAD **nominalnych**", f" CAD **y{getLastYear(table_rows)}**")
     head_rows[3] = "([see nominal version](NaszBudżet))"
     ll = head_rows + table_lines_cpi_adjusted + tail_rows
     return "\n".join(ll)

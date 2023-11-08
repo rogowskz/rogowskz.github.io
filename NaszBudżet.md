@@ -1,4 +1,4 @@
-# Nasz budżet prywatny
+# Nasz budżet
 
 Prywatne[^prywatne] wydatki roczne w CAD **nominalnych**    
 ([see inflation adjusted version](NaszBudżet-cpi))
@@ -203,4 +203,4 @@ Prywatne[^prywatne] wydatki roczne w CAD **nominalnych**
 [^domeny2018]: Odnowienie domen Internetowych na 3 lata.
 [^domeny2021]: Odnowienie domen Internetowych na 9 lat.
 
-Updated on: 2023-11-08 08:05:38
+Updated on: 2023-11-08 08:13:25
