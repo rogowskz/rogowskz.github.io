@@ -220,22 +220,26 @@ def adjustNumber(tt):
     else:
         return w # Not a number.
 
-def getCipAdjustedTableLines(table, cpi_mul):
+def generateCipAdjustedTableLines(table_rows, cpi_mul):
+    # 'table_rows' is a list of lists of table columns
     table_lines = []
-    table_lines.append(" | ".join(table[0]).strip())
-    table_lines.append(" | ".join(table[1]).strip())
-    for ww in table[3:]:
+    table_lines.append(    f'''{" | ".join(table_rows[0]).strip()} 5YAVG | 10YAVG |'''    )
+    table_lines.append(    f'''{" | ".join(table_rows[1]).strip()} --: | --: |'''    )
+
+    for ww in table_rows[3:]:
         ll = [adjustNumber(tt) for tt in listOfTuples(ww[2:-1], cpi_mul)]
+        avg5y = 0 # TODO
+        avg10y = 0 # TODO
         ll = ww[:2] + ll + ww[-1:]
         ll = [f' {x} ' for x in ll]
-        table_lines.append("|".join(ll).lstrip())
+        table_lines.append(    f'''{"|".join(ll).lstrip()} {avg5y if ll[1].strip() else ""} | {avg10y if ll[1].strip() else ""} |'''    )
     return table_lines
 
 def generateCpiAdjusted(txt):
     lines = txt.split("\n")
     head_rows, table_rows, tail_rows = getTableRows(lines)
     cpi_mul = getCpiMultipliers(table_rows)
-    table_lines_cpi_adjusted = getCipAdjustedTableLines(table_rows, cpi_mul)
+    table_lines_cpi_adjusted = generateCipAdjustedTableLines(table_rows, cpi_mul)
     #
     head_rows[0] += " (inflation adjusted)"
     head_rows[2] = head_rows[2].replace(" CAD **nominalnych**", f" CAD **y{getLastYear(table_rows)}**    ")
