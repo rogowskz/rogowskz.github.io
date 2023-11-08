@@ -90,7 +90,14 @@ def summarizeCategoriesInGroupByYears(lista_grupy):
             if type(category_value_for_year) == type(""):
                 # Category value for this year is annotated.
                 # Extract integer value from this string:
-                category_value_for_year = int(category_value_for_year[:category_value_for_year.index("[")])
+                try:
+                    val = category_value_for_year[:category_value_for_year.index("[")]
+                except ValueError: # substring "[" not found.
+                    print(f'''category_value_for_year: {category_value_for_year}''')
+                    print()
+                    raise
+                    sys.exit()
+                category_value_for_year = int(val)
             if type(group_value_for_year) == type(0):
                 # Group value for this year is NOT annotated.
                 # Can add integer category value:
