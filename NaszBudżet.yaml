@@ -11,17 +11,6 @@ CPI:
     2022: 153.1
     2023: 158.1
 
-Text:
-    Para_nom_1: "# Nasz budżet prywatny"
-    Para_nom_2: "Prywatne[^prywatne] wydatki roczne w CAD **nominalnych**" 
-    Para_nom_3: "([see inflation adjusted version](NaszBudżet-cpi))"
-
-    # Para_ia_1: "# Nasz budżet prywatny (inflation adjusted)"
-    # Para_ia_2: "Prywatne[^prywatne] wydatki roczne w CAD **yROK**"
-    # Para_ia_3: "(see nominal version)"
-
-    Para_cpi: "[CPI](https://www.bankofcanada.ca/rates/price-indexes/cpi/)[^cpi]"                       
-
 Wydatki regularne:
 
     - - [ '"Życie"', ]

@@ -41,10 +41,10 @@ def readYaml(fpath):
 
 def emitDocHeader(dd):
     txt = ""
-    txt += dd["Text"]["Para_nom_1"] + "\n" # TODO: Remove "Text" section in yaml. This is unnecessary complication.
+    txt += "# Nasz budżet prywatny" + "\n"
     txt += "\n"
-    txt += dd["Text"]["Para_nom_2"] + MARKDOWN_LINEBREAK + "\n"
-    txt += dd["Text"]["Para_nom_3"] + "\n"
+    txt += "Prywatne[^prywatne] wydatki roczne w CAD **nominalnych**" + MARKDOWN_LINEBREAK + "\n"
+    txt += "([see inflation adjusted version](NaszBudżet-cpi))" + "\n"
     return txt
 
 def emitEmptyTableRow(nn):
@@ -61,7 +61,7 @@ def emitTableHeader(dd):
     txt += "\n"
     txt += f'''| Rok | {' | '.join(yrs)} |\n'''
     txt += f'''| --- | {'  | '.join(["--:" for x in yrs])}  |\n'''
-    txt += f'''| {dd["Text"]["Para_cpi"]} | {' | '.join([str(x) for x in list(dcpi.values())])} |\n'''
+    txt += f'''| [CPI](https://www.bankofcanada.ca/rates/price-indexes/cpi/)[^cpi] | {' | '.join([str(x) for x in list(dcpi.values())])} |\n'''
 
     return txt
 
@@ -244,22 +244,22 @@ def main():
     # TODO: Refactor into a function:
     txt_wreg = ""
     ll = []
-    for lista_grupy in dd["Wydatki regularne"]: # TODO: Wziąc tekst z yaml
+    for lista_grupy in dd["Wydatki regularne"]:
         lista_grupy = summarizeCategoriesInGroupByYears(lista_grupy)
         txt_wreg += emitGroup(lista_grupy)
         ll.append(lista_grupy)
-    wreg_total = [["Wydatki regularne", summarizeGroups(ll)]] # TODO: Wziąc tekst z yaml
+    wreg_total = [["Wydatki regularne", summarizeGroups(ll)]]
 
     # TODO: Refactor into a function:
     txt_wnreg = ""
     ll = []
-    for lista_grupy in dd["Wydatki duże i nieregularne[^dniereg]"]: # TODO: Wziąc tekst z yaml
+    for lista_grupy in dd["Wydatki duże i nieregularne[^dniereg]"]:
         lista_grupy = summarizeCategoriesInGroupByYears(lista_grupy)
         txt_wnreg += emitGroup(lista_grupy)
         ll.append(lista_grupy)
-    wnreg_total = [["Wydatki duże i nieregularne[^dniereg]", summarizeGroups(ll)]] # TODO: Wziąc tekst z yaml
+    wnreg_total = [["Wydatki duże i nieregularne[^dniereg]", summarizeGroups(ll)]]
 
-    wrazem = [["Wydatki razem", summarizeGroups([wreg_total, wnreg_total])]] # TODO: Wziąc tekst z yaml
+    wrazem = [["Wydatki razem", summarizeGroups([wreg_total, wnreg_total])]]
 
     txt = ""
     txt += emitDocHeader(dd)
