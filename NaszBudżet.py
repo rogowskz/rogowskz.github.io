@@ -175,11 +175,11 @@ def main():
     # TODO: Refactor into a function:
     txt_wnreg = ""
     ll = []
-    for lista_grupy in dd["Wydatki duże i nieregularne"]: # TODO: Wziąc tekst z yaml
+    for lista_grupy in dd["Wydatki duże i nieregularne[^dniereg]"]: # TODO: Wziąc tekst z yaml
         lista_grupy = summarizeCategoriesInGroupByYears(lista_grupy)
         txt_wnreg += emitGroup(lista_grupy)
         ll.append(lista_grupy)
-    wnreg_total = [["Wydatki duże i nieregularne", summarizeGroups(ll)]] # TODO: Wziąc tekst z yaml
+    wnreg_total = [["Wydatki duże i nieregularne[^dniereg]", summarizeGroups(ll)]] # TODO: Wziąc tekst z yaml
 
     wrazem = [["Wydatki razem", summarizeGroups([wreg_total, wnreg_total])]] # TODO: Wziąc tekst z yaml
 

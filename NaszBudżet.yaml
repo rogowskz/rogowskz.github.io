@@ -168,7 +168,7 @@ Wydatki regularne:
       - [ "Odsetki inne", { 2014: 0, 2015: 55, 2016: 40, 2017: 0, 2018: 0, 2019: 0, 2020: 0, 2021: 0, 2022: 0, 2023: , }]
         # | Odsetki inne |        0 |      55 |      40 |      0 |      0 |      0 |      0 |      0 |      0 |
 
-Wydatki duże i nieregularne:
+"Wydatki duże i nieregularne[^dniereg]":
 
     - - [ "Wydatki gospodarcze", ]
       - [ "Gospodarcze", { 2014: 0, 2015: 0, 2016: 0, 2017: "741[^gosp2017]", 2018: "2079[^gosp2018]", 2019: "621[^gosp2019]", 2020: "428[^gosp2020]", 2021: 0, 2022: "678[^gosp2022]", 2023: , }]
