@@ -263,7 +263,8 @@ def generateWithAverages(txt):
     table_lines = generateTableLinesWithAverages(table_rows)
     #
     head_rows[0] = head_rows[0].replace("(inflation adjusted)", "(inflation adjusted, with averages)")
-    head_rows[3] = "([see inflation adjusted version](NaszBudżet-cpi))"
+    head_rows[2] += "    " # Markdown 'linebreak'
+    head_rows[3] = "([see inflation adjusted version](NaszBudżet-cpi))    "
     ll = head_rows + table_lines + tail_rows
     return "\n".join(ll)
 

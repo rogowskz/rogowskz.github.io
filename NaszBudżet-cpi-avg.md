@@ -1,7 +1,7 @@
 # Nasz budżet (inflation adjusted, with averages)
 
-Prywatne[^prywatne] wydatki roczne w CAD **y2023**
-([see inflation adjusted version](NaszBudżet-cpi))
+Prywatne[^prywatne] wydatki roczne w CAD **y2023**    
+([see inflation adjusted version](NaszBudżet-cpi))    
 ([see nominal version](NaszBudżet))
 
 | Rok | 2014 | 2015 | 2016 | 2017 | 2018 | 2019 | 2020 | 2021 | 2022 | 2023 |
@@ -203,4 +203,4 @@ Prywatne[^prywatne] wydatki roczne w CAD **y2023**
 [^domeny2021]: Odnowienie domen Internetowych na 9 lat.
 [^update]: Uaktualnić po koncu roku.
 
-Updated on: 2023-11-08 18:27:39
+Updated on: 2023-11-08 18:36:36
