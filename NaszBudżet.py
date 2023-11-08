@@ -235,7 +235,7 @@ def generateTableLinesWithAverages(table_rows):
     table_lines.append(    f'''{" | ".join(table_rows[0]).strip()}'''    )
     table_lines.append(    f'''{" | ".join(table_rows[1]).strip()}'''    )
     #
-    for cols in table_rows[3:]:
+    for cols in table_rows[2:]:
         ll = cols[2:-1]
         ll = cols[:2] + ll + cols[-1:]
         ll = [f' {x} ' for x in ll]
