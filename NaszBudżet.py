@@ -1,6 +1,25 @@
 #!/usr/bin/python3
 # coding: utf-8
 
+'''
+Publishing generated .md pages:
+
+    $ cd /media/veracrypt1/zr/timeline/md/rogowskz.github.io
+
+    $ python3 NaszBudżet.py > NaszBudżet.md
+    $ git add NaszBudżet.md
+    $ git commit -m "Updated NaszBudżet.md"
+
+    $  echo "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" | gh auth login --with-token
+    $ git push https://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@github.com/rogowskz/rogowskz.github.io.git
+
+
+TODO: Update 'gh' cli client:
+    A new release of gh is available: 2.14.2 → 2.38.0
+    https://github.com/cli/cli/releases/tag/v2.38.0
+
+'''
+
 import sys
 import os
 import yaml
@@ -129,23 +148,49 @@ def emitGroup(lista_grupy):
 
     return txt
 
+def summarizeGroups(list_of_groups):
+    keys = list(list_of_groups[0][0][1])
+    ddd = {key:value for key, value in zip(keys, [0 for k in keys])}
+    for x in list_of_groups:
+        dd = x[0][1]
+        for k in dd:
+            val = dd[k]
+            if type(val) == type(""):
+                val = int(val[:val.index("[")])
+            ddd[k] += val
+    return ddd
+
 def main():
     dd = readYaml(os.path.join(APPHOME, 'NaszBudżet.yaml'))
+
+    # TODO: Refactor into a function:
+    txt_wreg = ""
+    ll = []
+    for lista_grupy in dd["Wydatki regularne"]: # TODO: Wziąc tekst z yaml
+        lista_grupy = summarizeCategoriesInGroupByYears(lista_grupy)
+        txt_wreg += emitGroup(lista_grupy)
+        ll.append(lista_grupy)
+    wreg_total = [["Wydatki regularne", summarizeGroups(ll)]] # TODO: Wziąc tekst z yaml
+
+    # TODO: Refactor into a function:
+    txt_wnreg = ""
+    ll = []
+    for lista_grupy in dd["Wydatki duże i nieregularne"]: # TODO: Wziąc tekst z yaml
+        lista_grupy = summarizeCategoriesInGroupByYears(lista_grupy)
+        txt_wnreg += emitGroup(lista_grupy)
+        ll.append(lista_grupy)
+    wnreg_total = [["Wydatki duże i nieregularne", summarizeGroups(ll)]] # TODO: Wziąc tekst z yaml
+
+    wrazem = [["Wydatki razem", summarizeGroups([wreg_total, wnreg_total])]] # TODO: Wziąc tekst z yaml
 
     txt = ""
     txt += emitDocHeader(dd)
     txt += emitTableHeader(dd)
-
-    wreg = dd["Wydatki regularne"]
-    for lista_grupy in wreg:
-        lista_grupy = summarizeCategoriesInGroupByYears(lista_grupy)
-        txt += emitGroup(lista_grupy)
-
-    wnreg = dd["Wydatki duże i nieregularne"]
-    for lista_grupy in wnreg:
-        lista_grupy = summarizeCategoriesInGroupByYears(lista_grupy)
-        txt += emitGroup(lista_grupy)
-
+    txt += emitGroup(wrazem)
+    txt += emitGroup(wreg_total)
+    txt += txt_wreg
+    txt += emitGroup(wnreg_total)
+    txt += txt_wnreg
     txt += emitAnnotations(dd)
 
     print(txt)
