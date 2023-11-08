@@ -221,23 +221,32 @@ def generateCipAdjustedTableLines(table_rows, cpi_mul):
     table_lines = []
     table_lines.append(    f'''{" | ".join(table_rows[0]).strip()}'''    )
     table_lines.append(    f'''{" | ".join(table_rows[1]).strip()}'''    )
-    # TODO table_lines.append(    f'''{" | ".join(table_rows[0]).strip()} 5YAVG | 10YAVG |'''    )
-    # TODO table_lines.append(    f'''{" | ".join(table_rows[1]).strip()} ---: | ---: |'''    )
-
-    for ww in table_rows[3:]:
-        ll = [adjustNumber(tt) for tt in listOfTuples(ww[2:-1], cpi_mul)]
-        avg5y = 0 # TODO
-        avg10y = 0 # TODO
-        ll = ww[:2] + ll + ww[-1:]
+    #
+    for cols in table_rows[3:]:
+        ll = [adjustNumber(tt) for tt in listOfTuples(cols[2:-1], cpi_mul)]
+        ll = cols[:2] + ll + cols[-1:]
         ll = [f' {x} ' for x in ll]
         table_lines.append(    f'''{"|".join(ll).lstrip()}'''    )
-        # TODO table_lines.append(    f'''{"|".join(ll).lstrip()} {avg5y if ll[1].strip() else ""} | {avg10y if ll[1].strip() else ""} |'''    )
+    return table_lines
+
+def generateTableLinesWithAverages(table_rows):
+    # 'table_rows' is a list of lists of table columns
+    table_lines = []
+    table_lines.append(    f'''{" | ".join(table_rows[0]).strip()}'''    )
+    table_lines.append(    f'''{" | ".join(table_rows[1]).strip()}'''    )
+    #
+    for cols in table_rows[3:]:
+        ll = cols[2:-1]
+        ll = cols[:2] + ll + cols[-1:]
+        ll = [f' {x} ' for x in ll]
+        table_lines.append(    f'''{"|".join(ll).lstrip()}'''    )
     return table_lines
 
 def generateCpiAdjusted(txt):
     lines = txt.split("\n")
     head_rows, table_rows, tail_rows = getTableRows(lines)
     cpi_mul = getCpiMultipliers(table_rows)
+    #
     table_lines_cpi_adjusted = generateCipAdjustedTableLines(table_rows, cpi_mul)
     #
     head_rows[0] += " (inflation adjusted)"
@@ -248,17 +257,15 @@ def generateCpiAdjusted(txt):
     return "\n".join(ll)
 
 def generateWithAverages(txt):
-    '''
     lines = txt.split("\n")
     head_rows, table_rows, tail_rows = getTableRows(lines)
-    table_lines = generateCipAdjustedTableLines(table_rows, cpi_mul)
     #
-    head_rows[0] += " (inflation adjusted, with averages)"
-    head_rows[3] = "([see nominal version](NaszBudżet))"
+    table_lines = generateTableLinesWithAverages(table_rows)
+    #
+    head_rows[0] = head_rows[0].replace("(inflation adjusted)", "(inflation adjusted, with averages)")
+    head_rows[3] = "([see inflation adjusted version](NaszBudżet-cpi))"
     ll = head_rows + table_lines + tail_rows
     return "\n".join(ll)
-    '''
-    return txt
 
 def getListOfYears(dd, maxnum):
     # Get list of years for rendering:
