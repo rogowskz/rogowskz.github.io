@@ -243,8 +243,22 @@ def generateCpiAdjusted(txt):
     head_rows[0] += " (inflation adjusted)"
     head_rows[2] = head_rows[2].replace(" CAD **nominalnych**", f" CAD **y{getLastYear(table_rows)}**    ")
     head_rows[3] = "([see nominal version](NaszBudżet))"
+    head_rows.insert(3, "([see version with averages](NaszBudżet-cpi-avg))")
     ll = head_rows + table_lines_cpi_adjusted + tail_rows
     return "\n".join(ll)
+
+def generateWithAverages(txt):
+    '''
+    lines = txt.split("\n")
+    head_rows, table_rows, tail_rows = getTableRows(lines)
+    table_lines = generateCipAdjustedTableLines(table_rows, cpi_mul)
+    #
+    head_rows[0] += " (inflation adjusted, with averages)"
+    head_rows[3] = "([see nominal version](NaszBudżet))"
+    ll = head_rows + table_lines + tail_rows
+    return "\n".join(ll)
+    '''
+    return txt
 
 def getListOfYears(dd, maxnum):
     # Get list of years for rendering:
@@ -293,7 +307,9 @@ def main():
 
     # print(txt)
     writeTextToFile(txt, os.path.join(APPHOME, 'NaszBudżet.md'))
-    writeTextToFile(generateCpiAdjusted(txt), os.path.join(APPHOME, 'NaszBudżet-cpi.md'))
+    txt = generateCpiAdjusted(txt)
+    writeTextToFile(txt, os.path.join(APPHOME, 'NaszBudżet-cpi.md'))
+    writeTextToFile(generateWithAverages(txt), os.path.join(APPHOME, 'NaszBudżet-cpi-avg.md'))
 
 if __name__ == "__main__":
     sys.exit(main())
