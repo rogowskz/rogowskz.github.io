@@ -4,7 +4,7 @@ Prywatne[^prywatne] wydatki roczne w CAD **nominalnych**
 ([see inflation adjusted version](NaszBudżet-cpi))
 
 | Rok | 2014 | 2015 | 2016 | 2017 | 2018 | 2019 | 2020 | 2021 | 2022 | 2023 |
-| --- | --:  | --:  | --:  | --:  | --:  | --:  | --:  | --:  | --:  | --:  |
+| ---- | ---:  | ---:  | ---:  | ---:  | ---:  | ---:  | ---:  | ---:  | ---:  | ---:  |
 | [CPI](https://www.bankofcanada.ca/rates/price-indexes/cpi/)[^cpi] | 125.7 | 127.3 | 128.9 | 130.4 | 134.4 | 137.0 | 137.2 | 142.3 | 153.1 | 158.1 |
 |      |      |      |      |      |      |      |      |      |      |      |
 | **Wydatki razem** | **43,434** | **35,925** | **41,799** | **48,532** | **59,735** | **50,218** | **32,824** | **63,825** | **46,015** | **51,533** |
@@ -204,4 +204,4 @@ Prywatne[^prywatne] wydatki roczne w CAD **nominalnych**
 [^domeny2021]: Odnowienie domen Internetowych na 9 lat.
 [^update]: Uaktualnić po koncu roku.
 
-Updated on: 2023-11-08 10:49:53
+Updated on: 2023-11-08 11:28:51

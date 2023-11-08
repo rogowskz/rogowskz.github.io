@@ -58,7 +58,7 @@ def emitTableHeader(dd):
     txt = ""
     txt += "\n"
     txt += f'''| Rok | {' | '.join(yrs)} |\n'''
-    txt += f'''| --- | {'  | '.join(["--:" for x in yrs])}  |\n'''
+    txt += f'''| ---- | {'  | '.join(["---:" for x in yrs])}  |\n'''
     txt += f'''| [CPI](https://www.bankofcanada.ca/rates/price-indexes/cpi/)[^cpi] | {' | '.join([str(x) for x in list(dcpi.values())])} |\n'''
 
     return txt
@@ -223,8 +223,10 @@ def adjustNumber(tt):
 def generateCipAdjustedTableLines(table_rows, cpi_mul):
     # 'table_rows' is a list of lists of table columns
     table_lines = []
-    table_lines.append(    f'''{" | ".join(table_rows[0]).strip()} 5YAVG | 10YAVG |'''    )
-    table_lines.append(    f'''{" | ".join(table_rows[1]).strip()} --: | --: |'''    )
+    table_lines.append(    f'''{" | ".join(table_rows[0]).strip()}'''    )
+    table_lines.append(    f'''{" | ".join(table_rows[1]).strip()}'''    )
+    # TODO table_lines.append(    f'''{" | ".join(table_rows[0]).strip()} 5YAVG | 10YAVG |'''    )
+    # TODO table_lines.append(    f'''{" | ".join(table_rows[1]).strip()} ---: | ---: |'''    )
 
     for ww in table_rows[3:]:
         ll = [adjustNumber(tt) for tt in listOfTuples(ww[2:-1], cpi_mul)]
@@ -232,7 +234,8 @@ def generateCipAdjustedTableLines(table_rows, cpi_mul):
         avg10y = 0 # TODO
         ll = ww[:2] + ll + ww[-1:]
         ll = [f' {x} ' for x in ll]
-        table_lines.append(    f'''{"|".join(ll).lstrip()} {avg5y if ll[1].strip() else ""} | {avg10y if ll[1].strip() else ""} |'''    )
+        table_lines.append(    f'''{"|".join(ll).lstrip()}'''    )
+        # TODO table_lines.append(    f'''{"|".join(ll).lstrip()} {avg5y if ll[1].strip() else ""} | {avg10y if ll[1].strip() else ""} |'''    )
     return table_lines
 
 def generateCpiAdjusted(txt):
