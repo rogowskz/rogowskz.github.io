@@ -38,7 +38,7 @@ def readYaml(fpath):
         txt = f.read()
     return yaml.load(txt, Loader=yaml.FullLoader)
 
-def emitDocHeader(dd):
+def emitDocHeader():
     return f'''# Nasz budżet
 
 Prywatne[^prywatne] wydatki roczne w CAD **nominalnych**    
@@ -48,42 +48,38 @@ Prywatne[^prywatne] wydatki roczne w CAD **nominalnych**
 def emitEmptyTableRow(nn):
     return f'''{'|      ' * nn}|\n'''
 
-def emitTableHeader(dd):
-
-    dcpi = dd["CPI"]
-    yrs = list(dcpi)
-    yrs.sort()
-    yrs = [str(x) for x in yrs]
-
+def emitTableHeader(yrs, dd_data):
     txt = ""
     txt += "\n"
-    txt += f'''| Rok | {' | '.join(yrs)} |\n'''
+    txt += f'''| Rok | {' | '.join([str(x) for x in yrs])} |\n'''
     txt += f'''| ---- | {'  | '.join(["---:" for x in yrs])}  |\n'''
-    txt += f'''| [CPI](https://www.bankofcanada.ca/rates/price-indexes/cpi/)[^cpi] | {' | '.join([str(x) for x in list(dcpi.values())])} |\n'''
-
+    vals = [dd_data["CPI"][y] for y in yrs]
+    txt += f'''| [CPI](https://www.bankofcanada.ca/rates/price-indexes/cpi/)[^cpi] | {' | '.join([str(x) for x in vals])} |\n'''
     return txt
 
-def summarizeCategoriesInGroupByYears(lista_grupy):
+def trimDictAndZeroNones(dd, yrs):
+    # Trim dictionary to the range of years and replace 'None' values with zeros:
+    keys = list(dd)
+    for k in keys:
+        if k not in yrs:
+            del dd[k]
+    return {key:value for key, value in zip(list(dd), [0 if v is None else v for v in list(dd.values())])}
+
+def summarizeCategoriesInGroupByYears(lista_grupy, yrs):
 
     # Add initial dictionary of group summary values:
     if len(lista_grupy[0]) == 1:
         # Dictionary of group summary values is not yet present.
-        keys = list(lista_grupy[1][1])
-        dd_grupy = {key:value for key, value in zip(keys, [0 for k in keys])}
+        dd_grupy = {key:value for key, value in zip(yrs, [0 for k in yrs])}
         lista_grupy[0].append(dd_grupy)
     else:
         # Dictionary of group summary values is already present.
-        #
-        # Replace 'None' values with zeros:
-        dd_grupy = lista_grupy[0][1]
-        dd_grupy = {key:value for key, value in zip(list(dd_grupy), [0 if v is None else v for v in list(dd_grupy.values())]  )}
-        lista_grupy[0][1] = dd_grupy
+        lista_grupy[0][1] = trimDictAndZeroNones(lista_grupy[0][1], yrs)
 
     # For each category, add values to the dictionary of expenses in the group:
     for ll_category in lista_grupy[1:]:
         dd_category_values = ll_category[1]
-        # Replace 'None' values with zeros:
-        dd_category_values = {key:value for key, value in zip(list(dd_category_values), [0 if v is None else v for v in list(dd_category_values.values())]  )}
+        dd_category_values = trimDictAndZeroNones(dd_category_values, yrs)
         for year in dd_category_values:
             group_value_for_year = lista_grupy[0][1][year]
             category_value_for_year = dd_category_values[year]
@@ -250,38 +246,49 @@ def generateCpiAdjusted(txt):
     ll = head_rows + table_lines_cpi_adjusted + tail_rows
     return "\n".join(ll)
 
+def getListOfYears(dd, maxnum):
+    # Get list of years for rendering:
+    dcpi = dd["CPI"]
+    yrs = list(dcpi)
+    yrs.sort()
+    if len(yrs) > maxnum:
+        yrs = yrs[len(yrs) - maxnum:]
+    return yrs
+
+def processSupergroup(key, dd_data, yrs):
+    # TODO: Refactor into a function:
+    txt = ""
+    ll = []
+    for lista_grupy in dd_data[key]:
+        lista_grupy = summarizeCategoriesInGroupByYears(lista_grupy, yrs)
+        txt += emitGroup(lista_grupy)
+        ll.append(lista_grupy)
+    return [[key, summarizeGroups(ll)]], txt
+
 def main():
-    dd = readYaml(os.path.join(APPHOME, 'NaszBudżet.yaml'))
+    dd_data = readYaml(os.path.join(APPHOME, 'NaszBudżet.yaml'))
 
-    # TODO: Refactor into a function:
-    txt_wreg = ""
-    ll = []
-    for lista_grupy in dd["Wydatki regularne"]:
-        lista_grupy = summarizeCategoriesInGroupByYears(lista_grupy)
-        txt_wreg += emitGroup(lista_grupy)
-        ll.append(lista_grupy)
-    wreg_total = [["Wydatki regularne", summarizeGroups(ll)]]
+    # GitHub will not render wider table in our case .
+    # (11 columns wih our data is the max that the GitHub styling will handle without clipping the rightmost part of the table)
+    MAX_YRS = 10 
 
-    # TODO: Refactor into a function:
-    txt_wnreg = ""
-    ll = []
-    for lista_grupy in dd["Wydatki duże i nieregularne[^dniereg]"]:
-        lista_grupy = summarizeCategoriesInGroupByYears(lista_grupy)
-        txt_wnreg += emitGroup(lista_grupy)
-        ll.append(lista_grupy)
-    wnreg_total = [["Wydatki duże i nieregularne[^dniereg]", summarizeGroups(ll)]]
+    yrs = getListOfYears(dd_data, MAX_YRS)
+
+    wreg_total, txt_wreg = processSupergroup("Wydatki regularne", dd_data, yrs)
+
+    wnreg_total, txt_wnreg = processSupergroup("Wydatki duże i nieregularne[^dniereg]", dd_data, yrs)
 
     wrazem = [["Wydatki razem", summarizeGroups([wreg_total, wnreg_total])]]
 
     txt = ""
-    txt += emitDocHeader(dd)
-    txt += emitTableHeader(dd)
+    txt += emitDocHeader()
+    txt += emitTableHeader(yrs, dd_data)
     txt += emitGroup(wrazem)
     txt += emitGroup(wreg_total)
     txt += txt_wreg
     txt += emitGroup(wnreg_total)
     txt += txt_wnreg
-    txt += emitAnnotations(dd)
+    txt += emitAnnotations(dd_data)
     txt += emitTimestamp()
 
     # print(txt)
