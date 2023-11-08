@@ -62,10 +62,10 @@ Prywatne[^prywatne] wydatki roczne w CAD **nominalnych**
 | Zabiegi i badania, netto | 103 | 0 | 0 | 0 | 0 | 87 | 0 | 0 | 83[^zab2022] | 0 |
 | Dentysta okresowy, netto | 2,535 | 1,576 | 886 | 777[^dent2017] | 357[^dent2018] | 329[^dent2019] | 356[^dent2020] | 570[^dent2021] | 413[^dent2022] | 0 |
 |      |      |      |      |      |      |      |      |      |      |      |
-| **Prywatne ubezpieczenia osób** | **0** | **0** | **0** | **0** | **0** | **0** | **0** | **0** | **0** | **0** |
-| Na życie | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| **Prywatne ubezpieczenia osób** | **735** | **506** | **474** | **0** | **0** | **0** | **0** | **0** | **0** | **0** |
+| Na życie | 735 | 506 | 253 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Medyczne i dentystyczne | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Od kosztów opieki długoterminowej | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Od kosztów opieki długoterminowej | 0 | 0 | 221 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 |      |      |      |      |      |      |      |      |      |      |      |
 | **Prezenty** | **0** | **0** | **0** | **0** | **0** | **0** | **0** | **0** | **0** | **0** |
 | Osobiste | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
