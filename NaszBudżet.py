@@ -231,7 +231,7 @@ def generateCpiAdjusted(txt):
     table_lines_cpi_adjusted = getCipAdjustedTableLines(table_rows, cpi_mul)
     #
     head_rows[0] += " (inflation adjusted)"
-    head_rows[2] = head_rows[2].replace(" CAD **nominalnych**", f" CAD **y{getLastYear(table_rows)}**")
+    head_rows[2] = head_rows[2].replace(" CAD **nominalnych**", f" CAD **y{getLastYear(table_rows)}**    ")
     head_rows[3] = "([see nominal version](NaszBudżet))"
     ll = head_rows + table_lines_cpi_adjusted + tail_rows
     return "\n".join(ll)
