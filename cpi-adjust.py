@@ -20,20 +20,20 @@ def readLines():
     return lines
 
 def getTableRows(lines):
-    head = []
-    table = [] 
-    tail = []
+    head_rows = []
+    table_rows = [] 
+    tail_rows = []
 
     for line in lines:
         line = line.strip()
         if line.startswith("|"):
-            table.append([x.strip() for x in line.split("|")])
+            table_rows.append([x.strip() for x in line.split("|")])
         else:
-            if not table:
-                head.append(line)
+            if not table_rows:
+                head_rows.append(line)
             else:
-                tail.append(line)
-    return head, table, tail
+                tail_rows.append(line)
+    return head_rows, table_rows, tail_rows
 
 def getCpiMultipliers(table):
     lcpi = table[2]
@@ -76,16 +76,17 @@ def getCipAdjustedTableLines(table, cpi_mul):
         table_lines.append("|".join(ll).lstrip())
     return table_lines
 
+MARKDOWN_LINEBREAK = "    "
 def main():
     lines = readLines()
-    head, table, tail = getTableRows(lines)
-    cpi_mul = getCpiMultipliers(table)
-    table_lines_cpi_adjusted = getCipAdjustedTableLines(table, cpi_mul)
+    head_rows, table_rows, tail_rows = getTableRows(lines)
+    cpi_mul = getCpiMultipliers(table_rows)
+    table_lines_cpi_adjusted = getCipAdjustedTableLines(table_rows, cpi_mul)
 
-    head[0] += " (inflation adjusted)"
-    head[2] = head[2].replace(" CAD **nominalnych**:", f" CAD **y{getLastYear(table)}**:")
-    head[3] = "([see nominal version](NaszBudżet))"
-    ll = head + table_lines_cpi_adjusted + tail
+    head_rows[0] += " (inflation adjusted)"
+    head_rows[2] = head_rows[2].replace(" CAD **nominalnych**", f" CAD **y{getLastYear(table_rows)}**{MARKDOWN_LINEBREAK}")
+    head_rows[3] = "([see nominal version](NaszBudżet))"
+    ll = head_rows + table_lines_cpi_adjusted + tail_rows
     for x in ll:
         print(x)
 
