@@ -10,8 +10,8 @@ Publishing generated .md pages:
     $ git add NaszBudżet.md
     $ git commit -m "Updated NaszBudżet.md"
 
-    $  echo "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" | gh auth login --with-token
-    $ git push https://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@github.com/rogowskz/rogowskz.github.io.git
+    $  echo "<GITHUB_PERSONAL_ACCESS_TOKEN>" | gh auth login --with-token
+    $ git push https://<GITHUB_PERSONAL_ACCESS_TOKEN>@github.com/rogowskz/rogowskz.github.io.git
 
 
 TODO: Update 'gh' cli client:
