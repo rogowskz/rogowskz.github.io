@@ -6,12 +6,11 @@ Publishing generated .md pages:
 
     $ cd /media/veracrypt1/zr/timeline/md/rogowskz.github.io
 
-    $ python3 NaszBudżet.py > NaszBudżet.md
-    $ git add NaszBudżet.md
-    $ git commit -m "Updated NaszBudżet.md"
+    $ python3 NaszBudżet.py
+    $ git add NaszBudżet.md NaszBudżet-cpi.md NaszBudżet.yaml NaszBudżet.py 
+    $ git commit -m "Updated NaszBudżet"
 
-    $  echo "<GITHUB_PERSONAL_ACCESS_TOKEN>" | gh auth login --with-token
-    $ git push https://<GITHUB_PERSONAL_ACCESS_TOKEN>@github.com/rogowskz/rogowskz.github.io.git
+    # git push ... to the remote git repository on GitHub (instrukcje są w HasłaLista)
 
 
 TODO: Update 'gh' cli client:
@@ -22,6 +21,8 @@ TODO: Update 'gh' cli client:
 
 import sys
 import os
+from datetime import datetime
+
 import yaml
 
 cwd = os.getcwd()
@@ -108,6 +109,9 @@ def emitAnnotations(dd):
     return f'''\n{"""
 """.join(dd["Annotacje"])}'''
 
+def emitTimestamp():
+    return f'''\n\nUpdated on: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}'''
+
 def formatAnnotatedIntegerValue(x):
     idx = x.index("[")
     head = x[:idx]
@@ -160,6 +164,10 @@ def summarizeGroups(list_of_groups):
             ddd[k] += val
     return ddd
 
+def writeTextToFile(txt, fpath):
+    with open(fpath, 'w') as f:
+        f.write(txt)
+
 def main():
     dd = readYaml(os.path.join(APPHOME, 'NaszBudżet.yaml'))
 
@@ -192,8 +200,10 @@ def main():
     txt += emitGroup(wnreg_total)
     txt += txt_wnreg
     txt += emitAnnotations(dd)
+    txt += emitTimestamp()
 
     print(txt)
+    writeTextToFile(txt, os.path.join(APPHOME, 'NaszBudżet.md'))
 
 if __name__ == "__main__":
     sys.exit(main())
