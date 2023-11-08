@@ -46,10 +46,10 @@ Prywatne[^prywatne] wydatki roczne w CAD **nominalnych**
 | Komuikacja publiczna | 15 | 132 | 895 | 1,111 | 273 | 190 | 200 | 0 | 232 | 0 |
 | Samochody, benzyna | 2,083 | 1,654 | 1,513 | 1,609 | 2,627 | 2,741[^benz2019] | 788[^benz2020] | 1,002[^benz2021] | 1,280[^benz2022] | 0 |
 | Samochody, ubezpieczenie | 1,648 | 1,333 | 1,104 | 960 | 968 | 1,031 | 964 | 798 | 773 | 0 |
-| Samochody, konserwacje | 917 | 1,349 | 157 | 119 | 352 | 281 | 157 | 100 | 158 | 0 |
+| Samochody, konserwacje[^samochodkons] | 917 | 1,349 | 157 | 119 | 352 | 281 | 157 | 100 | 158 | 0 |
 | Samochody, reperacje | 0 | 0 | 759 | 799 | 2,243 | 580 | 1,096 | 2,340 | 1,982 | 0 |
 | Samochody, rejestracja | 196 | 98 | 108 | 120 | 152 | 120 | 120 | 120 | -310[^samrej2022] | 0 |
-| Samochody, inne | 261 | 68 | 84 | 59 | 104 | 300 | 63 | 208 | 266 | 0 |
+| Samochody, inne[^samochodinne] | 261 | 68 | 84 | 59 | 104 | 300 | 63 | 208 | 266 | 0 |
 |      |      |      |      |      |      |      |      |      |      |      |
 | **Telekomunikacja** | **1,676** | **1,206** | **1,292** | **1,183** | **1,225** | **1,262** | **1,829** | **1,081** | **980** | **0** |
 | Telefon stacjonarny | 649 | 435 | 454 | 124 | 101 | 101 | 112 | 112 | 124 | 0 |
@@ -64,12 +64,12 @@ Prywatne[^prywatne] wydatki roczne w CAD **nominalnych**
 |      |      |      |      |      |      |      |      |      |      |      |
 | **Prywatne ubezpieczenia osób** | **735** | **506** | **474** | **0** | **0** | **0** | **0** | **0** | **0** | **0** |
 | Na życie | 735 | 506 | 253 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Medyczne i dentystyczne | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Od kosztów opieki długoterminowej | 0 | 0 | 221 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Medyczne i dentystyczne[^insmeddent] | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Od kosztów opieki długoterminowej[^ltd] | 0 | 0 | 221 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 |      |      |      |      |      |      |      |      |      |      |      |
-| **Prezenty** | **0** | **0** | **0** | **0** | **0** | **0** | **0** | **0** | **0** | **0** |
-| Osobiste | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Donacje charytatywne | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| **Prezenty** | **3,204** | **3,512** | **3,127** | **4,265** | **3,692** | **3,670** | **3,397** | **3,741** | **3,859** | **0** |
+| Osobiste[^prezentyosobiste] | 2,728 | 3,024 | 2,624 | 3,694 | 3,144 | 3,036 | 2,766 | 2,909 | 2,768 | 0 |
+| Donacje charytatywne[^donacje] | 476 | 488 | 503 | 571 | 548 | 634 | 631 | 832 | 1,091 | 0 |
 |      |      |      |      |      |      |      |      |      |      |      |
 | **Podróże** | **0** | **0** | **0** | **0** | **0** | **0** | **0** | **0** | **0** | **0** |
 | Bilety lotnicze do Europy | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
