@@ -203,4 +203,4 @@ Prywatne[^prywatne] wydatki roczne w CAD **nominalnych**
 [^domeny2018]: Odnowienie domen Internetowych na 3 lata.
 [^domeny2021]: Odnowienie domen Internetowych na 9 lat.
 
-Updated on: 2023-11-08 06:38:21
+Updated on: 2023-11-08 07:39:39
