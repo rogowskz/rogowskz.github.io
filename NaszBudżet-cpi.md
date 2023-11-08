@@ -6,7 +6,7 @@ Prywatne[^prywatne] wydatki roczne w CAD **y2023**
 | Rok | 2014 | 2015 | 2016 | 2017 | 2018 | 2019 | 2020 | 2021 | 2022 | 2023 |
 | --- | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: |
 |  |  |  |  |  |  |  |  |  |  |  |  
-| **Wydatki razem** | **54,629** | **44,617** | **51,268** | **58,841** | **70,269** | **57,952** | **37,824** | **70,912** | **47,518** | **46,898** |  
+| **Wydatki razem** | **54,629** | **44,617** | **51,268** | **58,841** | **70,269** | **57,952** | **37,824** | **70,912** | **47,518** | **51,533** |  
 |  |  |  |  |  |  |  |  |  |  |  |  
 | **Wydatki regularne** | **47,868** | **42,307** | **47,627** | **47,429** | **47,481** | **48,484** | **35,744** | **38,975** | **38,127** | **46,898** |  
 |  |  |  |  |  |  |  |  |  |  |  |  
@@ -96,34 +96,34 @@ Prywatne[^prywatne] wydatki roczne w CAD **y2023**
 | Opłaty i długi "karciane[^karciane]" | 0 | 53 | 36 | 62 | 65 | 0 | 0 | 0 | 0 | 0 |  
 | Odsetki inne | 0 | 68 | 49 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |  
 |  |  |  |  |  |  |  |  |  |  |  |  
-| **Wydatki duże i nieregularne[^dniereg]** | **6,762** | **2,310** | **3,640** | **11,413** | **22,788** | **9,469** | **2,080** | **31,937** | **9,391** | **0** |  
+| **Wydatki duże i nieregularne[^dniereg]** | **6,762** | **2,310** | **3,640** | **11,413** | **22,788** | **9,469** | **2,080** | **31,937** | **9,391** | **4,635** |  
 |  |  |  |  |  |  |  |  |  |  |  |  
 | **Wydatki gospodarcze** | **0** | **0** | **0** | **898** | **2,446** | **717** | **493** | **0** | **700** | **0** |  
-| Gospodarcze | 0 | 0 | 0 | 898[^gosp2017] | 2,446[^gosp2018] | 717[^gosp2019] | 493[^gosp2020] | 0 | 700[^gosp2022] | 0 |  
+| Gospodarcze | 0 | 0 | 0 | 898[^gosp2017] | 2,446[^gosp2018] | 717[^gosp2019] | 493[^gosp2020] | 0 | 700[^gosp2022] | 0[^upate] |  
 |  |  |  |  |  |  |  |  |  |  |  |  
-| **Mieszkanie główne, posiadanie** | **2,129** | **0** | **3,640** | **0** | **17,402** | **5,470** | **1,392** | **31,066** | **7,995** | **0** |  
-| Renowacje | 2,129 | 0 | 3,640 | 0 | 17,402[^reno2018] | 5,470[^reno2019] | 1,392[^reno2020] | 31,066[^reno2021] | 7,995[^reno2022] | 0 |  
+| **Mieszkanie główne, posiadanie** | **2,129** | **0** | **3,640** | **0** | **17,402** | **5,470** | **1,392** | **31,066** | **7,995** | **2,988** |  
+| Renowacje | 2,129 | 0 | 3,640 | 0 | 17,402[^reno2018] | 5,470[^reno2019] | 1,392[^reno2020] | 31,066[^reno2021] | 7,995[^reno2022] | 2,988 |  
 |  |  |  |  |  |  |  |  |  |  |  |  
 | **Mieszkanie główne, używanie** | **3,197** | **0** | **0** | **4,227** | **0** | **1,723** | **0** | **0** | **0** | **0** |  
 | Meble, wyposażenie | 0 | 0 | 0 | 2,445[^meble2017] | 0 | 0 | 0 | 0 | 0 | 0 |  
 | Ogród | 3,197 | 0 | 0 | 1,233[^ogrod2017] | 0 | 1,299[^ogrod2019] | 0 | 0 | 0 | 0 |  
-| Konserwacje | 0 | 0 | 0 | 548[^domkons2017] | 0 | 424[^domkons2019] | 0 | 0 | 0 | 0 |  
+| Konserwacje | 0 | 0 | 0 | 548[^domkons2017] | 0 | 424[^domkons2019] | 0 | 0 | 0 | 0[^update] |  
 |  |  |  |  |  |  |  |  |  |  |  |  
 | **Transport** | **0** | **0** | **0** | **0** | **0** | **0** | **0** | **0** | **0** | **0** |  
 | Samochody, kupno[^samkupno] | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |  
 |  |  |  |  |  |  |  |  |  |  |  |  
 | **Telekomunikacja** | **274** | **271** | **0** | **272** | **0** | **195** | **195** | **0** | **230** | **0** |  
-| Komórki, sprzęt | 274 | 271 | 0 | 272[^komsp2017] | 0 | 195[^komsp2019] | 195[^komsp2020] | 0 | 230[^komsp2022] | 0 |  
+| Komórki, sprzęt | 274 | 271 | 0 | 272[^komsp2017] | 0 | 195[^komsp2019] | 195[^komsp2020] | 0 | 230[^komsp2022] | 0[^update] |  
 |  |  |  |  |  |  |  |  |  |  |  |  
 | **Zdrowie** | **0** | **0** | **0** | **5,532** | **2,297** | **975** | **0** | **0** | **0** | **0** |  
-| Dentysta | 0 | 0 | 0 | 5,159[^dentd2017] | 2,297[^dentd2018] | 0 | 0 | 0 | 0 | 0 |  
-| Zabiegi i badania | 0 | 0 | 0 | 373 | 0 | 0 | 0 | 0 | 0 | 0 |  
-| Inne | 0 | 0 | 0 | 0 | 0 | 975[^lekinne2019] | 0 | 0 | 0 | 0 |  
+| Dentysta | 0 | 0 | 0 | 5,159[^dentd2017] | 2,297[^dentd2018] | 0 | 0 | 0 | 0 | 0[^update] |  
+| Zabiegi i badania | 0 | 0 | 0 | 373 | 0 | 0 | 0 | 0 | 0 | 0[^update] |  
+| Inne | 0 | 0 | 0 | 0 | 0 | 975[^lekinne2019] | 0 | 0 | 0 | 0[^update] |  
 |  |  |  |  |  |  |  |  |  |  |  |  
-| **Inne** | **1,161** | **2,039** | **0** | **484** | **643** | **389** | **0** | **871** | **466** | **0** |  
-| Komputery, sprzęt | 694 | 0 | 0 | 484[^kompsp2017] | 0 | 389[^kompsp2019] | 0 | 279[^kompsp2021] | 466[^kompsp2022] | 0 |  
+| **Inne** | **1,161** | **2,039** | **0** | **484** | **643** | **389** | **0** | **871** | **466** | **1,647** |  
+| Komputery, sprzęt | 694 | 0 | 0 | 484[^kompsp2017] | 0 | 389[^kompsp2019] | 0 | 279[^kompsp2021] | 466[^kompsp2022] | 0[^update] |  
 | Domeny Internetowe | 0 | 307[^domeny2015] | 0 | 0 | 267[^domeny2018] | 0 | 0 | 592[^domeny2021] | 0 | 0 |  
-| Inne | 467[^inin2014] | 1,733[^inin2015] | 0 | 0 | 376[^inin2018] | 0 | 0 | 0 | 0 | 0 |  
+| Inne | 467[^inin2014] | 1,733[^inin2015] | 0 | 0 | 376[^inin2018] | 0 | 0 | 0 | 0 | 1,647[^update] |  
 
 [^prywatne]: W zakres wydatków prywatnych nie wchodzą między innymi: 1) Koszty posiadania biznesów i ich koszty operacyjne (na przykład: koszty podatkowe i eksploatacyjne nieruchomości posiadanych a wynajmowanych w formie biznesu). 2) Odsetki od  kredytów stanowiących lewar inwestycyjny. 3) Wybrane znaczniejsze darowizny poczynione za życia na rzecz ustawowych spadkobierców (czyli: "zarządzanie spadkiem za życia").
 [^cpi]: CPI w dniu 1 lipca każdego roku.
@@ -203,4 +203,4 @@ Prywatne[^prywatne] wydatki roczne w CAD **y2023**
 [^domeny2021]: Odnowienie domen Internetowych na 9 lat.
 [^update]: Uaktualnić po koncu roku.
 
-Updated on: 2023-11-08 09:43:57
+Updated on: 2023-11-08 09:54:54

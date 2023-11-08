@@ -7,7 +7,7 @@ Prywatne[^prywatne] wydatki roczne w CAD **nominalnych**
 | --- | --:  | --:  | --:  | --:  | --:  | --:  | --:  | --:  | --:  | --:  |
 | [CPI](https://www.bankofcanada.ca/rates/price-indexes/cpi/)[^cpi] | 125.7 | 127.3 | 128.9 | 130.4 | 134.4 | 137.0 | 137.2 | 142.3 | 153.1 | 158.1 |
 |      |      |      |      |      |      |      |      |      |      |      |
-| **Wydatki razem** | **43,434** | **35,925** | **41,799** | **48,532** | **59,735** | **50,218** | **32,824** | **63,825** | **46,015** | **46,898** |
+| **Wydatki razem** | **43,434** | **35,925** | **41,799** | **48,532** | **59,735** | **50,218** | **32,824** | **63,825** | **46,015** | **51,533** |
 |      |      |      |      |      |      |      |      |      |      |      |
 | **Wydatki regularne** | **38,058** | **34,065** | **38,831** | **39,119** | **40,363** | **42,013** | **31,019** | **35,080** | **36,921** | **46,898** |
 |      |      |      |      |      |      |      |      |      |      |      |
@@ -97,34 +97,34 @@ Prywatne[^prywatne] wydatki roczne w CAD **nominalnych**
 | Opłaty i długi "karciane[^karciane]" | 0 | 43 | 29 | 51 | 55 | 0 | 0 | 0 | 0 | 0 |
 | Odsetki inne | 0 | 55 | 40 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 |      |      |      |      |      |      |      |      |      |      |      |
-| **Wydatki duże i nieregularne[^dniereg]** | **5,376** | **1,860** | **2,968** | **9,413** | **19,372** | **8,205** | **1,805** | **28,745** | **9,094** | **0** |
+| **Wydatki duże i nieregularne[^dniereg]** | **5,376** | **1,860** | **2,968** | **9,413** | **19,372** | **8,205** | **1,805** | **28,745** | **9,094** | **4,635** |
 |      |      |      |      |      |      |      |      |      |      |      |
 | **Wydatki gospodarcze** | **0** | **0** | **0** | **741** | **2,079** | **621** | **428** | **0** | **678** | **0** |
-| Gospodarcze | 0 | 0 | 0 | 741[^gosp2017] | 2,079[^gosp2018] | 621[^gosp2019] | 428[^gosp2020] | 0 | 678[^gosp2022] | 0 |
+| Gospodarcze | 0 | 0 | 0 | 741[^gosp2017] | 2,079[^gosp2018] | 621[^gosp2019] | 428[^gosp2020] | 0 | 678[^gosp2022] | 0[^upate] |
 |      |      |      |      |      |      |      |      |      |      |      |
-| **Mieszkanie główne, posiadanie** | **1,693** | **0** | **2,968** | **0** | **14,793** | **4,740** | **1,208** | **27,961** | **7,742** | **0** |
-|  Renowacje | 1,693 | 0 | 2,968 | 0 | 14,793[^reno2018] | 4,740[^reno2019] | 1,208[^reno2020] | 27,961[^reno2021] | 7,742[^reno2022] | 0 |
+| **Mieszkanie główne, posiadanie** | **1,693** | **0** | **2,968** | **0** | **14,793** | **4,740** | **1,208** | **27,961** | **7,742** | **2,988** |
+|  Renowacje | 1,693 | 0 | 2,968 | 0 | 14,793[^reno2018] | 4,740[^reno2019] | 1,208[^reno2020] | 27,961[^reno2021] | 7,742[^reno2022] | 2,988 |
 |      |      |      |      |      |      |      |      |      |      |      |
 | **Mieszkanie główne, używanie** | **2,542** | **0** | **0** | **3,486** | **0** | **1,493** | **0** | **0** | **0** | **0** |
 | Meble, wyposażenie | 0 | 0 | 0 | 2,017[^meble2017] | 0 | 0 | 0 | 0 | 0 | 0 |
 | Ogród | 2,542 | 0 | 0 | 1,017[^ogrod2017] | 0 | 1,126[^ogrod2019] | 0 | 0 | 0 | 0 |
-| Konserwacje | 0 | 0 | 0 | 452[^domkons2017] | 0 | 367[^domkons2019] | 0 | 0 | 0 | 0 |
+| Konserwacje | 0 | 0 | 0 | 452[^domkons2017] | 0 | 367[^domkons2019] | 0 | 0 | 0 | 0[^update] |
 |      |      |      |      |      |      |      |      |      |      |      |
 | **Transport** | **0** | **0** | **0** | **0** | **0** | **0** | **0** | **0** | **0** | **0** |
 | Samochody, kupno[^samkupno] | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 |      |      |      |      |      |      |      |      |      |      |      |
 | **Telekomunikacja** | **218** | **218** | **0** | **224** | **0** | **169** | **169** | **0** | **223** | **0** |
-| Komórki, sprzęt | 218 | 218 | 0 | 224[^komsp2017] | 0 | 169[^komsp2019] | 169[^komsp2020] | 0 | 223[^komsp2022] | 0 |
+| Komórki, sprzęt | 218 | 218 | 0 | 224[^komsp2017] | 0 | 169[^komsp2019] | 169[^komsp2020] | 0 | 223[^komsp2022] | 0[^update] |
 |      |      |      |      |      |      |      |      |      |      |      |
 | **Zdrowie** | **0** | **0** | **0** | **4,563** | **1,953** | **845** | **0** | **0** | **0** | **0** |
-| Dentysta | 0 | 0 | 0 | 4,255[^dentd2017] | 1,953[^dentd2018] | 0 | 0 | 0 | 0 | 0 |
-| Zabiegi i badania | 0 | 0 | 0 | 308 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Inne | 0 | 0 | 0 | 0 | 0 | 845[^lekinne2019] | 0 | 0 | 0 | 0 |
+| Dentysta | 0 | 0 | 0 | 4,255[^dentd2017] | 1,953[^dentd2018] | 0 | 0 | 0 | 0 | 0[^update] |
+| Zabiegi i badania | 0 | 0 | 0 | 308 | 0 | 0 | 0 | 0 | 0 | 0[^update] |
+| Inne | 0 | 0 | 0 | 0 | 0 | 845[^lekinne2019] | 0 | 0 | 0 | 0[^update] |
 |      |      |      |      |      |      |      |      |      |      |      |
-| **Inne** | **923** | **1,642** | **0** | **399** | **547** | **337** | **0** | **784** | **451** | **0** |
-| Komputery, sprzęt | 552 | 0 | 0 | 399[^kompsp2017] | 0 | 337[^kompsp2019] | 0 | 251[^kompsp2021] | 451[^kompsp2022] | 0 |
+| **Inne** | **923** | **1,642** | **0** | **399** | **547** | **337** | **0** | **784** | **451** | **1,647** |
+| Komputery, sprzęt | 552 | 0 | 0 | 399[^kompsp2017] | 0 | 337[^kompsp2019] | 0 | 251[^kompsp2021] | 451[^kompsp2022] | 0[^update] |
 | Domeny Internetowe | 0 | 247[^domeny2015] | 0 | 0 | 227[^domeny2018] | 0 | 0 | 533[^domeny2021] | 0 | 0 |
-| Inne | 371[^inin2014] | 1,395[^inin2015] | 0 | 0 | 320[^inin2018] | 0 | 0 | 0 | 0 | 0 |
+| Inne | 371[^inin2014] | 1,395[^inin2015] | 0 | 0 | 320[^inin2018] | 0 | 0 | 0 | 0 | 1,647[^update] |
 
 [^prywatne]: W zakres wydatków prywatnych nie wchodzą między innymi: 1) Koszty posiadania biznesów i ich koszty operacyjne (na przykład: koszty podatkowe i eksploatacyjne nieruchomości posiadanych a wynajmowanych w formie biznesu). 2) Odsetki od  kredytów stanowiących lewar inwestycyjny. 3) Wybrane znaczniejsze darowizny poczynione za życia na rzecz ustawowych spadkobierców (czyli: "zarządzanie spadkiem za życia").
 [^cpi]: CPI w dniu 1 lipca każdego roku.
@@ -204,4 +204,4 @@ Prywatne[^prywatne] wydatki roczne w CAD **nominalnych**
 [^domeny2021]: Odnowienie domen Internetowych na 9 lat.
 [^update]: Uaktualnić po koncu roku.
 
-Updated on: 2023-11-08 09:43:57
+Updated on: 2023-11-08 09:54:54
