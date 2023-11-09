@@ -233,9 +233,11 @@ def generateTableLinesWithAverages(table_rows):
     # 'table_rows' is a list of lists of table columns
     #
     table_lines = []
-    del table_rows[0][2:5]
+    #
+    del table_rows[0][2:5] # drop the first 3 years columns to make room for 3 added summary columns.
     table_lines.append(    f'''{" | ".join(table_rows[0]).strip()} 3YAVG | 5YAVG | 10YAVG |'''    )
-    del table_rows[1][2:5]
+    #
+    del table_rows[1][2:5] # drop the first 3 years columns to make room for 3 added summary columns.
     table_lines.append(    f'''{" | ".join(table_rows[1]).strip()} ---:  | ---:  | ---:   |'''    )
     #
     for cols in table_rows[2:]:
