@@ -31,7 +31,7 @@ cwd = os.getcwd()
 APPHOME, _ = os.path.split(sys.argv[0])
 APPHOME = os.path.abspath(APPHOME)
 
-REGEXP_NUMBER = re.compile(r'^(\*\*)?([0-9,]+)(\[\^.+\])?(\*\*)?$')
+REGEXP_NUMBER = re.compile(r'^(\*\*)?(-?[0-9,]+)(\[\^.+\])?(\*\*)?$')
 
 def readYaml(fpath):
     with open(fpath) as f:
@@ -231,14 +231,45 @@ def generateCipAdjustedTableLines(table_rows, cpi_mul):
 
 def generateTableLinesWithAverages(table_rows):
     # 'table_rows' is a list of lists of table columns
+    #
     table_lines = []
-    table_lines.append(    f'''{" | ".join(table_rows[0]).strip()}'''    )
-    table_lines.append(    f'''{" | ".join(table_rows[1]).strip()}'''    )
+    del table_rows[0][2:5]
+    table_lines.append(    f'''{" | ".join(table_rows[0]).strip()} 3YAVG | 5YAVG | 10YAVG |'''    )
+    del table_rows[1][2:5]
+    table_lines.append(    f'''{" | ".join(table_rows[1]).strip()} ---:  | ---:  | ---:   |'''    )
     #
     for cols in table_rows[2:]:
-        ll = cols[2:-1]
-        ll = cols[:2] + ll + cols[-1:]
+        vals = []
+        if cols[1].strip():
+            # Not empty row (row name found in the first column).
+            vals = cols[2:-1]
+            for i in range(len(vals)):
+                w = vals[i]
+                mo = re.match(REGEXP_NUMBER, w)
+                if mo:
+                    snum = mo.group(2)
+                    snum = snum.replace(',','') # Remove group separators, if any.
+                    num = Decimal(snum)
+                    vals[i] = num
+                else:
+                    pass # w is Not a number.
+            if len(vals) == 10:
+                # 10 numerical values are expected in each not empty table row. 
+                y10avg = f'''{int(sum(vals) / Decimal(10)):,}'''
+                y5avg = f'''{int(sum(vals[-5:]) / Decimal(5)):,}'''
+                y3avg = f'''{int(sum(vals[-3:]) / Decimal(3)):,}'''
+            else:
+                raise "Dupa blada!"
+        else:
+            # Empty row.
+            y10avg = ""
+            y5avg = ""
+            y3avg = ""
+
+        ll = cols[2+3:-1] # drop the first 3 years columns to make room for 3 added summary columns.
+        ll = cols[:2] + ll + [y3avg, y5avg, y10avg ] + cols[-1:]
         ll = [f' {x} ' for x in ll]
+
         table_lines.append(    f'''{"|".join(ll).lstrip()}'''    )
     return table_lines
 

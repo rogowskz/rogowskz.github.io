@@ -33,14 +33,14 @@ Prywatne[^prywatne] wydatki roczne w CAD **y2023**
 | Konserwacje | 0 | 544 | 7 | 701 | 548 | 286 | 529 | 130 | 324 | 320[^update] |  
 |  |  |  |  |  |  |  |  |  |  |  |  
 | **Mieszkanie inne, posiadanie** | **0** | **0** | **0** | **0[^minn2017]** | **292[^minn2018]** | **772** | **232** | **379** | **374** | **18** |  
-| Podatek od własności | 0 | 0 | 0 | 0 | 114 | 315 | -137[^minpod2020] | 18 | 31[^minpod2022] | 18 |  
+| Podatek od własności | 0 | 0 | 0 | 0 | 114 | 315 | -158[^minpod2020] | 18 | 31[^minpod2022] | 18 |  
 | Ubezpieczenie | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |  
 | Opłaty wspólnotowe, remontowe | 0 | 0 | 0 | 0 | 178[^minreno2018] | 457[^minreno2019] | 389[^minreno2020] | 361[^minreno2021] | 343[^minreno2022] | 0[^update] |  
 |  |  |  |  |  |  |  |  |  |  |  |  
 | **Mieszkanie inne, używanie** | **0** | **0** | **0** | **0** | **1,087** | **2,621** | **1,904** | **1,373** | **2,193** | **3,914** |  
 | Gaz | 0 | 0 | 0 | 0 | 35 | 21 | 36 | 46 | 33 | 41[^update] |  
 | Prąd | 0 | 0 | 0 | 0 | 98 | 157 | 62 | 63 | 61 | 65 |  
-| Woda, rozliczenie | 0 | 0 | 0 | 0 | 64 | 0 | -32 | 7 | 0 | 0[^update] |  
+| Woda, rozliczenie | 0 | 0 | 0 | 0 | 64 | 0 | -37 | 7 | 0 | 0[^update] |  
 | Internet | 0 | 0 | 0 | 0 | 144 | 407 | 166 | 0 | 0 | 0 |  
 | Opłaty wspólnotowe, eksploatacyjne | 0 | 0 | 0 | 0 | 495 | 1,273 | 1,557 | 1,228 | 1,517 | 2,521[^update] |  
 | Meble, wyposażenie | 0 | 0 | 0 | 0 | 138 | 610 | 120 | 0 | 187 | 1,287 |  
@@ -52,7 +52,7 @@ Prywatne[^prywatne] wydatki roczne w CAD **y2023**
 | Samochody, ubezpieczenie | 2,073 | 1,656 | 1,354 | 1,164 | 1,139 | 1,190 | 1,111 | 887 | 798 | 816 |  
 | Samochody, konserwacje[^samochodkons] | 1,153 | 1,675 | 193 | 144 | 414 | 324 | 181 | 111 | 163 | 198[^update] |  
 | Samochody, reperacje | 0 | 0 | 931 | 969 | 2,639 | 669 | 1,263 | 2,600 | 2,047 | 0[^update] |  
-| Samochody, rejestracja | 247 | 122 | 132 | 145 | 179 | 138 | 138 | 133 | -310[^samrej2022] | 0[^update] |  
+| Samochody, rejestracja | 247 | 122 | 132 | 145 | 179 | 138 | 138 | 133 | -320[^samrej2022] | 0[^update] |  
 | Samochody, inne[^samochodinne] | 328 | 84 | 103 | 72 | 122 | 346 | 73 | 231 | 275 | 229[^update] |  
 |  |  |  |  |  |  |  |  |  |  |  |  
 | **Telekomunikacja** | **2,108** | **1,498** | **1,585** | **1,434** | **1,441** | **1,456** | **2,108** | **1,201** | **1,012** | **1,075** |  
@@ -204,4 +204,4 @@ Prywatne[^prywatne] wydatki roczne w CAD **y2023**
 [^domeny2021]: Odnowienie domen Internetowych na 9 lat.
 [^update]: Uaktualnić po koncu roku.
 
-Updated on: 2023-11-08 18:39:36
+Updated on: 2023-11-08 20:41:29
