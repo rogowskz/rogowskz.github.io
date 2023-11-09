@@ -5,6 +5,7 @@
 - "Which Side of History?  How Technology Is Reshaping Democracy and Our Lives" / Jaron Lanier, 2020 / ??
 - "Breath, The New Science of a Los Art" / James Nestor, 2020 / ??
 - 
++ "Think Like a Monk" / Jay Shetty / ??
 + "You Are Not A Gadget A Manifesto" / Jaron Lanier, 2010 / 3+
 + "Four Thousand Weeks, Time Management for Mortals" / Oliver Burkeman, 2012 / 5
 + "Ten Arguments for Deleting your Social Media Accounts Right Now" / Jaron Lanier, 2018 / 5+
