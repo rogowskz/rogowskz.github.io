@@ -7,7 +7,7 @@ Publishing generated .md pages:
     $ cd /media/veracrypt1/zr/timeline/md/rogowskz.github.io
 
     $ python3 NaszBudżet.py
-    $ git add NaszBudżet.md NaszBudżet-cpi.md NaszBudżet.yaml NaszBudżet.py 
+    $ git add NaszBudżet.md NaszBudżet-cpi.md NaszBudżet-cpi-avg.md NaszBudżet.yaml NaszBudżet.py 
     $ git commit -m "Updated NaszBudżet"
 
     # git push ... to the remote git repository on GitHub (instrukcje są w HasłaLista)
