@@ -42,7 +42,7 @@ def emitDocHeader():
     return f'''# Nasz budżet
 
 Prywatne[^prywatne] wydatki roczne w CAD **nominalnych**    
-([see inflation adjusted version](NaszBudżet-cpi))
+([zobacz wersję wyrównaną do inflacji](NaszBudżet-cpi))
 '''
 
 def emitEmptyTableRow(nn):
@@ -282,7 +282,7 @@ def generateCpiAdjusted(txt):
     #
     table_lines_cpi_adjusted = generateCipAdjustedTableLines(table_rows, cpi_mul)
     #
-    head_rows[0] += " (inflation adjusted)"
+    head_rows[0] += " (wyrównany do inflacji)"
     head_rows[2] = head_rows[2].replace(" CAD **nominalnych**", f" CAD **y{getLastYear(table_rows)}**    ")
     head_rows[3] = "([see nominal version](NaszBudżet))    "
     head_rows.insert(3, "([see version with averages](NaszBudżet-cpi-avg))    ")
@@ -295,9 +295,9 @@ def generateWithAverages(txt):
     #
     table_lines = generateTableLinesWithAverages(table_rows)
     #
-    head_rows[0] = head_rows[0].replace("(inflation adjusted)", "(inflation adjusted, with averages)")
+    head_rows[0] = head_rows[0].replace("(wyrównany do inflacji)", "(wyrównany do inflacji, z wartościami średnimi wieloletnimi)")
     head_rows[2] += "    " # Markdown 'linebreak'
-    head_rows[3] = "([see inflation adjusted version](NaszBudżet-cpi))    "
+    head_rows[3] = "([zobacz wersję wyrównaną do inflacji](NaszBudżet-cpi))    "
     ll = head_rows + table_lines + tail_rows
     return "\n".join(ll)
 
