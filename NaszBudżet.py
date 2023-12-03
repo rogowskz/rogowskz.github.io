@@ -284,8 +284,8 @@ def generateCpiAdjusted(txt):
     #
     head_rows[0] += " (wyrównany do inflacji)"
     head_rows[2] = head_rows[2].replace(" CAD **nominalnych**", f" CAD **y{getLastYear(table_rows)}**    ")
-    head_rows[3] = "([see nominal version](NaszBudżet))    "
-    head_rows.insert(3, "([see version with averages](NaszBudżet-cpi-avg))    ")
+    head_rows[3] = "([zobacz wersję w wartościach nominalnych](NaszBudżet))    "
+    head_rows.insert(3, "([zobacz wersję z wartościami średnimi wieloletnimi](NaszBudżet-cpi-avg))    ")
     ll = head_rows + table_lines_cpi_adjusted + tail_rows
     return "\n".join(ll)
 
