@@ -338,22 +338,27 @@ def main():
 
     wreg_total, txt_wreg = processSupergroup("Wydatki regularne", dd_data, yrs)
 
-    zdrowie_total, txt_zdrowie = processSupergroup("Zdrowie", dd_data, yrs)
+    wzdr_total, txt_wzdr = processSupergroup("Zdrowie", dd_data, yrs)
 
     wnreg_total, txt_wnreg = processSupergroup("Wydatki duże i nieregularne[^dniereg]", dd_data, yrs)
 
-    wrazem = [["Wydatki razem", summarizeGroups([wreg_total, zdrowie_total, wnreg_total])]]
+    wrazem = [["Wydatki razem", summarizeGroups([wreg_total, wzdr_total, wnreg_total])]]
 
     txt = ""
     txt += emitDocHeader()
     txt += emitTableHeader(yrs, dd_data)
+
     txt += emitGroup(wrazem)
+
     txt += emitGroup(wreg_total)
     txt += txt_wreg
-    txt += emitGroup(zdrowie_total)
-    txt += txt_zdrowie
+
+    txt += emitGroup(wzdr_total)
+    txt += txt_wzdr
+
     txt += emitGroup(wnreg_total)
     txt += txt_wnreg
+
     txt += emitAnnotations(dd_data)
     txt += emitTimestamp()
 

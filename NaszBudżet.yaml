@@ -88,17 +88,10 @@ Wydatki regularne:
       - [ "Komputery, software[^software]", { 2023: 57, 2022: 66, 2021: 34, 2020: 28, 2019: 34, 2018: 28, 2017: 96, 2016: 96, 2015: 76, 2014: 112, }]
       - [ "Inne[^inneinne]", { 2023: "1237[^update]", 2022: 597, 2021: 325, 2020: 478, 2019: 760, 2018: 769, 2017: 1921, 2016: 871, 2015: 898, 2014: 1352, }]
 
-"Zdrowie":
+Zdrowie:
 
     - - [ "Zdrowie", ]
-      - [ "Lekarstwa na receptę, netto", { 2023: "50[^update]", 2022: 292, 2021: 68, 2020: 47, 2019: 153, 2018: 188, 2017: 244, 2016: 282, 2015: 280, 2014: 363, }]
-      - [ "Lekarstwa bez recept", { 2023: "50[^update]", 2022: 71, 2021: 221, 2020: 0, 2019: 85, 2018: 10, 2017: 45, 2016: 0, 2015: 0, 2014: 0, }]
-      - [ "Zabiegi i badania, netto", { 2023: "50[^update]", 2022: "83[^zab2022]", 2021: 0, 2020: 0, 2019: 87, 2018: 0, 2017: 0, 2016: 0, 2015: 0, 2014: 103, }]
-      - [ "Dentysta okresowy, netto", { 2023: "520[^update]", 2022: "413[^dent2022]", 2021: "570[^dent2021]", 2020: "356[^dent2020]", 2019: "329[^dent2019]", 2018: "357[^dent2018]", 2017: "777[^dent2017]", 2016: 886, 2015: 1576, 2014: 2535, }]
-
-    - - [ "Prywatne ubezpieczenia osób", ]
-      - [ "Na życie", { 2023: "309[^update]", 2022: 0, 2021: 0, 2020: 0, 2019: 0, 2018: 0, 2017: 0, 2016: 253, 2015: 506, 2014: 735, }]
-      - [ "Medyczne i dentystyczne[^insmeddent]", { 2023: "1010[^update]", 2022: 0, 2021: 0, 2020: 0, 2019: 0, 2018: 0, 2017: 0, 2016: 0, 2015: 0, 2014: 0, }]
+      - [ "Zdrowie[^zdrowie]", { 2023: "2739[^update]", 2022: 859, 2021: 859, 2020: 403, 2019: 1499, 2018: 2508, 2017: 5629, 2016: 1168, 2015: 1856, 2014: 3001, }]
 
 "Wydatki duże i nieregularne[^dniereg]":
 
@@ -122,11 +115,6 @@ Wydatki regularne:
 
     - - [ "Telekomunikacja", ]
       - [ "Komórki, sprzęt", { 2023: "0[^update]", 2022: "223[^komsp2022]", 2021: 0, 2020: "169[^komsp2020]", 2019: "169[^komsp2019]", 2018: 0, 2017: "224[^komsp2017]", 2016: 0, 2015: 218, 2014: 218, }]
-
-    - - [ "Zdrowie", ]
-      - [ "Dentysta", { 2023: "0[^update]", 2022: 0, 2021: 0, 2020: 0, 2019: 0, 2018: "1953[^dentd2018]", 2017: "4255[^dentd2017]", 2016: 0, 2015: 0, 2014: 0, }]
-      - [ "Zabiegi i badania", { 2023: "0[^update]", 2022: 0, 2021: 0, 2020: 0, 2019: 0, 2018: 0, 2017: 308, 2016: 0, 2015: 0, 2014: 0, }]
-      - [ "Inne", { 2023: "0[^update]", 2022: 0, 2021: 0, 2020: 0, 2019: "845[^lekinne2019]", 2018: 0, 2017: 0, 2016: 0, 2015: 0, 2014: 0, }] 
 
     - - [ "Inne", ]
       - [ "Komputery, sprzęt", { 2023: "0[^update]", 2022: "451[^kompsp2022]", 2021: "251[^kompsp2021]", 2020: 0, 2019: "337[^kompsp2019]", 2018: 0, 2017: "399[^kompsp2017]", 2016: 0, 2015: 0, 2014: 552, }]
@@ -186,16 +174,6 @@ Annotacje:
 - '[^inin2018]: Odnowienie dwóch paszportów Kanadyjskich na 10 lat: $320'
 - '[^inin2015]: LinkedIn Job Seeker subscription: $300 , Zwrot kosztów naprawy stłuczki innemu kierowcy: $1,095'
 - '[^inin2014]: LinkedIn Job Seeker subscription: $371'
-- '[^dent2018]: $1,602 brutto minus $1,245 zwroty ubezpieczeniowe.'
-- '[^dent2019]: $1,429 brutto minus $1,100 zwroty ubezpieczeniowe.'
-- '[^dent2020]: $1,989 brutto minus $1,633 zwroty ubezpieczeniowe.'
-- '[^dent2021]: $1,771 brutto minus $1,201 zwroty ubezpieczeniowe.'
-- '[^dent2022]: $2,463 brutto minus $2,050 zwroty ubezpieczeniowe.'
-- '[^zab2022]: $745 brutto minus $662 zwroty ubezpieczeniowe.'
-- '[^dentd2018]: Implant: $1,953'
-- '[^dent2017]: $2,911 brutto minus $2,134 zwroty ubezpieczeniowe.'
-- '[^dentd2017]: Implant: $4,255'
-- '[^lekinne2019]: Badanie wzroku i nowe okulary.'
 - '[^prezentyosobiste]: Urodzinowe, świąteczne, okolicznościowe, itp.. bez okazji :)'
 - '[^donacje]: Plan Canada, Ottawa Humane Society, WOŚP, fundacje, ...'
 - '[^podrinne]: Dojazdy na miejscu, noclegi, wynajęcie samochodów i benzyna, mapy, przewodniki, itp...'
@@ -211,5 +189,6 @@ Annotacje:
 - '[^domeny2015]: Odnowienie domen Internetowych na 3 lata.'
 - '[^domeny2018]: Odnowienie domen Internetowych na 3 lata.'
 - '[^domeny2021]: Odnowienie domen Internetowych na 9 lat.'
+- '[^zdrowie]: Bilans wydatków, składek ubezpieczeniowych i zwrotów ubezpieczeniowych, zdrowotnych i dentystycznych.'
 - '[^update]: Uaktualnić po koncu roku.'
 

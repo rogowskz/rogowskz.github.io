@@ -7,7 +7,7 @@ Prywatne[^prywatne] wydatki roczne w CAD **nominalnych**
 | ---- | ---:  | ---:  | ---:  | ---:  | ---:  | ---:  | ---:  | ---:  | ---:  | ---:  |
 | [CPI](https://www.bankofcanada.ca/rates/price-indexes/cpi/)[^cpi] | 125.7 | 127.3 | 128.9 | 130.4 | 134.4 | 137.0 | 137.2 | 142.3 | 153.1 | 158.1 |
 |      |      |      |      |      |      |      |      |      |      |      |
-| **Wydatki razem** | **43,434** | **35,827** | **41,509** | **48,481** | **59,680** | **50,218** | **32,824** | **63,825** | **46,015** | **52,129** |
+| **Wydatki razem** | **42,699** | **35,321** | **41,256** | **48,481** | **59,680** | **50,218** | **32,824** | **63,825** | **46,015** | **52,879** |
 |      |      |      |      |      |      |      |      |      |      |      |
 | **Wydatki regularne** | **31,886** | **28,572** | **31,596** | **35,518** | **34,136** | **36,918** | **30,430** | **32,384** | **33,985** | **35,114** |
 |      |      |      |      |      |      |      |      |      |      |      |
@@ -78,19 +78,12 @@ Prywatne[^prywatne] wydatki roczne w CAD **nominalnych**
 | Komputery, software[^software] | 112 | 76 | 96 | 96 | 28 | 34 | 28 | 34 | 66 | 57 |
 | Inne[^inneinne] | 1,352 | 898 | 871 | 1,921 | 769 | 760 | 478 | 325 | 597 | 1,237[^update] |
 |      |      |      |      |      |      |      |      |      |      |      |
-| **Zdrowie** | **3,736** | **2,362** | **1,421** | **1,066** | **555** | **654** | **403** | **859** | **859** | **1,989** |
+| **Zdrowie** | **3,001** | **1,856** | **1,168** | **5,629** | **2,508** | **1,499** | **403** | **859** | **859** | **2,739** |
 |      |      |      |      |      |      |      |      |      |      |      |
-| **Zdrowie** | **3,001** | **1,856** | **1,168** | **1,066** | **555** | **654** | **403** | **859** | **859** | **670** |
-| Lekarstwa na receptę, netto | 363 | 280 | 282 | 244 | 188 | 153 | 47 | 68 | 292 | 50[^update] |
-| Lekarstwa bez recept | 0 | 0 | 0 | 45 | 10 | 85 | 0 | 221 | 71 | 50[^update] |
-| Zabiegi i badania, netto | 103 | 0 | 0 | 0 | 0 | 87 | 0 | 0 | 83[^zab2022] | 50[^update] |
-| Dentysta okresowy, netto | 2,535 | 1,576 | 886 | 777[^dent2017] | 357[^dent2018] | 329[^dent2019] | 356[^dent2020] | 570[^dent2021] | 413[^dent2022] | 520[^update] |
+| **Zdrowie** | **3,001** | **1,856** | **1,168** | **5,629** | **2,508** | **1,499** | **403** | **859** | **859** | **2,739** |
+| Zdrowie[^zdrowie] | 3,001 | 1,856 | 1,168 | 5,629 | 2,508 | 1,499 | 403 | 859 | 859 | 2,739[^update] |
 |      |      |      |      |      |      |      |      |      |      |      |
-| **Prywatne ubezpieczenia osób** | **735** | **506** | **253** | **0** | **0** | **0** | **0** | **0** | **0** | **1,319** |
-| Na życie | 735 | 506 | 253 | 0 | 0 | 0 | 0 | 0 | 0 | 309[^update] |
-| Medyczne i dentystyczne[^insmeddent] | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1,010[^update] |
-|      |      |      |      |      |      |      |      |      |      |      |
-| **Wydatki duże i nieregularne[^dniereg]** | **7,812** | **4,893** | **8,492** | **11,897** | **24,989** | **12,646** | **1,991** | **30,582** | **11,171** | **15,026** |
+| **Wydatki duże i nieregularne[^dniereg]** | **7,812** | **4,893** | **8,492** | **7,334** | **23,036** | **11,801** | **1,991** | **30,582** | **11,171** | **15,026** |
 |      |      |      |      |      |      |      |      |      |      |      |
 | **Podróże** | **2,436** | **3,033** | **5,524** | **2,484** | **5,617** | **4,441** | **186** | **1,837** | **2,077** | **10,391** |
 | Bilety lotnicze do Europy | 1,995 | 2,253 | 3,264 | 871 | 3,762 | 3,908 | 186 | 1,616 | 1,198 | 6,809 |
@@ -112,11 +105,6 @@ Prywatne[^prywatne] wydatki roczne w CAD **nominalnych**
 |      |      |      |      |      |      |      |      |      |      |      |
 | **Telekomunikacja** | **218** | **218** | **0** | **224** | **0** | **169** | **169** | **0** | **223** | **0** |
 | Komórki, sprzęt | 218 | 218 | 0 | 224[^komsp2017] | 0 | 169[^komsp2019] | 169[^komsp2020] | 0 | 223[^komsp2022] | 0[^update] |
-|      |      |      |      |      |      |      |      |      |      |      |
-| **Zdrowie** | **0** | **0** | **0** | **4,563** | **1,953** | **845** | **0** | **0** | **0** | **0** |
-| Dentysta | 0 | 0 | 0 | 4,255[^dentd2017] | 1,953[^dentd2018] | 0 | 0 | 0 | 0 | 0[^update] |
-| Zabiegi i badania | 0 | 0 | 0 | 308 | 0 | 0 | 0 | 0 | 0 | 0[^update] |
-| Inne | 0 | 0 | 0 | 0 | 0 | 845[^lekinne2019] | 0 | 0 | 0 | 0[^update] |
 |      |      |      |      |      |      |      |      |      |      |      |
 | **Inne** | **923** | **1,642** | **0** | **399** | **547** | **337** | **0** | **784** | **451** | **1,647** |
 | Komputery, sprzęt | 552 | 0 | 0 | 399[^kompsp2017] | 0 | 337[^kompsp2019] | 0 | 251[^kompsp2021] | 451[^kompsp2022] | 0[^update] |
@@ -175,16 +163,6 @@ Prywatne[^prywatne] wydatki roczne w CAD **nominalnych**
 [^inin2018]: Odnowienie dwóch paszportów Kanadyjskich na 10 lat: $320
 [^inin2015]: LinkedIn Job Seeker subscription: $300 , Zwrot kosztów naprawy stłuczki innemu kierowcy: $1,095
 [^inin2014]: LinkedIn Job Seeker subscription: $371
-[^dent2018]: $1,602 brutto minus $1,245 zwroty ubezpieczeniowe.
-[^dent2019]: $1,429 brutto minus $1,100 zwroty ubezpieczeniowe.
-[^dent2020]: $1,989 brutto minus $1,633 zwroty ubezpieczeniowe.
-[^dent2021]: $1,771 brutto minus $1,201 zwroty ubezpieczeniowe.
-[^dent2022]: $2,463 brutto minus $2,050 zwroty ubezpieczeniowe.
-[^zab2022]: $745 brutto minus $662 zwroty ubezpieczeniowe.
-[^dentd2018]: Implant: $1,953
-[^dent2017]: $2,911 brutto minus $2,134 zwroty ubezpieczeniowe.
-[^dentd2017]: Implant: $4,255
-[^lekinne2019]: Badanie wzroku i nowe okulary.
 [^prezentyosobiste]: Urodzinowe, świąteczne, okolicznościowe, itp.. bez okazji :)
 [^donacje]: Plan Canada, Ottawa Humane Society, WOŚP, fundacje, ...
 [^podrinne]: Dojazdy na miejscu, noclegi, wynajęcie samochodów i benzyna, mapy, przewodniki, itp...
@@ -200,6 +178,7 @@ Prywatne[^prywatne] wydatki roczne w CAD **nominalnych**
 [^domeny2015]: Odnowienie domen Internetowych na 3 lata.
 [^domeny2018]: Odnowienie domen Internetowych na 3 lata.
 [^domeny2021]: Odnowienie domen Internetowych na 9 lat.
+[^zdrowie]: Bilans wydatków, składek ubezpieczeniowych i zwrotów ubezpieczeniowych, zdrowotnych i dentystycznych.
 [^update]: Uaktualnić po koncu roku.
 
-Updated on: 2023-12-16 15:26:06
+Updated on: 2023-12-16 16:06:58
