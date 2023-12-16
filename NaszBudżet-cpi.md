@@ -7,9 +7,9 @@ Prywatne[^prywatne] wydatki roczne w CAD **y2023**
 | Rok | 2014 | 2015 | 2016 | 2017 | 2018 | 2019 | 2020 | 2021 | 2022 | 2023 |
 | ---- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 |  |  |  |  |  |  |  |  |  |  |  |  
-| **Wydatki razem** | **54,629** | **44,617** | **51,268** | **58,841** | **70,269** | **57,952** | **37,824** | **70,912** | **47,518** | **51,763** |  
+| **Wydatki razem** | **54,629** | **44,495** | **51,183** | **58,779** | **70,204** | **57,952** | **37,824** | **70,912** | **47,518** | **51,763** |  
 |  |  |  |  |  |  |  |  |  |  |  |  
-| **Wydatki regularne** | **47,868** | **42,307** | **47,627** | **47,429** | **47,481** | **48,484** | **35,744** | **38,975** | **38,127** | **47,128** |  
+| **Wydatki regularne** | **47,868** | **42,185** | **47,543** | **47,367** | **47,416** | **48,484** | **35,744** | **38,975** | **38,127** | **47,128** |  
 |  |  |  |  |  |  |  |  |  |  |  |  
 | **"Życie"** | **12,583** | **11,081** | **13,204** | **13,525** | **11,383** | **11,993** | **8,683** | **9,423** | **9,182** | **8,802** |  
 | Żywność | 10,916 | 9,910 | 11,782 | 11,722 | 9,588 | 10,159 | 7,987 | 8,436 | 8,100 | 7,319[^update] |  
@@ -32,14 +32,14 @@ Prywatne[^prywatne] wydatki roczne w CAD **y2023**
 | Ogród | 0 | 609 | 623 | 847 | 526 | 833 | 977 | 2,257 | 872 | 391 |  
 | Konserwacje | 0 | 544 | 7 | 701 | 548 | 286 | 529 | 130 | 324 | 320 |  
 |  |  |  |  |  |  |  |  |  |  |  |  
-| **Mieszkanie inne, posiadanie** | **0** | **0** | **0** | **0[^minn2017]** | **292[^minn2018]** | **772** | **232** | **379** | **374** | **307** |  
+| **Mieszkanie inne, posiadanie** | **386** | **450** | **418** | **244** | **787** | **286[^minn2018]** | **0[^minn2017]** | **0** | **0** | **0** |  
 | Podatek od własności | 0 | 0 | 0 | 0 | 114 | 315 | -158[^minpod2020] | 18 | 31[^minpod2022] | 18 |  
 | Ubezpieczenie | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |  
 | Opłaty wspólnotowe, remontowe | 0 | 0 | 0 | 0 | 178[^minreno2018] | 457[^minreno2019] | 389[^minreno2020] | 361[^minreno2021] | 343[^minreno2022] | 289[^minreno2023] |  
 |  |  |  |  |  |  |  |  |  |  |  |  
 | **Mieszkanie inne, używanie** | **0** | **0** | **0** | **0** | **1,087** | **2,621** | **1,904** | **1,373** | **2,193** | **3,490** |  
 | Gaz | 0 | 0 | 0 | 0 | 35 | 21 | 36 | 46 | 33 | 41[^update] |  
-| Prąd | 0 | 0 | 0 | 0 | 98 | 157 | 62 | 63 | 61 | 65 |  
+| Prąd | 82 | 73 | 70 | 65 | 160 | 96 | 0 | 0 | 0 | 0 |  
 | Opłaty wspólnotowe, eksploatacyjne | 0 | 0 | 0 | 0 | 495 | 1,273 | 1,557 | 1,228 | 1,517 | 1,532 |  
 | Rozliczenie mediów | 0 | 0 | 0 | 0 | 64 | 0 | -37 | 7 | 0 | 565 |  
 | Internet | 0 | 0 | 0 | 0 | 144 | 407 | 166 | 0 | 0 | 0 |  
@@ -47,7 +47,7 @@ Prywatne[^prywatne] wydatki roczne w CAD **y2023**
 | Remonty, naprawy, konserwacje | 0 | 0 | 0 | 0 | 114 | 152 | 0 | 30 | 396 | 0 |  
 |  |  |  |  |  |  |  |  |  |  |  |  
 | **Transport** | **6,440** | **5,755** | **5,667** | **5,792** | **7,904** | **6,050** | **3,904** | **5,075** | **4,524** | **3,120** |  
-| Komuikacja publiczna | 19 | 164 | 1,098 | 1,347 | 321 | 219 | 230 | 0 | 240 | 77 |  
+| Komunikacja publiczna | 19 | 164 | 1,098 | 1,347 | 321 | 219 | 230 | 0 | 240 | 77 |  
 | Samochody, benzyna | 2,620 | 2,054 | 1,856 | 1,951 | 3,090 | 3,163[^benz2019] | 908[^benz2020] | 1,113[^benz2021] | 1,322[^benz2022] | 1,800[^update] |  
 | Samochody, ubezpieczenie | 2,073 | 1,656 | 1,354 | 1,164 | 1,139 | 1,190 | 1,111 | 887 | 798 | 816 |  
 | Samochody, konserwacje[^samochodkons] | 1,153 | 1,675 | 193 | 144 | 414 | 324 | 181 | 111 | 163 | 198[^update] |  
@@ -92,10 +92,6 @@ Prywatne[^prywatne] wydatki roczne w CAD **y2023**
 | Komputery, sprzęt | 0 | 160 | 164 | 47 | 47 | 248 | 188 | 0 | 55 | 0[^update] |  
 | Komputery, software[^software] | 141 | 94 | 118 | 116 | 33 | 39 | 32 | 38 | 68 | 57 |  
 | Inne[^inneinne] | 1,700 | 1,115 | 1,068 | 2,329 | 905 | 877 | 551 | 361 | 616 | 1,237[^update] |  
-|  |  |  |  |  |  |  |  |  |  |  |  
-| **Obsługa kredytów** | **0** | **122** | **85** | **62** | **65** | **0** | **0** | **0** | **0** | **0** |  
-| Opłaty i długi "karciane[^karciane]" | 0 | 53 | 36 | 62 | 65 | 0 | 0 | 0 | 0 | 0 |  
-| Odsetki inne | 0 | 68 | 49 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |  
 |  |  |  |  |  |  |  |  |  |  |  |  
 | **Wydatki duże i nieregularne[^dniereg]** | **6,762** | **2,310** | **3,640** | **11,413** | **22,788** | **9,469** | **2,080** | **31,937** | **9,391** | **4,635** |  
 |  |  |  |  |  |  |  |  |  |  |  |  
@@ -154,7 +150,7 @@ Prywatne[^prywatne] wydatki roczne w CAD **y2023**
 [^reno2019]: W tym: $4,340 wymiana trzech okien na piętrze.
 [^reno2020]: Nowa beczka ogrzewcza do wody.
 [^reno2021]: Wymiana elewacji na domu: $20,812. Nowe rynny: $1,249. Wymiana pieca ogrzewczego: $4,617. Wymiana kranu w pralni w piwnicy i instalacja kranu ogrodowego: $1,263.
-[^reno2022]: Naprawa elewacji na domu "derecho": %5,223. Zakup i instalacje lamp podsufitowych i zewnętzrnych: $2,519
+[^reno2022]: Naprawa elewacji na domu "derecho": %5,223. Zakup i instalacje lamp podsufitowych i zewnętrznych: $2,519
 [^ogrod2017]: Wycięcie starego drzewa w ogrodzie: $1,017
 [^komsp2017]: Za dwa nowe telefony.
 [^komsp2019]: Za jeden nowy telefon.
@@ -205,4 +201,4 @@ Prywatne[^prywatne] wydatki roczne w CAD **y2023**
 [^domeny2021]: Odnowienie domen Internetowych na 9 lat.
 [^update]: Uaktualnić po koncu roku.
 
-Updated on: 2023-12-15 21:15:33
+Updated on: 2023-12-16 14:22:19

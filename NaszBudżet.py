@@ -315,6 +315,13 @@ def processSupergroup(key, dd_data, yrs):
     txt = ""
     ll = []
     for lista_grupy in dd_data[key]:
+        # Reverse items in the dictionary of years for each group
+        # (since the order is reverted in source .yaml for easier editing):
+        for i in range(len(lista_grupy[1:])):
+            x = lista_grupy[1:][i][1]
+            dr = dict(reversed(x.items()))
+            lista_grupy[1:][i][1] = dr
+        # Summarize:
         lista_grupy = summarizeCategoriesInGroupByYears(lista_grupy, yrs)
         txt += emitGroup(lista_grupy)
         ll.append(lista_grupy)
