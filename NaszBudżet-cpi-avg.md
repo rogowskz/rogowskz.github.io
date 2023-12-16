@@ -96,7 +96,7 @@ Prywatne[^prywatne] wydatki roczne w CAD **y2023**
 | **Wydatki duże i nieregularne[^dniereg]** | **11,413** | **22,788** | **9,469** | **2,080** | **31,937** | **9,391** | **4,635** | 15,321 | 11,502 | 10,442 |  
 |  |  |  |  |  |  |  |  |  |  |  |  
 | **Wydatki gospodarcze** | **898** | **2,446** | **717** | **493** | **0** | **700** | **0** | 233 | 382 | 525 |  
-| Gospodarcze | 898[^gosp2017] | 2,446[^gosp2018] | 717[^gosp2019] | 493[^gosp2020] | 0 | 700[^gosp2022] | 0[^upate] | 233 | 382 | 525 |  
+| Gospodarcze | 898[^gosp2017] | 2,446[^gosp2018] | 717[^gosp2019] | 493[^gosp2020] | 0 | 700[^gosp2022] | 0[^update] | 233 | 382 | 525 |  
 |  |  |  |  |  |  |  |  |  |  |  |  
 | **Mieszkanie główne, posiadanie** | **0** | **17,402** | **5,470** | **1,392** | **31,066** | **7,995** | **2,988** | 14,016 | 9,782 | 7,208 |  
 | Renowacje | 0 | 17,402[^reno2018] | 5,470[^reno2019] | 1,392[^reno2020] | 31,066[^reno2021] | 7,995[^reno2022] | 2,988 | 14,016 | 9,782 | 7,208 |  
@@ -201,4 +201,4 @@ Prywatne[^prywatne] wydatki roczne w CAD **y2023**
 [^domeny2021]: Odnowienie domen Internetowych na 9 lat.
 [^update]: Uaktualnić po koncu roku.
 
-Updated on: 2023-12-16 14:22:19
+Updated on: 2023-12-16 14:34:26
