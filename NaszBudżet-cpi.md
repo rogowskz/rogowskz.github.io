@@ -9,7 +9,7 @@ Prywatne[^prywatne] wydatki roczne w CAD **y2023**
 |  |  |  |  |  |  |  |  |  |  |  |  
 | **Wydatki razem** | **53,705** | **43,867** | **50,602** | **58,779** | **70,204** | **57,952** | **37,824** | **70,912** | **47,518** | **53,688** |  
 |  |  |  |  |  |  |  |  |  |  |  |  
-| **Wydatki regularne** | **40,105** | **35,325** | **38,589** | **43,016** | **40,108** | **42,356** | **34,878** | **35,980** | **35,040** | **35,923** |  
+| **Wydatki regularne** | **40,043** | **35,091** | **38,465** | **43,250** | **39,885** | **41,571** | **34,655** | **35,603** | **34,853** | **33,026** |  
 |  |  |  |  |  |  |  |  |  |  |  |  
 | **"Życie"** | **12,583** | **11,081** | **13,204** | **13,525** | **11,383** | **11,993** | **8,683** | **9,423** | **9,182** | **8,802** |  
 | Żywność | 10,916 | 9,910 | 11,782 | 11,722 | 9,588 | 10,159 | 7,987 | 8,436 | 8,100 | 7,319[^update] |  
@@ -19,31 +19,29 @@ Prywatne[^prywatne] wydatki roczne w CAD **y2023**
 | **Wydatki gospodarcze** | **2,005** | **872** | **1,776** | **2,140** | **1,220** | **1,966** | **2,241** | **1,380** | **2,344** | **1,700** |  
 | Gospodarcze[^wydgosp] | 2,005 | 872 | 1,776 | 2,140 | 1,220 | 1,966 | 2,241 | 1,380 | 2,344 | 1,700[^update] |  
 |  |  |  |  |  |  |  |  |  |  |  |  
-| **Mieszkanie w Ottawie, posiadanie** | **5,895** | **5,366** | **5,364** | **5,446** | **5,429** | **5,379** | **5,437** | **5,843** | **5,484** | **4,842** |  
+| **Mieszkanie w Ottawie, posiadanie** | **5,895** | **5,910** | **5,371** | **6,695** | **5,977** | **6,089** | **5,966** | **5,973** | **5,809** | **5,162** |  
 | Podatek od własności | 4,178 | 4,216 | 4,256 | 4,351 | 4,305 | 4,336 | 4,450 | 4,421 | 4,224 | 4,187 |  
 | Odsetki hipoteczne[^hipoteka] | 767 | 39 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |  
 | Ubezpieczenie | 950 | 1,112 | 1,108 | 1,095 | 1,123 | 1,043 | 986 | 1,422 | 1,261 | 655 |  
+| Konserwacje | 0 | 544 | 7 | 1,249 | 548 | 710 | 529 | 130 | 324 | 320[^update] |  
 |  |  |  |  |  |  |  |  |  |  |  |  
-| **Mieszkanie w Ottawie, używanie** | **3,876** | **4,269** | **4,117** | **5,130** | **4,398** | **4,614** | **4,352** | **5,499** | **3,530** | **4,898** |  
+| **Mieszkanie w Ottawie, używanie** | **3,815** | **3,491** | **3,986** | **4,115** | **3,764** | **3,730** | **3,721** | **4,992** | **3,205** | **2,968** |  
 | Gaz | 1,327 | 1,197 | 1,191 | 1,254 | 1,349 | 1,363 | 1,311 | 954 | 930 | 1,097 |  
 | Prąd | 1,517 | 890 | 1,148 | 1,012 | 923 | 863 | 765 | 865 | 761 | 795 |  
 | Woda | 971 | 795 | 1,024 | 1,001 | 966 | 670 | 667 | 915 | 642 | 685 |  
-| Meble, wyposażenie | 62 | 233 | 124 | 314 | 86 | 598 | 103 | 377 | 0 | 1,610 |  
 | Ogród | 0 | 609 | 623 | 847 | 526 | 833 | 977 | 2,257 | 872 | 391 |  
-| Konserwacje | 0 | 544 | 7 | 701 | 548 | 286 | 529 | 130 | 324 | 320 |  
 |  |  |  |  |  |  |  |  |  |  |  |  
-| **Mieszkanie w Warszawie, posiadanie** | **2,313** | **2,274** | **1,774** | **1,882** | **2,084** | **772[^minn2018]** | **0[^minn2017]** | **0** | **0** | **0** |  
+| **Mieszkanie w Warszawie, posiadanie** | **2,313** | **2,750** | **1,807** | **1,882** | **2,240** | **884[^minn2018]** | **0[^minn2017]** | **0** | **0** | **0** |  
 | Podatek od własności | 0 | 0 | 0 | 0 | 114 | 315 | -158[^minpod2020] | 18 | 31[^minpod2022] | 18 |  
 | Ubezpieczenie | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |  
 | Wspólnota mieszkaniowa, opłaty stałe[^minnos] | 0 | 0 | 0 | 0 | 673 | 1,730 | 1,946 | 1,589 | 1,860 | 1,821 |  
+| Remonty, naprawy, konserwacje | 0 | 0 | 0 | 0 | 114 | 152 | 0 | 30 | 396 | 0 |  
 |  |  |  |  |  |  |  |  |  |  |  |  
-| **Mieszkanie w Warszawie, używanie** | **0** | **0** | **0** | **0** | **592** | **1,348** | **347** | **146** | **676** | **1,958** |  
+| **Mieszkanie w Warszawie, używanie** | **0** | **0** | **0** | **0** | **340** | **585** | **227** | **116** | **94** | **671** |  
 | Gaz | 0 | 0 | 0 | 0 | 35 | 21 | 36 | 46 | 33 | 41[^update] |  
 | Prąd | 82 | 73 | 70 | 65 | 160 | 96 | 0 | 0 | 0 | 0 |  
 | Wspólnota mieszkaniowa, rozliczenie mediów | 0 | 0 | 0 | 0 | 64 | 0 | -37 | 7 | 0 | 565 |  
 | Internet | 0 | 0 | 0 | 0 | 144 | 407 | 166 | 0 | 0 | 0 |  
-| Meble, wyposażenie | 0 | 0 | 0 | 0 | 138 | 610 | 120 | 0 | 187 | 1,287 |  
-| Remonty, naprawy, konserwacje | 0 | 0 | 0 | 0 | 114 | 152 | 0 | 30 | 396 | 0 |  
 |  |  |  |  |  |  |  |  |  |  |  |  
 | **Transport** | **6,440** | **5,755** | **5,667** | **5,792** | **7,904** | **6,050** | **3,904** | **5,075** | **4,524** | **3,120** |  
 | Komunikacja publiczna kanadyjska i polska | 19 | 164 | 1,098 | 1,347 | 321 | 219 | 230 | 0 | 240 | 77 |  
@@ -83,7 +81,7 @@ Prywatne[^prywatne] wydatki roczne w CAD **y2023**
 | **Zdrowie** | **3,775** | **2,305** | **1,433** | **6,825** | **2,950** | **1,730** | **464** | **954** | **887** | **2,739** |  
 | Zdrowie[^zdrowie] | 3,775 | 2,305 | 1,433 | 6,825 | 2,950 | 1,730 | 464 | 954 | 887 | 2,739[^update] |  
 |  |  |  |  |  |  |  |  |  |  |  |  
-| **Wydatki duże i nieregularne[^dniereg]** | **9,826** | **6,237** | **10,580** | **8,939** | **27,145** | **13,867** | **2,482** | **33,978** | **11,591** | **15,026** |  
+| **Wydatki duże i nieregularne[^dniereg]** | **9,887** | **6,471** | **10,704** | **8,705** | **27,369** | **14,651** | **2,705** | **34,354** | **11,777** | **17,923** |  
 |  |  |  |  |  |  |  |  |  |  |  |  
 | **Podróże** | **3,064** | **3,767** | **6,775** | **3,012** | **6,607** | **5,125** | **214** | **2,041** | **2,145** | **10,391** |  
 | Bilety lotnicze do Europy | 2,509 | 2,798 | 4,003 | 1,056 | 4,425 | 4,510 | 214 | 1,795 | 1,237 | 6,809 |  
@@ -95,10 +93,12 @@ Prywatne[^prywatne] wydatki roczne w CAD **y2023**
 | **Mieszkanie w Ottawie, posiadanie** | **2,129** | **0** | **3,640** | **0** | **17,402** | **5,470** | **1,392** | **31,066** | **7,995** | **2,988** |  
 | Renowacje | 2,129 | 0 | 3,640 | 0 | 17,402[^reno2018] | 5,470[^reno2019] | 1,392[^reno2020] | 31,066[^reno2021] | 7,995[^reno2022] | 2,988 |  
 |  |  |  |  |  |  |  |  |  |  |  |  
-| **Mieszkanie w Ottawie, używanie** | **3,197** | **0** | **0** | **4,227** | **0** | **1,723** | **0** | **0** | **0** | **0** |  
-| Meble, wyposażenie | 0 | 0 | 0 | 2,445[^meble2017] | 0 | 0 | 0 | 0 | 0 | 0 |  
+| **Mieszkanie w Ottawie, używanie** | **3,259** | **233** | **124** | **3,993** | **86** | **1,897** | **103** | **377** | **0** | **1,610** |  
+| Meble, wyposażenie | 62 | 233 | 124 | 2,759[^meble2017] | 86 | 598 | 103 | 377 | 0 | 1,610 |  
 | Ogród | 3,197 | 0 | 0 | 1,233[^ogrod2017] | 0 | 1,299[^ogrod2019] | 0 | 0 | 0 | 0 |  
-| Konserwacje | 0 | 0 | 0 | 548[^domkons2017] | 0 | 424[^domkons2019] | 0 | 0 | 0 | 0[^update] |  
+|  |  |  |  |  |  |  |  |  |  |  |  
+| **Mieszkanie w Warszawie, używanie** | **0** | **0** | **0** | **0** | **138** | **610** | **120** | **0** | **187** | **1,287** |  
+| Meble, wyposażenie | 0 | 0 | 0 | 0 | 138 | 610 | 120 | 0 | 187 | 1,287 |  
 |  |  |  |  |  |  |  |  |  |  |  |  
 | **Transport** | **0** | **0** | **0** | **0** | **0** | **0** | **0** | **0** | **0** | **0** |  
 | Samochody własne, kupno[^samkupno] | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |  
@@ -121,10 +121,8 @@ Prywatne[^prywatne] wydatki roczne w CAD **y2023**
 [^gosp2019]: Odśnieżacz bateryjny: $621
 [^gosp2020]: Odkurzacz.
 [^gosp2022]: Lodówka do piwnicy.
-[^meble2017]: Kanapa i otomana do livingu: $1331, Buirko, komoda i dywan do gabinetu: $686
+[^meble2017]: W tym: Kanapa i otomana do livingu: $1331, Buirko, komoda i dywan do gabinetu: $686
 [^ogrod2019]: Koszty napraw szkód po tornado w roku 2018: $1126
-[^domkons2017]: Uszczelnienie dachu przeciekającego przy kominie: $452
-[^domkons2019]: Za inspekcję dachu po tornado: $367
 [^hipoteka]: Dom kupiony 1997-04-14. Spłacanie zakończono 2015-02-19.
 [^minnos]: Płatne od powierzchni: koszty zarządu + centralne ogrzewanie + zaliczka na fundusz remontowy; Ryczałty na zużycie: woda zimna i scieki + podgrzanie wody; Opłaty stałe: woda ciepła koszty stałe + opłata śmieciowa Warszawa
 [^minn2017]: Wynajęte jako biznes więc brak kosztów za ten rok w prywatnym budżecie.
@@ -176,4 +174,4 @@ Prywatne[^prywatne] wydatki roczne w CAD **y2023**
 [^domeny2021]: Odnowienie domen Internetowych na 9 lat.
 [^zdrowie]: Bilans wydatków, składek ubezpieczeniowych i zwrotów ubezpieczeniowych, zdrowotnych i dentystycznych.
 
-Updated on: 2023-12-18 11:58:49
+Updated on: 2023-12-18 12:20:40
