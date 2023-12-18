@@ -29,12 +29,12 @@ Wydatki regularne:
     - - [ "Wydatki gospodarcze", ]
       - [ "Gospodarcze[^wydgosp]", { 2023: "1700[^update]", 2022: 2270, 2021: 1242, 2020: 1945, 2019: 1704, 2018: 1037, 2017: 1765, 2016: 1448, 2015: 702, 2014: 1594 , }]
 
-    - - [ "Mieszkanie główne, posiadanie", ]
+    - - [ "Mieszkanie w Ottawie, posiadanie", ]
       - [ "Podatek od własności", { 2023: 4187, 2022: 4090, 2021: 3979, 2020: 3862, 2019: 3757, 2018: 3660, 2017: 3589, 2016: 3470, 2015: 3395, 2014: 3322, }]
       - [ "Odsetki hipoteczne[^hipoteka]", { 2023: 0, 2022: , 2021: , 2020: , 2019: , 2018: , 2017: , 2016: , 2015: 31, 2014: 610, }]
       - [ "Ubezpieczenie", { 2023: 655, 2022: 1221, 2021: 1280, 2020: 856, 2019: 904, 2018: 955, 2017: 903, 2016: 903, 2015: 895, 2014: 755, }]
 
-    - - [ "Mieszkanie główne, używanie", ]
+    - - [ "Mieszkanie w Ottawie, używanie", ]
       - [ "Gaz", { 2023: 1097, 2022: 901, 2021: 859, 2020: 1138, 2019: 1181, 2018: 1147, 2017: 1034, 2016: 971, 2015: 964, 2014: 1055, }]
       - [ "Prąd", { 2023: 795, 2022: 737, 2021: 779, 2020: 664, 2019: 748, 2018: 785, 2017: 835, 2016: 936, 2015: 717, 2014: 1206, }]
       - [ "Woda", { 2023: 685, 2022: 622, 2021: 824, 2020: 579, 2019: 581, 2018: 821, 2017: 826, 2016: 835, 2015: 640, 2014: 772, }]
@@ -42,33 +42,32 @@ Wydatki regularne:
       - [ "Ogród", { 2023: 391, 2022: 844, 2021: 2031, 2020: 848, 2019: 722, 2018: 447, 2017: 699, 2016: 508, 2015: 490, 2014: 0, }]
       - [ "Konserwacje", { 2023: 320, 2022: 314, 2021: 117, 2020: 459, 2019: 248, 2018: 466, 2017: 578, 2016: 6, 2015: 438, 2014: 0, }]
 
-    - - [ "Mieszkanie inne, posiadanie", { 2023: , 2022: , 2021: , 2020: , 2019: , 2018: "0[^minn2018]", 2017: "0[^minn2017]", 2016: , 2015: , 2014: , }]
+    - - [ "Mieszkanie w Warszawie, posiadanie", { 2023: , 2022: , 2021: , 2020: , 2019: , 2018: "0[^minn2018]", 2017: "0[^minn2017]", 2016: , 2015: , 2014: , }]
       - [ "Podatek od własności", { 2023: 18, 2022: "30[^minpod2022]" , 2021: 16, 2020: "-137[^minpod2020]", 2019: 273, 2018: 97, 2017: 0, 2016: 0, 2015: 0, 2014: 0, }]
       - [ "Ubezpieczenie", { 2023: 0, 2022: , 2021: , 2020: , 2019: , 2018: , 2017: , 2016: , 2015: , 2014: , }]
-      - [ "Opłaty wspólnotowe, remontowe", { 2023: "289[^minreno2023]", 2022: "332[^minreno2022]" , 2021: "325[^minreno2021]" , 2020: "338[^minreno2020]" , 2019: "396[^minreno2019]" , 2018: "151[^minreno2018]" , 2017: 0, 2016: 0, 2015: 0, 2014: 0, }]
+      - [ "Wspólnota mieszkaniowa, opłaty stałe[^minnos]", { 2023: 1821, 2022: 1801 , 2021: 1430 , 2020: 1689 , 2019: 1499 , 2018: 572 , 2017: 0, 2016: 0, 2015: 0, 2014: 0, }]
 
-    - - [ "Mieszkanie inne, używanie", ]
+    - - [ "Mieszkanie w Warszawie, używanie", ]
       - [ "Gaz", { 2023: "41[^update]", 2022: 32, 2021: 41, 2020: 31, 2019: 18, 2018: 30, 2017: 0, 2016: 0, 2015: 0, 2014: 0, }]
       - [ "Prąd", { 2014: 0, 2015: 0, 2016: 0, 2017: 0, 2018: 83, 2019: 136, 2020: 54, 2021: 57, 2022: 59, 2023: 65,}]
-      - [ "Opłaty wspólnotowe, eksploatacyjne", { 2023: 1532, 2022: 1469, 2021: 1105, 2020: 1351, 2019: 1103, 2018: 421, 2017: 0, 2016: 0, 2015: 0, 2014: 0, }]
-      - [ "Rozliczenie mediów", { 2023: 565, 2022: 0, 2021: 6, 2020: -32, 2019: 0, 2018: 54, 2017: 0, 2016: 0, 2015: 0, 2014: 0, }]
+      - [ "Wspólnota mieszkaniowa, rozliczenie mediów", { 2023: 565, 2022: 0, 2021: 6, 2020: -32, 2019: 0, 2018: 54, 2017: 0, 2016: 0, 2015: 0, 2014: 0, }]
       - [ "Internet", { 2023: 0, 2022: 0, 2021: 0, 2020: 144, 2019: 353, 2018: 122, 2017: 0, 2016: 0, 2015: 0, 2014: 0, }]
       - [ "Meble, wyposażenie", { 2023: 1287, 2022: 181, 2021: 0, 2020: 104, 2019: 529, 2018: 117, 2017: 0, 2016: 0, 2015: 0, 2014: 0, }]
       - [ "Remonty, naprawy, konserwacje", { 2023: 0, 2022: 383, 2021: 27, 2020: 0, 2019: 132, 2018: 97, 2017: 0, 2016: 0, 2015: 0, 2014: 0, }]
 
     - - [ "Transport", ]
-      - [ "Komunikacja publiczna", { 2023: 77, 2022: 232, 2021: 0, 2020: 200, 2019: 190, 2018: 273, 2017: 1111, 2016: 895, 2015: 132, 2014: 15, }]
-      - [ "Samochody, benzyna", { 2023: "1800[^update]", 2022: "1280[^benz2022]", 2021: "1002[^benz2021]", 2020: "788[^benz2020]", 2019: "2741[^benz2019]", 2018: 2627, 2017: 1609, 2016: 1513, 2015: 1654, 2014: 2083, }]
-      - [ "Samochody, ubezpieczenie", { 2023: 816, 2022: 773, 2021: 798, 2020: 964, 2019: 1031, 2018: 968, 2017: 960, 2016: 1104, 2015: 1333, 2014: 1648, }]
-      - [ "Samochody, konserwacje[^samochodkons]", { 2023: "198[^update]", 2022: 158, 2021: 100, 2020: 157, 2019: 281, 2018: 352, 2017: 119, 2016: 157, 2015: 1349, 2014: 917, }]
-      - [ "Samochody, reperacje", { 2023: "0[^update]", 2022: 1982, 2021: 2340, 2020: 1096, 2019: 580, 2018: 2243, 2017: 799, 2016: 759, 2015: 0, 2014: 0, }]
-      - [ "Samochody, rejestracja", { 2023: "0[^update]", 2022: "-310[^samrej2022]", 2021: 120, 2020: 120, 2019: 120, 2018: 152, 2017: 120, 2016: 108, 2015: 98, 2014: 196, }]
-      - [ "Samochody, inne[^samochodinne]", { 2023: "229[^update]", 2022: 266, 2021: 208, 2020: 63, 2019: 300, 2018: 104, 2017: 59, 2016: 84, 2015: 68, 2014: 261, }]
+      - [ "Komunikacja publiczna kanadyjska i polska", { 2023: 77, 2022: 232, 2021: 0, 2020: 200, 2019: 190, 2018: 273, 2017: 1111, 2016: 895, 2015: 132, 2014: 15, }]
+      - [ "Samochody własne, benzyna", { 2023: "1800[^update]", 2022: "1280[^benz2022]", 2021: "1002[^benz2021]", 2020: "788[^benz2020]", 2019: "2741[^benz2019]", 2018: 2627, 2017: 1609, 2016: 1513, 2015: 1654, 2014: 2083, }]
+      - [ "Samochody własne, ubezpieczenie", { 2023: 816, 2022: 773, 2021: 798, 2020: 964, 2019: 1031, 2018: 968, 2017: 960, 2016: 1104, 2015: 1333, 2014: 1648, }]
+      - [ "Samochody własne, konserwacje[^samochodkons]", { 2023: "198[^update]", 2022: 158, 2021: 100, 2020: 157, 2019: 281, 2018: 352, 2017: 119, 2016: 157, 2015: 1349, 2014: 917, }]
+      - [ "Samochody własne, reperacje", { 2023: "0[^update]", 2022: 1982, 2021: 2340, 2020: 1096, 2019: 580, 2018: 2243, 2017: 799, 2016: 759, 2015: 0, 2014: 0, }]
+      - [ "Samochody własne, rejestracja", { 2023: "0[^update]", 2022: "-310[^samrej2022]", 2021: 120, 2020: 120, 2019: 120, 2018: 152, 2017: 120, 2016: 108, 2015: 98, 2014: 196, }]
+      - [ "Samochody własne, inne[^samochodinne]", { 2023: "229[^update]", 2022: 266, 2021: 208, 2020: 63, 2019: 300, 2018: 104, 2017: 59, 2016: 84, 2015: 68, 2014: 261, }]
 
     - - [ "Telekomunikacja", ]
-      - [ "Telefon stacjonarny", { 2023: "125[^update]", 2022: 124, 2021: 112, 2020: 112, 2019: 101, 2018: 101, 2017: 124, 2016: 454, 2015: 435, 2014: 649, }]
-      - [ "Internet", { 2023: "610[^update]", 2022: 610, 2021: 687, 2020: 1346, 2019: 868, 2018: 813, 2017: 732, 2016: 725, 2015: 664, 2014: 801, }]
-      - [ "Komórki, airtime", { 2023: "340[^update]", 2022: 246, 2021: 282, 2020: 371, 2019: 293, 2018: 311, 2017: 327, 2016: 113, 2015: 107, 2014: 226, }]
+      - [ "Telefon stacjonarny w Ottawie", { 2023: "125[^update]", 2022: 124, 2021: 112, 2020: 112, 2019: 101, 2018: 101, 2017: 124, 2016: 454, 2015: 435, 2014: 649, }]
+      - [ "Internet stacjonarny w Ottawie", { 2023: "610[^update]", 2022: 610, 2021: 687, 2020: 1346, 2019: 868, 2018: 813, 2017: 732, 2016: 725, 2015: 664, 2014: 801, }]
+      - [ "Komórki kanadyjskie i polskie, airtime", { 2023: "340[^update]", 2022: 246, 2021: 282, 2020: 371, 2019: 293, 2018: 311, 2017: 327, 2016: 113, 2015: 107, 2014: 226, }]
 
     - - [ "Prezenty", ]
       - [ "Osobiste[^prezentyosobiste]", { 2023: "3000[^update]", 2022: 2768, 2021: 2909, 2020: 2766, 2019: 3036, 2018: 3144, 2017: 3694, 2016: 2624, 2015: 3024, 2014: 2728, }]
@@ -77,6 +76,7 @@ Wydatki regularne:
     - - [ "Inne", ]
       - [ '"[Latte factor](http://financialmentor.com/calculator/latte-factor-calculator)"[^latte]', { 2023: "210[^update]", 2022: 176, 2021: 70, 2020: 82, 2019: 274, 2018: 185, 2017: 282, 2016: 361, 2015: 111, 2014: 0, }]
       - [ "Alkohole", { 2023: "50[^update]", 2022: 73, 2021: 253, 2020: 369, 2019: 241, 2018: 151, 2017: 278, 2016: 321, 2015: 301, 2014: 153, }]
+      - [ "Loterie", { 2023: 500, 2022: "0[^update]", 2021: , 2020: , 2019: , 2018: , 2017: , 2016: , 2015: , 2014: , }]
       - [ "Suplementy diety", { 2023: "300[^update]", 2022: 321, 2021: 247, 2020: 227, 2019: 242, 2018: 249, 2017: 149, 2016: 0, 2015: 0, 2014: 0, }]
       - [ "Opłaty bankowe[^bankowe]", { 2023: "50[^update]", 2022: 349, 2021: 106, 2020: 73, 2019: 105, 2018: 175, 2017: 190, 2016: 173, 2015: 130, 2014: 272, }]
       - [ "Rekreacja[^rekreacja]", { 2023: "400[^update]", 2022: 334, 2021: 0, 2020: 196, 2019: 544, 2018: 359, 2017: 512, 2016: 375, 2015: 12, 2014: 275, }]
@@ -86,13 +86,13 @@ Wydatki regularne:
       - [ "Safari Books Online[^safaribooks]", { 2023: "176[^update]", 2022: 176, 2021: 176, 2020: 156, 2019: 118, 2018: 118, 2017: 118, 2016: 118, 2015: 118, 2014: 118, }]
       - [ "Komputery, sprzęt", { 2023: "0[^update]", 2022: 53, 2021: 0, 2020: 163, 2019: 215, 2018: 40, 2017: 39, 2016: 134, 2015: 129, 2014: 0, }]
       - [ "Komputery, software[^software]", { 2023: 57, 2022: 66, 2021: 34, 2020: 28, 2019: 34, 2018: 28, 2017: 96, 2016: 96, 2015: 76, 2014: 112, }]
+      - [ "Ubezpieczenie na życie", { 2023: 309, 2022: , 2021: , 2020: , 2019: , 2018: , 2017: , 2016: , 2015: , 2014: , }]
       - [ "Inne[^inneinne]", { 2023: "1237[^update]", 2022: 597, 2021: 325, 2020: 478, 2019: 760, 2018: 769, 2017: 1921, 2016: 871, 2015: 898, 2014: 1352, }]
 
 Zdrowie:
 
     - - [ "Zdrowie", ]
       - [ "Zdrowie[^zdrowie]", { 2023: "2739[^update]", 2022: 859, 2021: 859, 2020: 403, 2019: 1499, 2018: 2508, 2017: 5629, 2016: 1168, 2015: 1856, 2014: 3001, }]
-      - [ "Ubezpieczenie na życie", { 2023: 309, 2022: , 2021: , 2020: , 2019: , 2018: , 2017: , 2016: , 2015: , 2014: , }]
 
 "Wydatki duże i nieregularne[^dniereg]":
 
@@ -103,19 +103,19 @@ Zdrowie:
     - - [ "Wydatki gospodarcze", ]
       - [ "Gospodarcze", { 2023: "0[^update]", 2022: "678[^gosp2022]", 2021: 0, 2020: "428[^gosp2020]", 2019: "621[^gosp2019]", 2018: "2079[^gosp2018]", 2017: "741[^gosp2017]", 2016: 0, 2015: 0, 2014: 0, }]
 
-    - - [ "Mieszkanie główne, posiadanie", ]
+    - - [ "Mieszkanie w Ottawie, posiadanie", ]
       - [" Renowacje", { 2023: 2988, 2022: "7742[^reno2022]", 2021: "27961[^reno2021]", 2020: "1208[^reno2020]", 2019: "4740[^reno2019]", 2018: "14793[^reno2018]", 2017: 0, 2016: 2968, 2015: 0, 2014: 1693, }]
 
-    - - [ "Mieszkanie główne, używanie", ]
+    - - [ "Mieszkanie w Ottawie, używanie", ]
       - [ "Meble, wyposażenie", { 2023: 0, 2022: 0, 2021: 0, 2020: 0, 2019: 0, 2018: 0, 2017: "2017[^meble2017]", 2016: 0, 2015: 0, 2014: 0, }]
       - [ "Ogród",       { 2023: 0, 2022: 0, 2021: 0, 2020: 0, 2019: "1126[^ogrod2019]", 2018: 0,  2017: "1017[^ogrod2017]", 2016: 0,  2015: 0, 2014: 2542, }]
       - [ "Konserwacje", { 2023: "0[^update]", 2022: 0, 2021: 0, 2020: 0, 2019: "367[^domkons2019]", 2018: 0, 2017: "452[^domkons2017]", 2016: 0, 2015: 0, 2014: 0, }]
 
     - - [ "Transport", ]
-      - [ "Samochody, kupno[^samkupno]", { 2023: 0, 2022: 0, 2021: 0, 2020: 0, 2019: 0, 2018: 0, 2017: 0, 2016: 0, 2015: 0, 2014: 0, }]
+      - [ "Samochody własne, kupno[^samkupno]", { 2023: 0, 2022: 0, 2021: 0, 2020: 0, 2019: 0, 2018: 0, 2017: 0, 2016: 0, 2015: 0, 2014: 0, }]
 
     - - [ "Telekomunikacja", ]
-      - [ "Komórki, sprzęt", { 2023: "0[^update]", 2022: "223[^komsp2022]", 2021: 0, 2020: "169[^komsp2020]", 2019: "169[^komsp2019]", 2018: 0, 2017: "224[^komsp2017]", 2016: 0, 2015: 218, 2014: 218, }]
+      - [ "Komórki kanadyjskie i polskie, sprzęt", { 2023: "0[^update]", 2022: "223[^komsp2022]", 2021: 0, 2020: "169[^komsp2020]", 2019: "169[^komsp2019]", 2018: 0, 2017: "224[^komsp2017]", 2016: 0, 2015: 218, 2014: 218, }]
 
     - - [ "Inne", ]
       - [ "Komputery, sprzęt", { 2023: "0[^update]", 2022: "451[^kompsp2022]", 2021: "251[^kompsp2021]", 2020: 0, 2019: "337[^kompsp2019]", 2018: 0, 2017: "399[^kompsp2017]", 2016: 0, 2015: 0, 2014: 552, }]
@@ -123,6 +123,7 @@ Zdrowie:
       - [ "Inne", { 2023: "1647[^update]", 2022: 0, 2021: 0, 2020: 0, 2019: 0, 2018: "320[^inin2018]", 2017: 0, 2016: 0, 2015: "1395[^inin2015]", 2014: "371[^inin2014]", }]
 
 Annotacje:
+- '[^update]: Uaktualnić po koncu roku.'
 - '[^prywatne]: W zakres wydatków prywatnych nie wchodzą między innymi: 1) Koszty posiadania biznesów i ich koszty operacyjne (na przykład: koszty podatkowe i eksploatacyjne nieruchomości posiadanych a wynajmowanych w formie biznesu). 2) Odsetki od  kredytów stanowiących lewar inwestycyjny. 3) Wybrane znaczniejsze darowizny poczynione za życia na rzecz ustawowych spadkobierców (czyli: "zarządzanie spadkiem za życia").'
 - '[^cpi]: CPI w dniu 1 lipca każdego roku.'
 - '[^dniereg]: Jednorazowe wydatki powyżej $100 ponoszone rzadziej niż co dwa lata.'
@@ -137,14 +138,9 @@ Annotacje:
 - '[^domkons2017]: Uszczelnienie dachu przeciekającego przy kominie: $452'
 - '[^domkons2019]: Za inspekcję dachu po tornado: $367'
 - '[^hipoteka]: Dom kupiony 1997-04-14. Spłacanie zakończono 2015-02-19.'
+- '[^minnos]: Płatne od powierzchni: koszty zarządu + centralne ogrzewanie + zaliczka na fundusz remontowy; Ryczałty na zużycie: woda zimna i scieki + podgrzanie wody; Opłaty stałe: woda ciepła koszty stałe + opłata śmieciowa Warszawa'
 - '[^minn2017]: Wynajęte jako biznes więc brak kosztów za ten rok w prywatnym budżecie.'
 - '[^minn2018]: Wynajęte jako biznes przez 8 miesięcy w roku więc koszty prywatne stanowią 1/3 całkowitych kosztów rocznych.'
-- '[^minreno2018]: 26.40% łącznych opłat wspólnotowych.'
-- '[^minreno2019]: 26.40% łącznych opłat wspólnotowych.'
-- '[^minreno2020]: 20.00% łącznych opłat wspólnotowych.'
-- '[^minreno2021]: 22.74% łącznych opłat wspólnotowych.'
-- '[^minreno2022]: 18.42% łącznych opłat wspólnotowych.'
-- '[^minreno2023]: 15.87% łącznych opłat wspólnotowych.'
 - '[^minpod2020]: W tym, zwrot nadpłaty za wieczyste użytkowanie gruntu.'
 - '[^minpod2022]: Omyłkowo zapłacony dwukrotnie.'
 - '[^reno2018]: Przebudowa łazienki na piętrze.'
@@ -191,5 +187,4 @@ Annotacje:
 - '[^domeny2018]: Odnowienie domen Internetowych na 3 lata.'
 - '[^domeny2021]: Odnowienie domen Internetowych na 9 lat.'
 - '[^zdrowie]: Bilans wydatków, składek ubezpieczeniowych i zwrotów ubezpieczeniowych, zdrowotnych i dentystycznych.'
-- '[^update]: Uaktualnić po koncu roku.'
 

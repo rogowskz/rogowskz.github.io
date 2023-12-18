@@ -7,9 +7,9 @@ Prywatne[^prywatne] wydatki roczne w CAD **nominalnych**
 | ---- | ---:  | ---:  | ---:  | ---:  | ---:  | ---:  | ---:  | ---:  | ---:  | ---:  |
 | [CPI](https://www.bankofcanada.ca/rates/price-indexes/cpi/)[^cpi] | 125.7 | 127.3 | 128.9 | 130.4 | 134.4 | 137.0 | 137.2 | 142.3 | 153.1 | 158.1 |
 |      |      |      |      |      |      |      |      |      |      |      |
-| **Wydatki razem** | **42,699** | **35,321** | **41,256** | **48,481** | **59,680** | **50,218** | **32,824** | **63,825** | **46,015** | **53,188** |
+| **Wydatki razem** | **42,699** | **35,321** | **41,256** | **48,481** | **59,680** | **50,218** | **32,824** | **63,825** | **46,015** | **53,688** |
 |      |      |      |      |      |      |      |      |      |      |      |
-| **Wydatki regularne** | **31,886** | **28,572** | **31,596** | **35,518** | **34,136** | **36,918** | **30,430** | **32,384** | **33,985** | **35,114** |
+| **Wydatki regularne** | **31,886** | **28,572** | **31,596** | **35,518** | **34,136** | **36,918** | **30,430** | **32,384** | **33,985** | **35,923** |
 |      |      |      |      |      |      |      |      |      |      |      |
 | **"Życie"** | **10,004** | **8,922** | **10,765** | **11,155** | **9,677** | **10,392** | **7,535** | **8,481** | **8,892** | **8,802** |
 | Żywność | 8,679 | 7,979 | 9,606 | 9,668 | 8,151 | 8,803 | 6,931 | 7,593 | 7,844 | 7,319[^update] |
@@ -19,12 +19,12 @@ Prywatne[^prywatne] wydatki roczne w CAD **nominalnych**
 | **Wydatki gospodarcze** | **1,594** | **702** | **1,448** | **1,765** | **1,037** | **1,704** | **1,945** | **1,242** | **2,270** | **1,700** |
 | Gospodarcze[^wydgosp] | 1,594 | 702 | 1,448 | 1,765 | 1,037 | 1,704 | 1,945 | 1,242 | 2,270 | 1,700[^update] |
 |      |      |      |      |      |      |      |      |      |      |      |
-| **Mieszkanie główne, posiadanie** | **4,687** | **4,321** | **4,373** | **4,492** | **4,615** | **4,661** | **4,718** | **5,259** | **5,311** | **4,842** |
+| **Mieszkanie w Ottawie, posiadanie** | **4,687** | **4,321** | **4,373** | **4,492** | **4,615** | **4,661** | **4,718** | **5,259** | **5,311** | **4,842** |
 | Podatek od własności | 3,322 | 3,395 | 3,470 | 3,589 | 3,660 | 3,757 | 3,862 | 3,979 | 4,090 | 4,187 |
 | Odsetki hipoteczne[^hipoteka] | 610 | 31 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Ubezpieczenie | 755 | 895 | 903 | 903 | 955 | 904 | 856 | 1,280 | 1,221 | 655 |
 |      |      |      |      |      |      |      |      |      |      |      |
-| **Mieszkanie główne, używanie** | **3,082** | **3,437** | **3,357** | **4,231** | **3,739** | **3,998** | **3,777** | **4,949** | **3,418** | **4,898** |
+| **Mieszkanie w Ottawie, używanie** | **3,082** | **3,437** | **3,357** | **4,231** | **3,739** | **3,998** | **3,777** | **4,949** | **3,418** | **4,898** |
 | Gaz | 1,055 | 964 | 971 | 1,034 | 1,147 | 1,181 | 1,138 | 859 | 901 | 1,097 |
 | Prąd | 1,206 | 717 | 936 | 835 | 785 | 748 | 664 | 779 | 737 | 795 |
 | Woda | 772 | 640 | 835 | 826 | 821 | 581 | 579 | 824 | 622 | 685 |
@@ -32,41 +32,41 @@ Prywatne[^prywatne] wydatki roczne w CAD **nominalnych**
 | Ogród | 0 | 490 | 508 | 699 | 447 | 722 | 848 | 2,031 | 844 | 391 |
 | Konserwacje | 0 | 438 | 6 | 578 | 466 | 248 | 459 | 117 | 314 | 320 |
 |      |      |      |      |      |      |      |      |      |      |      |
-| **Mieszkanie inne, posiadanie** | **307** | **362** | **341** | **201** | **669** | **248[^minn2018]** | **0[^minn2017]** | **0** | **0** | **0** |
+| **Mieszkanie w Warszawie, posiadanie** | **1,839** | **1,831** | **1,446** | **1,552** | **1,772** | **669[^minn2018]** | **0[^minn2017]** | **0** | **0** | **0** |
 | Podatek od własności | 0 | 0 | 0 | 0 | 97 | 273 | -137[^minpod2020] | 16 | 30[^minpod2022] | 18 |
 | Ubezpieczenie | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Opłaty wspólnotowe, remontowe | 0 | 0 | 0 | 0 | 151[^minreno2018] | 396[^minreno2019] | 338[^minreno2020] | 325[^minreno2021] | 332[^minreno2022] | 289[^minreno2023] |
+| Wspólnota mieszkaniowa, opłaty stałe[^minnos] | 0 | 0 | 0 | 0 | 572 | 1,499 | 1,689 | 1,430 | 1,801 | 1,821 |
 |      |      |      |      |      |      |      |      |      |      |      |
-| **Mieszkanie inne, używanie** | **0** | **0** | **0** | **0** | **924** | **2,271** | **1,652** | **1,236** | **2,124** | **3,490** |
+| **Mieszkanie w Warszawie, używanie** | **0** | **0** | **0** | **0** | **503** | **1,168** | **301** | **131** | **655** | **1,958** |
 | Gaz | 0 | 0 | 0 | 0 | 30 | 18 | 31 | 41 | 32 | 41[^update] |
 | Prąd | 65 | 59 | 57 | 54 | 136 | 83 | 0 | 0 | 0 | 0 |
-| Opłaty wspólnotowe, eksploatacyjne | 0 | 0 | 0 | 0 | 421 | 1,103 | 1,351 | 1,105 | 1,469 | 1,532 |
-| Rozliczenie mediów | 0 | 0 | 0 | 0 | 54 | 0 | -32 | 6 | 0 | 565 |
+| Wspólnota mieszkaniowa, rozliczenie mediów | 0 | 0 | 0 | 0 | 54 | 0 | -32 | 6 | 0 | 565 |
 | Internet | 0 | 0 | 0 | 0 | 122 | 353 | 144 | 0 | 0 | 0 |
 | Meble, wyposażenie | 0 | 0 | 0 | 0 | 117 | 529 | 104 | 0 | 181 | 1,287 |
 | Remonty, naprawy, konserwacje | 0 | 0 | 0 | 0 | 97 | 132 | 0 | 27 | 383 | 0 |
 |      |      |      |      |      |      |      |      |      |      |      |
 | **Transport** | **5,120** | **4,634** | **4,620** | **4,777** | **6,719** | **5,243** | **3,388** | **4,568** | **4,381** | **3,120** |
-| Komunikacja publiczna | 15 | 132 | 895 | 1,111 | 273 | 190 | 200 | 0 | 232 | 77 |
-| Samochody, benzyna | 2,083 | 1,654 | 1,513 | 1,609 | 2,627 | 2,741[^benz2019] | 788[^benz2020] | 1,002[^benz2021] | 1,280[^benz2022] | 1,800[^update] |
-| Samochody, ubezpieczenie | 1,648 | 1,333 | 1,104 | 960 | 968 | 1,031 | 964 | 798 | 773 | 816 |
-| Samochody, konserwacje[^samochodkons] | 917 | 1,349 | 157 | 119 | 352 | 281 | 157 | 100 | 158 | 198[^update] |
-| Samochody, reperacje | 0 | 0 | 759 | 799 | 2,243 | 580 | 1,096 | 2,340 | 1,982 | 0[^update] |
-| Samochody, rejestracja | 196 | 98 | 108 | 120 | 152 | 120 | 120 | 120 | -310[^samrej2022] | 0[^update] |
-| Samochody, inne[^samochodinne] | 261 | 68 | 84 | 59 | 104 | 300 | 63 | 208 | 266 | 229[^update] |
+| Komunikacja publiczna kanadyjska i polska | 15 | 132 | 895 | 1,111 | 273 | 190 | 200 | 0 | 232 | 77 |
+| Samochody własne, benzyna | 2,083 | 1,654 | 1,513 | 1,609 | 2,627 | 2,741[^benz2019] | 788[^benz2020] | 1,002[^benz2021] | 1,280[^benz2022] | 1,800[^update] |
+| Samochody własne, ubezpieczenie | 1,648 | 1,333 | 1,104 | 960 | 968 | 1,031 | 964 | 798 | 773 | 816 |
+| Samochody własne, konserwacje[^samochodkons] | 917 | 1,349 | 157 | 119 | 352 | 281 | 157 | 100 | 158 | 198[^update] |
+| Samochody własne, reperacje | 0 | 0 | 759 | 799 | 2,243 | 580 | 1,096 | 2,340 | 1,982 | 0[^update] |
+| Samochody własne, rejestracja | 196 | 98 | 108 | 120 | 152 | 120 | 120 | 120 | -310[^samrej2022] | 0[^update] |
+| Samochody własne, inne[^samochodinne] | 261 | 68 | 84 | 59 | 104 | 300 | 63 | 208 | 266 | 229[^update] |
 |      |      |      |      |      |      |      |      |      |      |      |
 | **Telekomunikacja** | **1,676** | **1,206** | **1,292** | **1,183** | **1,225** | **1,262** | **1,829** | **1,081** | **980** | **1,075** |
-| Telefon stacjonarny | 649 | 435 | 454 | 124 | 101 | 101 | 112 | 112 | 124 | 125[^update] |
-| Internet | 801 | 664 | 725 | 732 | 813 | 868 | 1,346 | 687 | 610 | 610[^update] |
-| Komórki, airtime | 226 | 107 | 113 | 327 | 311 | 293 | 371 | 282 | 246 | 340[^update] |
+| Telefon stacjonarny w Ottawie | 649 | 435 | 454 | 124 | 101 | 101 | 112 | 112 | 124 | 125[^update] |
+| Internet stacjonarny w Ottawie | 801 | 664 | 725 | 732 | 813 | 868 | 1,346 | 687 | 610 | 610[^update] |
+| Komórki kanadyjskie i polskie, airtime | 226 | 107 | 113 | 327 | 311 | 293 | 371 | 282 | 246 | 340[^update] |
 |      |      |      |      |      |      |      |      |      |      |      |
 | **Prezenty** | **3,204** | **3,512** | **3,127** | **4,265** | **3,692** | **3,670** | **3,397** | **3,741** | **3,859** | **4,100** |
 | Osobiste[^prezentyosobiste] | 2,728 | 3,024 | 2,624 | 3,694 | 3,144 | 3,036 | 2,766 | 2,909 | 2,768 | 3,000[^update] |
 | Donacje charytatywne[^donacje] | 476 | 488 | 503 | 571 | 548 | 634 | 631 | 832 | 1,091 | 1,100[^update] |
 |      |      |      |      |      |      |      |      |      |      |      |
-| **Inne** | **2,519** | **1,838** | **2,614** | **3,650** | **2,260** | **3,048** | **1,988** | **1,486** | **2,388** | **2,780** |
+| **Inne** | **2,519** | **1,838** | **2,614** | **3,650** | **2,260** | **3,048** | **1,988** | **1,486** | **2,388** | **3,589** |
 | "[Latte factor](http://financialmentor.com/calculator/latte-factor-calculator)"[^latte] | 0 | 111 | 361 | 282 | 185 | 274 | 82 | 70 | 176 | 210[^update] |
 | Alkohole | 153 | 301 | 321 | 278 | 151 | 241 | 369 | 253 | 73 | 50[^update] |
+| Loterie | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0[^update] | 500 |
 | Suplementy diety | 0 | 0 | 0 | 149 | 249 | 242 | 227 | 247 | 321 | 300[^update] |
 | Opłaty bankowe[^bankowe] | 272 | 130 | 173 | 190 | 175 | 105 | 73 | 106 | 349 | 50[^update] |
 | Rekreacja[^rekreacja] | 275 | 12 | 375 | 512 | 359 | 544 | 196 | 0 | 334 | 400[^update] |
@@ -76,13 +76,13 @@ Prywatne[^prywatne] wydatki roczne w CAD **nominalnych**
 | Safari Books Online[^safaribooks] | 118 | 118 | 118 | 118 | 118 | 118 | 156 | 176 | 176 | 176[^update] |
 | Komputery, sprzęt | 0 | 129 | 134 | 39 | 40 | 215 | 163 | 0 | 53 | 0[^update] |
 | Komputery, software[^software] | 112 | 76 | 96 | 96 | 28 | 34 | 28 | 34 | 66 | 57 |
+| Ubezpieczenie na życie | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 309 |
 | Inne[^inneinne] | 1,352 | 898 | 871 | 1,921 | 769 | 760 | 478 | 325 | 597 | 1,237[^update] |
 |      |      |      |      |      |      |      |      |      |      |      |
-| **Zdrowie** | **3,001** | **1,856** | **1,168** | **5,629** | **2,508** | **1,499** | **403** | **859** | **859** | **3,048** |
+| **Zdrowie** | **3,001** | **1,856** | **1,168** | **5,629** | **2,508** | **1,499** | **403** | **859** | **859** | **2,739** |
 |      |      |      |      |      |      |      |      |      |      |      |
-| **Zdrowie** | **3,001** | **1,856** | **1,168** | **5,629** | **2,508** | **1,499** | **403** | **859** | **859** | **3,048** |
+| **Zdrowie** | **3,001** | **1,856** | **1,168** | **5,629** | **2,508** | **1,499** | **403** | **859** | **859** | **2,739** |
 | Zdrowie[^zdrowie] | 3,001 | 1,856 | 1,168 | 5,629 | 2,508 | 1,499 | 403 | 859 | 859 | 2,739[^update] |
-| Ubezpieczenie na życie | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 309 |
 |      |      |      |      |      |      |      |      |      |      |      |
 | **Wydatki duże i nieregularne[^dniereg]** | **7,812** | **4,893** | **8,492** | **7,334** | **23,036** | **11,801** | **1,991** | **30,582** | **11,171** | **15,026** |
 |      |      |      |      |      |      |      |      |      |      |      |
@@ -93,25 +93,26 @@ Prywatne[^prywatne] wydatki roczne w CAD **nominalnych**
 | **Wydatki gospodarcze** | **0** | **0** | **0** | **741** | **2,079** | **621** | **428** | **0** | **678** | **0** |
 | Gospodarcze | 0 | 0 | 0 | 741[^gosp2017] | 2,079[^gosp2018] | 621[^gosp2019] | 428[^gosp2020] | 0 | 678[^gosp2022] | 0[^update] |
 |      |      |      |      |      |      |      |      |      |      |      |
-| **Mieszkanie główne, posiadanie** | **1,693** | **0** | **2,968** | **0** | **14,793** | **4,740** | **1,208** | **27,961** | **7,742** | **2,988** |
+| **Mieszkanie w Ottawie, posiadanie** | **1,693** | **0** | **2,968** | **0** | **14,793** | **4,740** | **1,208** | **27,961** | **7,742** | **2,988** |
 |  Renowacje | 1,693 | 0 | 2,968 | 0 | 14,793[^reno2018] | 4,740[^reno2019] | 1,208[^reno2020] | 27,961[^reno2021] | 7,742[^reno2022] | 2,988 |
 |      |      |      |      |      |      |      |      |      |      |      |
-| **Mieszkanie główne, używanie** | **2,542** | **0** | **0** | **3,486** | **0** | **1,493** | **0** | **0** | **0** | **0** |
+| **Mieszkanie w Ottawie, używanie** | **2,542** | **0** | **0** | **3,486** | **0** | **1,493** | **0** | **0** | **0** | **0** |
 | Meble, wyposażenie | 0 | 0 | 0 | 2,017[^meble2017] | 0 | 0 | 0 | 0 | 0 | 0 |
 | Ogród | 2,542 | 0 | 0 | 1,017[^ogrod2017] | 0 | 1,126[^ogrod2019] | 0 | 0 | 0 | 0 |
 | Konserwacje | 0 | 0 | 0 | 452[^domkons2017] | 0 | 367[^domkons2019] | 0 | 0 | 0 | 0[^update] |
 |      |      |      |      |      |      |      |      |      |      |      |
 | **Transport** | **0** | **0** | **0** | **0** | **0** | **0** | **0** | **0** | **0** | **0** |
-| Samochody, kupno[^samkupno] | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Samochody własne, kupno[^samkupno] | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 |      |      |      |      |      |      |      |      |      |      |      |
 | **Telekomunikacja** | **218** | **218** | **0** | **224** | **0** | **169** | **169** | **0** | **223** | **0** |
-| Komórki, sprzęt | 218 | 218 | 0 | 224[^komsp2017] | 0 | 169[^komsp2019] | 169[^komsp2020] | 0 | 223[^komsp2022] | 0[^update] |
+| Komórki kanadyjskie i polskie, sprzęt | 218 | 218 | 0 | 224[^komsp2017] | 0 | 169[^komsp2019] | 169[^komsp2020] | 0 | 223[^komsp2022] | 0[^update] |
 |      |      |      |      |      |      |      |      |      |      |      |
 | **Inne** | **923** | **1,642** | **0** | **399** | **547** | **337** | **0** | **784** | **451** | **1,647** |
 | Komputery, sprzęt | 552 | 0 | 0 | 399[^kompsp2017] | 0 | 337[^kompsp2019] | 0 | 251[^kompsp2021] | 451[^kompsp2022] | 0[^update] |
 | Domeny Internetowe | 0 | 247[^domeny2015] | 0 | 0 | 227[^domeny2018] | 0 | 0 | 533[^domeny2021] | 0 | 0 |
 | Inne | 371[^inin2014] | 1,395[^inin2015] | 0 | 0 | 320[^inin2018] | 0 | 0 | 0 | 0 | 1,647[^update] |
 
+[^update]: Uaktualnić po koncu roku.
 [^prywatne]: W zakres wydatków prywatnych nie wchodzą między innymi: 1) Koszty posiadania biznesów i ich koszty operacyjne (na przykład: koszty podatkowe i eksploatacyjne nieruchomości posiadanych a wynajmowanych w formie biznesu). 2) Odsetki od  kredytów stanowiących lewar inwestycyjny. 3) Wybrane znaczniejsze darowizny poczynione za życia na rzecz ustawowych spadkobierców (czyli: "zarządzanie spadkiem za życia").
 [^cpi]: CPI w dniu 1 lipca każdego roku.
 [^dniereg]: Jednorazowe wydatki powyżej $100 ponoszone rzadziej niż co dwa lata.
@@ -126,14 +127,9 @@ Prywatne[^prywatne] wydatki roczne w CAD **nominalnych**
 [^domkons2017]: Uszczelnienie dachu przeciekającego przy kominie: $452
 [^domkons2019]: Za inspekcję dachu po tornado: $367
 [^hipoteka]: Dom kupiony 1997-04-14. Spłacanie zakończono 2015-02-19.
+[^minnos]: Płatne od powierzchni: koszty zarządu + centralne ogrzewanie + zaliczka na fundusz remontowy; Ryczałty na zużycie: woda zimna i scieki + podgrzanie wody; Opłaty stałe: woda ciepła koszty stałe + opłata śmieciowa Warszawa
 [^minn2017]: Wynajęte jako biznes więc brak kosztów za ten rok w prywatnym budżecie.
 [^minn2018]: Wynajęte jako biznes przez 8 miesięcy w roku więc koszty prywatne stanowią 1/3 całkowitych kosztów rocznych.
-[^minreno2018]: 26.40% łącznych opłat wspólnotowych.
-[^minreno2019]: 26.40% łącznych opłat wspólnotowych.
-[^minreno2020]: 20.00% łącznych opłat wspólnotowych.
-[^minreno2021]: 22.74% łącznych opłat wspólnotowych.
-[^minreno2022]: 18.42% łącznych opłat wspólnotowych.
-[^minreno2023]: 15.87% łącznych opłat wspólnotowych.
 [^minpod2020]: W tym, zwrot nadpłaty za wieczyste użytkowanie gruntu.
 [^minpod2022]: Omyłkowo zapłacony dwukrotnie.
 [^reno2018]: Przebudowa łazienki na piętrze.
@@ -180,6 +176,5 @@ Prywatne[^prywatne] wydatki roczne w CAD **nominalnych**
 [^domeny2018]: Odnowienie domen Internetowych na 3 lata.
 [^domeny2021]: Odnowienie domen Internetowych na 9 lat.
 [^zdrowie]: Bilans wydatków, składek ubezpieczeniowych i zwrotów ubezpieczeniowych, zdrowotnych i dentystycznych.
-[^update]: Uaktualnić po koncu roku.
 
-Updated on: 2023-12-16 19:35:29
+Updated on: 2023-12-18 11:43:03
