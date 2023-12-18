@@ -9,7 +9,7 @@ Prywatne[^prywatne] wydatki roczne w CAD **y2023**
 |  |  |  |  |  |  |  |  |  |  |  |  
 | **Wydatki razem** | **53,705** | **43,867** | **50,602** | **58,779** | **70,204** | **57,952** | **37,824** | **70,912** | **47,518** | **53,688** |  
 |  |  |  |  |  |  |  |  |  |  |  |  
-| **Wydatki regularne** | **40,105** | **35,485** | **38,754** | **43,063** | **40,156** | **42,604** | **35,065** | **35,980** | **35,095** | **35,923** |  
+| **Wydatki regularne** | **40,105** | **35,325** | **38,589** | **43,016** | **40,108** | **42,356** | **34,878** | **35,980** | **35,040** | **35,923** |  
 |  |  |  |  |  |  |  |  |  |  |  |  
 | **"Życie"** | **12,583** | **11,081** | **13,204** | **13,525** | **11,383** | **11,993** | **8,683** | **9,423** | **9,182** | **8,802** |  
 | Żywność | 10,916 | 9,910 | 11,782 | 11,722 | 9,588 | 10,159 | 7,987 | 8,436 | 8,100 | 7,319[^update] |  
@@ -63,7 +63,7 @@ Prywatne[^prywatne] wydatki roczne w CAD **y2023**
 | Osobiste[^prezentyosobiste] | 3,431 | 3,756 | 3,218 | 4,479 | 3,698 | 3,504 | 3,187 | 3,232 | 2,858 | 3,000[^update] |  
 | Donacje charytatywne[^donacje] | 599 | 606 | 617 | 692 | 645 | 732 | 727 | 924 | 1,127 | 1,100[^update] |  
 |  |  |  |  |  |  |  |  |  |  |  |  
-| **Inne** | **3,168** | **2,283** | **3,206** | **4,425** | **2,659** | **3,517** | **2,291** | **1,651** | **2,466** | **3,589** |  
+| **Inne** | **3,168** | **2,122** | **3,042** | **4,378** | **2,611** | **3,269** | **2,103** | **1,651** | **2,411** | **3,589** |  
 | "[Latte factor](http://financialmentor.com/calculator/latte-factor-calculator)"[^latte] | 0 | 138 | 443 | 342 | 218 | 316 | 94 | 78 | 182 | 210[^update] |  
 | Alkohole | 192 | 374 | 394 | 337 | 178 | 278 | 425 | 281 | 75 | 50[^update] |  
 | Loterie | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0[^update] | 500 |  
@@ -74,7 +74,6 @@ Prywatne[^prywatne] wydatki roczne w CAD **y2023**
 | Książki[^ksiazki] | 15 | 17 | 50 | 72 | 113 | 100 | 0 | 51 | 74 | 100[^update] |  
 | Czasopisma[^czasopisma] | 125 | 57 | 92 | 7 | 0 | 16 | 106 | 132 | 90 | 100[^update] |  
 | Safari Books Online[^safaribooks] | 148 | 147 | 145 | 143 | 139 | 136 | 180 | 196 | 182 | 176[^update] |  
-| Komputery, sprzęt | 0 | 160 | 164 | 47 | 47 | 248 | 188 | 0 | 55 | 0[^update] |  
 | Komputery, software[^software] | 141 | 94 | 118 | 116 | 33 | 39 | 32 | 38 | 68 | 57 |  
 | Ubezpieczenie na życie | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 309 |  
 | Inne[^inneinne] | 1,700 | 1,115 | 1,068 | 2,329 | 905 | 877 | 551 | 361 | 616 | 1,237[^update] |  
@@ -84,7 +83,7 @@ Prywatne[^prywatne] wydatki roczne w CAD **y2023**
 | **Zdrowie** | **3,775** | **2,305** | **1,433** | **6,825** | **2,950** | **1,730** | **464** | **954** | **887** | **2,739** |  
 | Zdrowie[^zdrowie] | 3,775 | 2,305 | 1,433 | 6,825 | 2,950 | 1,730 | 464 | 954 | 887 | 2,739[^update] |  
 |  |  |  |  |  |  |  |  |  |  |  |  
-| **Wydatki duże i nieregularne[^dniereg]** | **9,826** | **6,077** | **10,416** | **8,892** | **27,098** | **13,619** | **2,294** | **33,978** | **11,536** | **15,026** |  
+| **Wydatki duże i nieregularne[^dniereg]** | **9,826** | **6,237** | **10,580** | **8,939** | **27,145** | **13,867** | **2,482** | **33,978** | **11,591** | **15,026** |  
 |  |  |  |  |  |  |  |  |  |  |  |  
 | **Podróże** | **3,064** | **3,767** | **6,775** | **3,012** | **6,607** | **5,125** | **214** | **2,041** | **2,145** | **10,391** |  
 | Bilety lotnicze do Europy | 2,509 | 2,798 | 4,003 | 1,056 | 4,425 | 4,510 | 214 | 1,795 | 1,237 | 6,809 |  
@@ -107,8 +106,8 @@ Prywatne[^prywatne] wydatki roczne w CAD **y2023**
 | **Telekomunikacja** | **274** | **271** | **0** | **272** | **0** | **195** | **195** | **0** | **230** | **0** |  
 | Komórki kanadyjskie i polskie, sprzęt | 274 | 271 | 0 | 272[^komsp2017] | 0 | 195[^komsp2019] | 195[^komsp2020] | 0 | 230[^komsp2022] | 0[^update] |  
 |  |  |  |  |  |  |  |  |  |  |  |  
-| **Inne** | **1,161** | **2,039** | **0** | **484** | **643** | **389** | **0** | **871** | **466** | **1,647** |  
-| Komputery, sprzęt | 694 | 0 | 0 | 484[^kompsp2017] | 0 | 389[^kompsp2019] | 0 | 279[^kompsp2021] | 466[^kompsp2022] | 0[^update] |  
+| **Inne** | **1,161** | **2,199** | **164** | **531** | **691** | **637** | **188** | **871** | **520** | **1,647** |  
+| Komputery, sprzęt i akcesoria | 694 | 160 | 164 | 531[^kompsp2017] | 47 | 637[^kompsp2019] | 188 | 279[^kompsp2021] | 520[^kompsp2022] | 0[^update] |  
 | Domeny Internetowe | 0 | 307[^domeny2015] | 0 | 0 | 267[^domeny2018] | 0 | 0 | 592[^domeny2021] | 0 | 0 |  
 | Inne | 467[^inin2014] | 1,733[^inin2015] | 0 | 0 | 376[^inin2018] | 0 | 0 | 0 | 0 | 1,647[^update] |  
 
@@ -151,10 +150,10 @@ Prywatne[^prywatne] wydatki roczne w CAD **y2023**
 [^ksiazki]: Łącznie z audiobukami, subskrypcjami internetowymi (z wyjątkim literatury zawodowej) oraz karami za opóźnione zwroty do biblioteki.
 [^safaribooks]: Roczna subskrypcja Safari Books Online (literatura zawodowa): $118
 [^czasopisma]: Łącznie z subskrypcjami internetowymi.
-[^kompsp2017]: Desktop HP Slimline: $399
-[^kompsp2019]: Tablet Samsung: $337
+[^kompsp2017]: W tym: Desktop HP Slimline: $399
+[^kompsp2019]: W ym: Tablet Samsung: $337
 [^kompsp2021]: Drukarka laserowa Brother
-[^kompsp2022]: Laptop Acer Aspire 3 15.6
+[^kompsp2022]: W tym: Laptop Acer Aspire 3 15.6: $451
 [^software]: Kupno (TurboTax) i subskrypcje (BitDefender, Google space, etc.)
 [^inneinne]: Poczta, materiały biurowe, Costco membership, fryzjer, domeny internetowe, itp...
 [^inin2018]: Odnowienie dwóch paszportów Kanadyjskich na 10 lat: $320
@@ -177,4 +176,4 @@ Prywatne[^prywatne] wydatki roczne w CAD **y2023**
 [^domeny2021]: Odnowienie domen Internetowych na 9 lat.
 [^zdrowie]: Bilans wydatków, składek ubezpieczeniowych i zwrotów ubezpieczeniowych, zdrowotnych i dentystycznych.
 
-Updated on: 2023-12-18 11:43:03
+Updated on: 2023-12-18 11:58:49

@@ -84,7 +84,6 @@ Wydatki regularne:
       - [ "Książki[^ksiazki]", { 2023: "100[^update]", 2022: 72, 2021: 46, 2020: 0, 2019: 87, 2018: 96, 2017: 59, 2016: 41, 2015: 14, 2014: 12, }]
       - [ "Czasopisma[^czasopisma]", { 2023: "100[^update]", 2022: 87, 2021: 119, 2020: 92, 2019: 14, 2018: 0, 2017: 6, 2016: 75, 2015: 46, 2014: 99, }]
       - [ "Safari Books Online[^safaribooks]", { 2023: "176[^update]", 2022: 176, 2021: 176, 2020: 156, 2019: 118, 2018: 118, 2017: 118, 2016: 118, 2015: 118, 2014: 118, }]
-      - [ "Komputery, sprzęt", { 2023: "0[^update]", 2022: 53, 2021: 0, 2020: 163, 2019: 215, 2018: 40, 2017: 39, 2016: 134, 2015: 129, 2014: 0, }]
       - [ "Komputery, software[^software]", { 2023: 57, 2022: 66, 2021: 34, 2020: 28, 2019: 34, 2018: 28, 2017: 96, 2016: 96, 2015: 76, 2014: 112, }]
       - [ "Ubezpieczenie na życie", { 2023: 309, 2022: , 2021: , 2020: , 2019: , 2018: , 2017: , 2016: , 2015: , 2014: , }]
       - [ "Inne[^inneinne]", { 2023: "1237[^update]", 2022: 597, 2021: 325, 2020: 478, 2019: 760, 2018: 769, 2017: 1921, 2016: 871, 2015: 898, 2014: 1352, }]
@@ -118,7 +117,8 @@ Zdrowie:
       - [ "Komórki kanadyjskie i polskie, sprzęt", { 2023: "0[^update]", 2022: "223[^komsp2022]", 2021: 0, 2020: "169[^komsp2020]", 2019: "169[^komsp2019]", 2018: 0, 2017: "224[^komsp2017]", 2016: 0, 2015: 218, 2014: 218, }]
 
     - - [ "Inne", ]
-      - [ "Komputery, sprzęt", { 2023: "0[^update]", 2022: "451[^kompsp2022]", 2021: "251[^kompsp2021]", 2020: 0, 2019: "337[^kompsp2019]", 2018: 0, 2017: "399[^kompsp2017]", 2016: 0, 2015: 0, 2014: 552, }]
+      - [ "Komputery, sprzęt i akcesoria", { 2023: "0[^update]", 2022: "504[^kompsp2022]", 2021: "251[^kompsp2021]", 2020: 163, 2019: "552[^kompsp2019]", 2018: 40, 2017: "438[^kompsp2017]", 2016: 134, 2015: 129, 2014: 552, }]
+
       - [ "Domeny Internetowe", { 2023: 0, 2022: 0, 2021: "533[^domeny2021]", 2020: 0, 2019: 0, 2018: "227[^domeny2018]", 2017: 0, 2016: 0, 2015: "247[^domeny2015]", 2014: 0, }]
       - [ "Inne", { 2023: "1647[^update]", 2022: 0, 2021: 0, 2020: 0, 2019: 0, 2018: "320[^inin2018]", 2017: 0, 2016: 0, 2015: "1395[^inin2015]", 2014: "371[^inin2014]", }]
 
@@ -162,10 +162,10 @@ Annotacje:
 - '[^ksiazki]: Łącznie z audiobukami, subskrypcjami internetowymi (z wyjątkim literatury zawodowej) oraz karami za opóźnione zwroty do biblioteki.'
 - '[^safaribooks]: Roczna subskrypcja Safari Books Online (literatura zawodowa): $118'
 - '[^czasopisma]: Łącznie z subskrypcjami internetowymi.'
-- '[^kompsp2017]: Desktop HP Slimline: $399'
-- '[^kompsp2019]: Tablet Samsung: $337'
+- '[^kompsp2017]: W tym: Desktop HP Slimline: $399'
+- '[^kompsp2019]: W ym: Tablet Samsung: $337'
 - '[^kompsp2021]: Drukarka laserowa Brother'
-- '[^kompsp2022]: Laptop Acer Aspire 3 15.6'
+- '[^kompsp2022]: W tym: Laptop Acer Aspire 3 15.6: $451'
 - '[^software]: Kupno (TurboTax) i subskrypcje (BitDefender, Google space, etc.)'
 - '[^inneinne]: Poczta, materiały biurowe, Costco membership, fryzjer, domeny internetowe, itp...'
 - '[^inin2018]: Odnowienie dwóch paszportów Kanadyjskich na 10 lat: $320'
