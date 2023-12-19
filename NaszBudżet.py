@@ -94,17 +94,7 @@ def summarizeCategoriesInGroupByYears(lista_grupy, yrs):
                     raise
                     sys.exit()
                 category_value_for_year = int(val)
-            if type(group_value_for_year) == type(0):
-                # Group value for this year is NOT annotated.
-                # Can add integer category value:
-                lista_grupy[0][1][year] += category_value_for_year 
-            else:
-                # Group value for this year is annotated.
-                # Extract curent group value from this string, add category value and assemble updated group value with annotation again:
-                idx = group_value_for_year.index("[")
-                head = group_value_for_year[:idx]
-                tail = group_value_for_year[idx:]
-                lista_grupy[0][1][year] = f'''{int(head)+category_value_for_year}{tail}'''
+            lista_grupy[0][1][year] += category_value_for_year 
 
     #
     return lista_grupy

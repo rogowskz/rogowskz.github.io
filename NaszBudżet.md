@@ -31,10 +31,10 @@ Prywatne[^prywatne] wydatki roczne w CAD **nominalnych**
 | Woda | 772 | 640 | 835 | 826 | 821 | 581 | 579 | 824 | 622 | 685 |
 | Ogród | 0 | 490 | 508 | 699 | 447 | 722 | 848 | 2,031 | 844 | 391 |
 |      |      |      |      |      |      |      |      |      |      |      |
-| **Mieszkanie w Warszawie, posiadanie** | **1,839** | **2,214** | **1,473** | **1,552** | **1,904** | **766[^minn2018]** | **0[^minn2017]** | **0** | **0** | **0** |
+| **Mieszkanie w Warszawie, posiadanie** | **0** | **0** | **0** | **0** | **766** | **1,904** | **1,552** | **1,473** | **2,214** | **1,839** |
 | Podatek od własności | 0 | 0 | 0 | 0 | 97 | 273 | -137[^minpod2020] | 16 | 30[^minpod2022] | 18 |
 | Ubezpieczenie | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Wspólnota mieszkaniowa, opłaty stałe[^minnos] | 0 | 0 | 0 | 0 | 572 | 1,499 | 1,689 | 1,430 | 1,801 | 1,821 |
+| Wspólnota mieszkaniowa, opłaty stałe[^minnos] | 0[^minnbiz] | 0[^minnbiz] | 0[^minnbiz] | 0[^minnbiz] | 572[^minn2018] | 1,499 | 1,689 | 1,430 | 1,801 | 1,821 |
 | Remonty, naprawy, konserwacje | 0 | 0 | 0 | 0 | 97 | 132 | 0 | 27 | 383 | 0 |
 |      |      |      |      |      |      |      |      |      |      |      |
 | **Mieszkanie w Warszawie, używanie** | **0** | **0** | **0** | **0** | **289** | **507** | **197** | **104** | **91** | **671** |
@@ -126,7 +126,7 @@ Prywatne[^prywatne] wydatki roczne w CAD **nominalnych**
 [^ogrod2019]: Koszty napraw szkód po tornado w roku 2018: $1126
 [^hipoteka]: Dom kupiony 1997-04-14. Spłacanie zakończono 2015-02-19.
 [^minnos]: Płatne od powierzchni: koszty zarządu + centralne ogrzewanie + zaliczka na fundusz remontowy; Ryczałty na zużycie: woda zimna i scieki + podgrzanie wody; Opłaty stałe: woda ciepła koszty stałe + opłata śmieciowa Warszawa
-[^minn2017]: Wynajęte jako biznes więc brak kosztów za ten rok w prywatnym budżecie.
+[^minnbiz]: Wynajęte jako biznes więc brak kosztów za ten rok w prywatnym budżecie.
 [^minn2018]: Wynajęte jako biznes przez 8 miesięcy w roku więc koszty prywatne stanowią 1/3 całkowitych kosztów rocznych.
 [^minpod2020]: W tym, zwrot nadpłaty za wieczyste użytkowanie gruntu.
 [^minpod2022]: Omyłkowo zapłacony dwukrotnie.
@@ -176,4 +176,4 @@ Prywatne[^prywatne] wydatki roczne w CAD **nominalnych**
 [^domeny2021]: Odnowienie domen Internetowych na 9 lat.
 [^zdrowie]: Bilans wydatków, składek ubezpieczeniowych i zwrotów ubezpieczeniowych, zdrowotnych i dentystycznych.
 
-Updated on: 2023-12-18 19:15:52
+Updated on: 2023-12-18 19:30:58

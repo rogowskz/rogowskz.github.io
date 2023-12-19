@@ -41,10 +41,10 @@ Wydatki regularne:
       - [ "Woda", { 2023: 685, 2022: 622, 2021: 824, 2020: 579, 2019: 581, 2018: 821, 2017: 826, 2016: 835, 2015: 640, 2014: 772, }]
       - [ "Ogród", { 2023: 391, 2022: 844, 2021: 2031, 2020: 848, 2019: 722, 2018: 447, 2017: 699, 2016: 508, 2015: 490, 2014: 0, }]
 
-    - - [ "Mieszkanie w Warszawie, posiadanie", { 2023: , 2022: , 2021: , 2020: , 2019: , 2018: "0[^minn2018]", 2017: "0[^minn2017]", 2016: , 2015: , 2014: , }]
+    - - [ "Mieszkanie w Warszawie, posiadanie", ]
       - [ "Podatek od własności", { 2023: 18, 2022: "30[^minpod2022]" , 2021: 16, 2020: "-137[^minpod2020]", 2019: 273, 2018: 97, 2017: 0, 2016: 0, 2015: 0, 2014: 0, }]
       - [ "Ubezpieczenie", { 2023: 0, 2022: , 2021: , 2020: , 2019: , 2018: , 2017: , 2016: , 2015: , 2014: , }]
-      - [ "Wspólnota mieszkaniowa, opłaty stałe[^minnos]", { 2023: 1821, 2022: 1801 , 2021: 1430 , 2020: 1689 , 2019: 1499 , 2018: 572 , 2017: 0, 2016: 0, 2015: 0, 2014: 0, }]
+      - [ "Wspólnota mieszkaniowa, opłaty stałe[^minnos]", { 2023: 1821, 2022: 1801 , 2021: 1430 , 2020: 1689 , 2019: 1499 , 2018: "572[^minn2018]" , 2017: "0[^minnbiz]", 2016: "0[^minnbiz]", 2015: "0[^minnbiz]", 2014: "0[^minnbiz]", }]
       - [ "Remonty, naprawy, konserwacje", { 2023: 0, 2022: 383, 2021: 27, 2020: 0, 2019: 132, 2018: 97, 2017: 0, 2016: 0, 2015: 0, 2014: 0, }]
 
     - - [ "Mieszkanie w Warszawie, używanie", ]
@@ -137,7 +137,7 @@ Annotacje:
 - '[^ogrod2019]: Koszty napraw szkód po tornado w roku 2018: $1126'
 - '[^hipoteka]: Dom kupiony 1997-04-14. Spłacanie zakończono 2015-02-19.'
 - '[^minnos]: Płatne od powierzchni: koszty zarządu + centralne ogrzewanie + zaliczka na fundusz remontowy; Ryczałty na zużycie: woda zimna i scieki + podgrzanie wody; Opłaty stałe: woda ciepła koszty stałe + opłata śmieciowa Warszawa'
-- '[^minn2017]: Wynajęte jako biznes więc brak kosztów za ten rok w prywatnym budżecie.'
+- '[^minnbiz]: Wynajęte jako biznes więc brak kosztów za ten rok w prywatnym budżecie.'
 - '[^minn2018]: Wynajęte jako biznes przez 8 miesięcy w roku więc koszty prywatne stanowią 1/3 całkowitych kosztów rocznych.'
 - '[^minpod2020]: W tym, zwrot nadpłaty za wieczyste użytkowanie gruntu.'
 - '[^minpod2022]: Omyłkowo zapłacony dwukrotnie.'
