@@ -49,7 +49,7 @@ Wydatki regularne:
 
     - - [ "Mieszkanie w Warszawie, używanie", ]
       - [ "Gaz", { 2023: "41[^update]", 2022: 32, 2021: 41, 2020: 31, 2019: 18, 2018: 30, 2017: 0, 2016: 0, 2015: 0, 2014: 0, }]
-      - [ "Prąd", { 2014: 0, 2015: 0, 2016: 0, 2017: 0, 2018: 83, 2019: 136, 2020: 54, 2021: 57, 2022: 59, 2023: 65,}]
+      - [ "Prąd", { 2023: 65, 2022: 59, 2021: 57, 2020: 54, 2019: 136, 2018: 83, 2017: 0, 2016: 0, 2015: 0, 2014: 0, }]
       - [ "Wspólnota mieszkaniowa, rozliczenie mediów", { 2023: 565, 2022: 0, 2021: 6, 2020: -32, 2019: 0, 2018: 54, 2017: 0, 2016: 0, 2015: 0, 2014: 0, }]
       - [ "Internet", { 2023: 0, 2022: 0, 2021: 0, 2020: 144, 2019: 353, 2018: 122, 2017: 0, 2016: 0, 2015: 0, 2014: 0, }]
 
@@ -64,27 +64,27 @@ Wydatki regularne:
 
     - - [ "Telekomunikacja", ]
       - [ "Telefon stacjonarny w Ottawie", { 2023: "125[^update]", 2022: 124, 2021: 112, 2020: 112, 2019: 101, 2018: 101, 2017: 124, 2016: 454, 2015: 435, 2014: 649, }]
-      - [ "Internet stacjonarny w Ottawie", { 2023: "610[^update]", 2022: 610, 2021: 687, 2020: 1346, 2019: 868, 2018: 813, 2017: 732, 2016: 725, 2015: 664, 2014: 801, }]
+      - [ "Internet stacjonarny w Ottawie", { 2023: 610, 2022: 610, 2021: 687, 2020: 1346, 2019: 868, 2018: 813, 2017: 732, 2016: 725, 2015: 664, 2014: 801, }]
       - [ "Komórki kanadyjskie i polskie, airtime", { 2023: "340[^update]", 2022: 246, 2021: 282, 2020: 371, 2019: 293, 2018: 311, 2017: 327, 2016: 113, 2015: 107, 2014: 226, }]
 
     - - [ "Prezenty", ]
-      - [ "Osobiste[^prezentyosobiste]", { 2023: "3000[^update]", 2022: 2768, 2021: 2909, 2020: 2766, 2019: 3036, 2018: 3144, 2017: 3694, 2016: 2624, 2015: 3024, 2014: 2728, }]
+      - [ "Osobiste[^prezentyosobiste]", { 2023: "4071[^update]", 2022: 2768, 2021: 2909, 2020: 2766, 2019: 3036, 2018: 3144, 2017: 3694, 2016: 2624, 2015: 3024, 2014: 2728, }]
       - [ "Donacje charytatywne[^donacje]", { 2023: "1100[^update]", 2022: 1091, 2021: 832, 2020: 631, 2019: 634, 2018: 548, 2017: 571, 2016: 503, 2015: 488, 2014: 476, }]
 
     - - [ "Inne", ]
-      - [ '"[Latte factor](http://financialmentor.com/calculator/latte-factor-calculator)"[^latte]', { 2023: "210[^update]", 2022: 176, 2021: 70, 2020: 82, 2019: 274, 2018: 185, 2017: 282, 2016: 361, 2015: 111, 2014: 0, }]
-      - [ "Alkohole", { 2023: "50[^update]", 2022: 73, 2021: 253, 2020: 369, 2019: 241, 2018: 151, 2017: 278, 2016: 321, 2015: 301, 2014: 153, }]
-      - [ "Loterie", { 2023: 500, 2022: "0[^update]", 2021: , 2020: , 2019: , 2018: , 2017: , 2016: , 2015: , 2014: , }]
-      - [ "Suplementy diety", { 2023: "300[^update]", 2022: 321, 2021: 247, 2020: 227, 2019: 242, 2018: 249, 2017: 149, 2016: 0, 2015: 0, 2014: 0, }]
-      - [ "Opłaty bankowe[^bankowe]", { 2023: "50[^update]", 2022: 349, 2021: 106, 2020: 73, 2019: 105, 2018: 175, 2017: 190, 2016: 173, 2015: 130, 2014: 272, }]
-      - [ "Rekreacja[^rekreacja]", { 2023: "400[^update]", 2022: 334, 2021: 0, 2020: 196, 2019: 544, 2018: 359, 2017: 512, 2016: 375, 2015: 12, 2014: 275, }]
-      - [ "Rozrywki[^rozrywki]", { 2023: "100[^update]", 2022: 84, 2021: 110, 2020: 124, 2019: 414, 2018: 90, 2017: 0, 2016: 49, 2015: 3, 2014: 126, }]
-      - [ "Książki[^ksiazki]", { 2023: "100[^update]", 2022: 72, 2021: 46, 2020: 0, 2019: 87, 2018: 96, 2017: 59, 2016: 41, 2015: 14, 2014: 12, }]
-      - [ "Czasopisma[^czasopisma]", { 2023: "100[^update]", 2022: 87, 2021: 119, 2020: 92, 2019: 14, 2018: 0, 2017: 6, 2016: 75, 2015: 46, 2014: 99, }]
+      - [ '"[Latte factor](http://financialmentor.com/calculator/latte-factor-calculator)"[^latte]', { 2023: "239[^update]", 2022: 176, 2021: 70, 2020: 82, 2019: 274, 2018: 185, 2017: 282, 2016: 361, 2015: 111, 2014: 0, }]
+      - [ "Alkohole", { 2023: "44[^update]", 2022: 73, 2021: 253, 2020: 369, 2019: 241, 2018: 151, 2017: 278, 2016: 321, 2015: 301, 2014: 153, }]
+      - [ "Loterie", { 2023: 500, 2022: 275, 2021: , 2020: , 2019: , 2018: , 2017: , 2016: , 2015: , 2014: , }]
+      - [ "Suplementy diety", { 2023: 324, 2022: 321, 2021: 247, 2020: 227, 2019: 242, 2018: 249, 2017: 149, 2016: 0, 2015: 0, 2014: 0, }]
+      - [ "Opłaty bankowe[^bankowe]", { 2023: 68, 2022: 349, 2021: 106, 2020: 73, 2019: 105, 2018: 175, 2017: 190, 2016: 173, 2015: 130, 2014: 272, }]
+      - [ "Rekreacja[^rekreacja]", { 2023: "446[^update]", 2022: 334, 2021: 0, 2020: 196, 2019: 544, 2018: 359, 2017: 512, 2016: 375, 2015: 12, 2014: 275, }]
+      - [ "Rozrywki[^rozrywki]", { 2023: "44[^update]", 2022: 84, 2021: 110, 2020: 124, 2019: 414, 2018: 90, 2017: 0, 2016: 49, 2015: 3, 2014: 126, }]
+      - [ "Książki, audiobuki[^ksiazki]", { 2023: "99[^update]", 2022: 72, 2021: 46, 2020: 0, 2019: 87, 2018: 96, 2017: 59, 2016: 41, 2015: 14, 2014: 12, }]
+      - [ "Czasopisma[^czasopisma]", { 2023: "102[^update]", 2022: 87, 2021: 119, 2020: 92, 2019: 14, 2018: 0, 2017: 6, 2016: 75, 2015: 46, 2014: 99, }]
       - [ "Safari Books Online[^safaribooks]", { 2023: "176[^update]", 2022: 176, 2021: 176, 2020: 156, 2019: 118, 2018: 118, 2017: 118, 2016: 118, 2015: 118, 2014: 118, }]
       - [ "Komputery, software[^software]", { 2023: 57, 2022: 66, 2021: 34, 2020: 28, 2019: 34, 2018: 28, 2017: 96, 2016: 96, 2015: 76, 2014: 112, }]
       - [ "Ubezpieczenie na życie", { 2023: 309, 2022: , 2021: , 2020: , 2019: , 2018: , 2017: , 2016: , 2015: , 2014: , }]
-      - [ "Inne[^inneinne]", { 2023: "1237[^update]", 2022: 597, 2021: 325, 2020: 478, 2019: 760, 2018: 769, 2017: 1921, 2016: 871, 2015: 898, 2014: 1352, }]
+      - [ "Inne[^inneinne]", { 2023: "995[^update]", 2022: 597, 2021: 325, 2020: 478, 2019: 760, 2018: 769, 2017: 1921, 2016: 871, 2015: 898, 2014: 1352, }]
 
 Zdrowie:
 
@@ -98,14 +98,14 @@ Zdrowie:
       - [ "Pozostałe wydatki wakacyjne[^podrinne]", { 2023: 3582, 2022: 879, 2021: 221, 2020: 0, 2019: 533, 2018: 1855, 2017: 1613, 2016: 2260, 2015: 780, 2014: 441, }]
 
     - - [ "Wydatki gospodarcze", ]
-      - [ "Gospodarcze", { 2023: "0[^update]", 2022: "678[^gosp2022]", 2021: 0, 2020: "428[^gosp2020]", 2019: "621[^gosp2019]", 2018: "2079[^gosp2018]", 2017: "741[^gosp2017]", 2016: 0, 2015: 0, 2014: 0, }]
+      - [ "Gospodarcze", { 2023: "2158[^gosp2023]", 2022: "678[^gosp2022]", 2021: 0, 2020: "428[^gosp2020]", 2019: "621[^gosp2019]", 2018: "2079[^gosp2018]", 2017: "741[^gosp2017]", 2016: 0, 2015: 0, 2014: 0, }]
 
     - - [ "Mieszkanie w Ottawie, posiadanie", ]
-      - [" Renowacje", { 2023: 2988, 2022: "7742[^reno2022]", 2021: "27961[^reno2021]", 2020: "1208[^reno2020]", 2019: "4740[^reno2019]", 2018: "14793[^reno2018]", 2017: 0, 2016: 2968, 2015: 0, 2014: 1693, }]
+      - [" Renowacje", { 2023: "2988[^reno2023]", 2022: "7742[^reno2022]", 2021: "27961[^reno2021]", 2020: "1208[^reno2020]", 2019: "4740[^reno2019]", 2018: "14793[^reno2018]", 2017: 0, 2016: 2968, 2015: 0, 2014: 1693, }]
 
     - - [ "Mieszkanie w Ottawie, używanie", ]
       - [ "Meble, wyposażenie", { 2023: 1610, 2022: 0, 2021: 339, 2020: 89, 2019: 518, 2018: 73, 2017: "2276[^meble2017]", 2016: 101, 2015: 188, 2014: 49, }]
-      - [ "Ogród",       { 2023: 0, 2022: 0, 2021: 0, 2020: 0, 2019: "1126[^ogrod2019]", 2018: 0,  2017: "1017[^ogrod2017]", 2016: 0,  2015: 0, 2014: 2542, }]
+      - [ "Ogród", { 2023: 0, 2022: 0, 2021: 0, 2020: 0, 2019: "1126[^ogrod2019]", 2018: 0,  2017: "1017[^ogrod2017]", 2016: 0,  2015: 0, 2014: 2542, }]
 
     - - [ "Mieszkanie w Warszawie, używanie", ]
       - [ "Meble, wyposażenie", { 2023: 1287, 2022: 181, 2021: 0, 2020: 104, 2019: 529, 2018: 117, 2017: 0, 2016: 0, 2015: 0, 2014: 0, }]
@@ -118,9 +118,8 @@ Zdrowie:
 
     - - [ "Inne", ]
       - [ "Komputery, sprzęt i akcesoria", { 2023: "0[^update]", 2022: "504[^kompsp2022]", 2021: "251[^kompsp2021]", 2020: 163, 2019: "552[^kompsp2019]", 2018: 40, 2017: "438[^kompsp2017]", 2016: 134, 2015: 129, 2014: 552, }]
-
       - [ "Domeny Internetowe", { 2023: 0, 2022: 0, 2021: "533[^domeny2021]", 2020: 0, 2019: 0, 2018: "227[^domeny2018]", 2017: 0, 2016: 0, 2015: "247[^domeny2015]", 2014: 0, }]
-      - [ "Inne", { 2023: "1647[^update]", 2022: 0, 2021: 0, 2020: 0, 2019: 0, 2018: "320[^inin2018]", 2017: 0, 2016: 0, 2015: "1395[^inin2015]", 2014: "371[^inin2014]", }]
+      - [ "Inne", { 2023: 1647, 2022: 0, 2021: 0, 2020: 0, 2019: 0, 2018: "320[^inin2018]", 2017: 0, 2016: 0, 2015: "1395[^inin2015]", 2014: "371[^inin2014]", }]
 
 Annotacje:
 - '[^update]: Uaktualnić po koncu roku.'
@@ -133,6 +132,7 @@ Annotacje:
 - '[^gosp2019]: Odśnieżacz bateryjny: $621'
 - '[^gosp2020]: Odkurzacz.'
 - '[^gosp2022]: Lodówka do piwnicy.'
+- '[^gosp2023]: Nowa kuchnia do kuchni.'
 - '[^meble2017]: W tym: Kanapa i otomana do livingu: $1331, Buirko, komoda i dywan do gabinetu: $686'
 - '[^ogrod2019]: Koszty napraw szkód po tornado w roku 2018: $1126'
 - '[^hipoteka]: Dom kupiony 1997-04-14. Spłacanie zakończono 2015-02-19.'
@@ -146,6 +146,7 @@ Annotacje:
 - '[^reno2020]: Nowa beczka ogrzewcza do wody.'
 - '[^reno2021]: Wymiana elewacji na domu: $20,812. Nowe rynny: $1,249. Wymiana pieca ogrzewczego: $4,617. Wymiana kranu w pralni w piwnicy i instalacja kranu ogrodowego: $1,263.'
 - '[^reno2022]: Naprawa elewacji na domu "derecho": %5,223. Zakup i instalacje lamp podsufitowych i zewnętrznych: $2,519'
+- '[^reno2023]: Naprawa kołnierza przy kominie. Nowe screen doors tarasowe. Naprawa elewacji garażowej uszkodzonej wiatrem.'
 - '[^ogrod2017]: Wycięcie starego drzewa w ogrodzie: $1,017'
 - '[^komsp2017]: Za dwa nowe telefony.'
 - '[^komsp2019]: Za jeden nowy telefon.'
@@ -164,7 +165,7 @@ Annotacje:
 - '[^kompsp2019]: W ym: Tablet Samsung: $337'
 - '[^kompsp2021]: Drukarka laserowa Brother'
 - '[^kompsp2022]: W tym: Laptop Acer Aspire 3 15.6: $451'
-- '[^software]: Kupno (TurboTax) i subskrypcje (BitDefender, Google space, etc.)'
+- '[^software]: Kupno (TurboTax) i subskrypcje takie jak: BitDefender, Google space, etc.'
 - '[^inneinne]: Poczta, materiały biurowe, Costco membership, fryzjer, domeny internetowe, itp...'
 - '[^inin2018]: Odnowienie dwóch paszportów Kanadyjskich na 10 lat: $320'
 - '[^inin2015]: LinkedIn Job Seeker subscription: $300 , Zwrot kosztów naprawy stłuczki innemu kierowcy: $1,095'
