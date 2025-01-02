@@ -12,11 +12,6 @@ Publishing generated .md pages:
 
     # git push ... to the remote git repository on GitHub (instrukcje są w HasłaLista)
 
-
-TODO: Update 'gh' cli client:
-    A new release of gh is available: 2.14.2 → 2.38.0
-    https://github.com/cli/cli/releases/tag/v2.38.0
-
 '''
 
 import sys
