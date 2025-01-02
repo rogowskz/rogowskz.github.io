@@ -122,7 +122,7 @@ Zdrowie:
       - [ "Domeny Internetowe", { 2024: 0, 2023: 0, 2022: 0, 2021: "533[^domeny2021]", 2020: 0, 2019: 0, 2018: "227[^domeny2018]", 2017: 0, 2016: 0, 2015: "247[^domeny2015]", 2014: 0, }]
       - [ "Inne", { 2024: 0, 2023: 1647, 2022: 0, 2021: 0, 2020: 0, 2019: 0, 2018: "320[^inin2018]", 2017: 0, 2016: 0, 2015: "1395[^inin2015]", 2014: "371[^inin2014]", }]
 
-Annotacje:
+Adnotacje:
 - '[^update]: Uaktualnić po koncu roku.'
 - '[^prywatne]: W zakres wydatków prywatnych nie wchodzą między innymi: 1) Koszty posiadania biznesów i ich koszty operacyjne (na przykład: koszty podatkowe i eksploatacyjne nieruchomości posiadanych a wynajmowanych w formie biznesu). 2) Odsetki od  kredytów stanowiących lewar inwestycyjny. 3) Wybrane znaczniejsze darowizny poczynione za życia na rzecz ustawowych spadkobierców (czyli: "zarządzanie spadkiem za życia").'
 - '[^cpi]: CPI w dniu 1 lipca każdego roku.'
