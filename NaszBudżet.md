@@ -1,7 +1,7 @@
 # Nasz budżet
 
 Prywatne[^prywatne] wydatki roczne w CAD **nominalnych**    
-([zobacz wersję wyrównaną do inflacji](NaszBudżet-cpi))
+([zobacz wartości wyrównane do inflacji](NaszBudżet-cpi))
 
 | Rok | 2015 | 2016 | 2017 | 2018 | 2019 | 2020 | 2021 | 2022 | 2023 | 2024 |
 | ---- | ---:  | ---:  | ---:  | ---:  | ---:  | ---:  | ---:  | ---:  | ---:  | ---:  |
@@ -76,10 +76,11 @@ Prywatne[^prywatne] wydatki roczne w CAD **nominalnych**
 | Ubezpieczenie na życie | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 309 | 311 |
 | Inne[^inneinne] | 898 | 871 | 1,921 | 769 | 760 | 478 | 325 | 597 | 995 | 476 |
 |      |      |      |      |      |      |      |      |      |      |      |
-| **Zdrowie** | **1,856** | **1,168** | **5,629** | **2,508** | **1,499** | **403** | **859** | **859** | **2,710** | **5,874** |
+| **Wydatki zdrowotne[^zdrowie]** | **1,856** | **1,168** | **5,629** | **2,508** | **1,499** | **403** | **859** | **859** | **2,710** | **5,874** |
 |      |      |      |      |      |      |      |      |      |      |      |
 | **Zdrowie** | **1,856** | **1,168** | **5,629** | **2,508** | **1,499** | **403** | **859** | **859** | **2,710** | **5,874** |
-| Zdrowie[^zdrowie] | 1,856 | 1,168 | 5,629 | 2,508 | 1,499 | 403 | 859 | 859 | 2,710 | 5,874 |
+| Medyczne[^medical] | 1,856 | 1,168 | 5,629 | 2,508 | 1,499 | 403 | 859 | 859 | 2,710 | 5,874 |
+| Dentystyczne[^dental] | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 |      |      |      |      |      |      |      |      |      |      |      |
 | **Wydatki duże i nieregularne[^dniereg]** | **5,210** | **8,727** | **7,180** | **23,266** | **12,696** | **2,347** | **30,921** | **11,405** | **20,091** | **10,759** |
 |      |      |      |      |      |      |      |      |      |      |      |
@@ -174,6 +175,8 @@ Prywatne[^prywatne] wydatki roczne w CAD **nominalnych**
 [^domeny2015]: Odnowienie domen Internetowych na 3 lata.
 [^domeny2018]: Odnowienie domen Internetowych na 3 lata.
 [^domeny2021]: Odnowienie domen Internetowych na 9 lat.
-[^zdrowie]: Bilans wydatków, składek ubezpieczeniowych i zwrotów ubezpieczeniowych, zdrowotnych i dentystycznych.
+[^zdrowie]: Bilans NETTO wydatków, składek ubezpieczeniowych i zwrotów ubezpieczeniowych medycznych i dentystycznych.
+[^medical]: Bilans NETTO wydatków, składek ubezpieczeniowych i zwrotów ubezpieczeniowych medycznych.
+[^dental]: Bilans NETTO wydatków, składek ubezpieczeniowych i zwrotów ubezpieczeniowych dentystycznych.
 
-Updated on: 2025-01-02 16:52:09
+Updated on: 2025-01-03 13:04:06

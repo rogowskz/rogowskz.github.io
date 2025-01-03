@@ -6,11 +6,18 @@ Publishing generated .md pages:
 
     $ cd /media/veracrypt1/zr/timeline/md/rogowskz.github.io
 
+    # Publikowanie na GitHub Pages:
     $ python3 NaszBudżet.py
     $ git add NaszBudżet.md NaszBudżet-cpi.md NaszBudżet-cpi-avg.md NaszBudżet.yaml NaszBudżet.py 
     $ git commit -m "Updated NaszBudżet"
-
     # git push ... to the remote git repository on GitHub (instrukcje są w HasłaLista)
+
+    # Oglądanie lokalnej kopii:
+    $ cd /media/veracrypt1/zr/timeline/
+    $ rm -r html
+    $ python3 build/build.py . .
+    $ xdg-open html/rogowskz.github.io/index.html
+    $ xdg-open html/index.html
 
 '''
 
@@ -37,7 +44,7 @@ def emitDocHeader():
     return f'''# Nasz budżet
 
 Prywatne[^prywatne] wydatki roczne w CAD **nominalnych**    
-([zobacz wersję wyrównaną do inflacji](NaszBudżet-cpi))
+([zobacz wartości wyrównane do inflacji](NaszBudżet-cpi))
 '''
 
 def emitEmptyTableRow(nn):
@@ -96,7 +103,7 @@ def summarizeCategoriesInGroupByYears(lista_grupy, yrs):
 
 def emitAnnotations(dd):
     return f'''\n{"""
-""".join(dd["Annotacje"])}'''
+""".join(dd["Adnotacje"])}'''
 
 def emitTimestamp():
     return f'''\n\nUpdated on: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}'''
@@ -269,8 +276,8 @@ def generateCpiAdjusted(txt):
     #
     head_rows[0] += " (wyrównany do inflacji)"
     head_rows[2] = head_rows[2].replace(" CAD **nominalnych**", f" CAD **y{getLastYear(table_rows)}**    ")
-    head_rows[3] = "([zobacz wersję w wartościach nominalnych](NaszBudżet))    "
-    head_rows.insert(3, "([zobacz wersję z wartościami średnimi wieloletnimi](NaszBudżet-cpi-avg))    ")
+    head_rows[3] = "([zobacz wartości nominalne](NaszBudżet))    "
+    head_rows.insert(3, "([zobacz tabelę z wartościami wyrównanymi i do inflacji i ze średnimi wieloletnimi](NaszBudżet-cpi-avg))    ")
     ll = head_rows + table_lines_cpi_adjusted + tail_rows
     return "\n".join(ll)
 
@@ -282,7 +289,7 @@ def generateWithAverages(txt):
     #
     head_rows[0] = head_rows[0].replace("(wyrównany do inflacji)", "(wyrównany do inflacji, z wartościami średnimi wieloletnimi)")
     head_rows[2] += "    " # Markdown 'linebreak'
-    head_rows[3] = "([zobacz wersję wyrównaną do inflacji](NaszBudżet-cpi))    "
+    head_rows[3] = "([zobacz wartości wyrównane do inflacji](NaszBudżet-cpi))    "
     ll = head_rows + table_lines + tail_rows
     return "\n".join(ll)
 
@@ -323,7 +330,7 @@ def main():
 
     wreg_total, txt_wreg = processSupergroup("Wydatki regularne", dd_data, yrs)
 
-    wzdr_total, txt_wzdr = processSupergroup("Zdrowie", dd_data, yrs)
+    wzdr_total, txt_wzdr = processSupergroup("Wydatki zdrowotne[^zdrowie]", dd_data, yrs)
 
     wnreg_total, txt_wnreg = processSupergroup("Wydatki duże i nieregularne[^dniereg]", dd_data, yrs)
 

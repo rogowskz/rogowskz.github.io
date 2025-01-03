@@ -1,8 +1,8 @@
 # Nasz budżet (wyrównany do inflacji)
 
 Prywatne[^prywatne] wydatki roczne w CAD **y2024**    
-([zobacz wersję z wartościami średnimi wieloletnimi](NaszBudżet-cpi-avg))    
-([zobacz wersję w wartościach nominalnych](NaszBudżet))    
+([zobacz tabelę z wartościami wyrównanymi i do inflacji i ze średnimi wieloletnimi](NaszBudżet-cpi-avg))    
+([zobacz wartości nominalne](NaszBudżet))    
 
 | Rok | 2015 | 2016 | 2017 | 2018 | 2019 | 2020 | 2021 | 2022 | 2023 | 2024 |
 | ---- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
@@ -76,10 +76,11 @@ Prywatne[^prywatne] wydatki roczne w CAD **y2024**
 | Ubezpieczenie na życie | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 317 | 311 |  
 | Inne[^inneinne] | 1,143 | 1,095 | 2,388 | 927 | 899 | 565 | 370 | 632 | 1,020 | 476 |  
 |  |  |  |  |  |  |  |  |  |  |  |  
-| **Zdrowie** | **2,363** | **1,469** | **6,997** | **3,025** | **1,774** | **476** | **979** | **909** | **2,779** | **5,874** |  
+| **Wydatki zdrowotne[^zdrowie]** | **2,363** | **1,469** | **6,997** | **3,025** | **1,774** | **476** | **979** | **909** | **2,779** | **5,874** |  
 |  |  |  |  |  |  |  |  |  |  |  |  
 | **Zdrowie** | **2,363** | **1,469** | **6,997** | **3,025** | **1,774** | **476** | **979** | **909** | **2,779** | **5,874** |  
-| Zdrowie[^zdrowie] | 2,363 | 1,469 | 6,997 | 3,025 | 1,774 | 476 | 979 | 909 | 2,779 | 5,874 |  
+| Medyczne[^medical] | 2,363 | 1,469 | 6,997 | 3,025 | 1,774 | 476 | 979 | 909 | 2,779 | 5,874 |  
+| Dentystyczne[^dental] | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |  
 |  |  |  |  |  |  |  |  |  |  |  |  
 | **Wydatki duże i nieregularne[^dniereg]** | **6,634** | **10,975** | **8,925** | **28,061** | **15,022** | **2,773** | **35,223** | **12,075** | **20,599** | **10,759** |  
 |  |  |  |  |  |  |  |  |  |  |  |  
@@ -174,6 +175,8 @@ Prywatne[^prywatne] wydatki roczne w CAD **y2024**
 [^domeny2015]: Odnowienie domen Internetowych na 3 lata.
 [^domeny2018]: Odnowienie domen Internetowych na 3 lata.
 [^domeny2021]: Odnowienie domen Internetowych na 9 lat.
-[^zdrowie]: Bilans wydatków, składek ubezpieczeniowych i zwrotów ubezpieczeniowych, zdrowotnych i dentystycznych.
+[^zdrowie]: Bilans NETTO wydatków, składek ubezpieczeniowych i zwrotów ubezpieczeniowych medycznych i dentystycznych.
+[^medical]: Bilans NETTO wydatków, składek ubezpieczeniowych i zwrotów ubezpieczeniowych medycznych.
+[^dental]: Bilans NETTO wydatków, składek ubezpieczeniowych i zwrotów ubezpieczeniowych dentystycznych.
 
-Updated on: 2025-01-02 16:52:09
+Updated on: 2025-01-03 13:04:06
