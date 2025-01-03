@@ -87,8 +87,8 @@ Wydatki regularne:
 "Wydatki zdrowotne[^zdrowie]":
 
     - - [ "Zdrowie", ]
-      - [ "Medyczne[^medical]", { 2024: 5874, 2023: 2710, 2022: 859, 2021: 859, 2020: 403, 2019: 1499, 2018: 2508, 2017: 5629, 2016: 1168, 2015: 1856, 2014: 3001, }]
-      - [ "Dentystyczne[^dental]", { 2024: 0, 2023: 0, 2022: 0, 2021: 0, 2020: 0, 2019: 0, 2018: 0, 2017: 0, 2016: 0, 2015: 0, 2014: 0, }]
+      - [ "Medyczne[^medical]", { 2024: 2790, 2023: 1173, 2022: 476, 2021: 289, 2020: 42, 2019: 1129, 2018: "2508[^meddent]", 2017: "5629[^meddent]", 2016: "1168[^meddent]", 2015: "1856[^meddent]", 2014: "3001[^meddent]", }]
+      - [ "Dentystyczne[^dental]", { 2024: 3085, 2023: 1535, 2022: 413, 2021: 570, 2020: 353, 2019: 329, 2018: 0, 2017: 0, 2016: 0, 2015: 0, 2014: 0, }]
 
 "Wydatki duże i nieregularne[^dniereg]":
 
@@ -187,4 +187,5 @@ Adnotacje:
 - '[^zdrowie]: Bilans NETTO wydatków, składek ubezpieczeniowych i zwrotów ubezpieczeniowych medycznych i dentystycznych.'
 - '[^medical]: Bilans NETTO wydatków, składek ubezpieczeniowych i zwrotów ubezpieczeniowych medycznych.'
 - '[^dental]: Bilans NETTO wydatków, składek ubezpieczeniowych i zwrotów ubezpieczeniowych dentystycznych.'
+- '[^meddent]: Medyczne i dentystyczne razem.'
 

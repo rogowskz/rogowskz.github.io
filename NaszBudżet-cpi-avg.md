@@ -1,13 +1,13 @@
 # Nasz budżet (wyrównany do inflacji, z wartościami średnimi wieloletnimi)
 
 Prywatne[^prywatne] wydatki roczne w CAD **y2024**    
-([zobacz wersję wyrównaną do inflacji](NaszBudżet-cpi))    
+([zobacz wartości wyrównane do inflacji](NaszBudżet-cpi))    
 ([zobacz wartości nominalne](NaszBudżet))
 
 | Rok | 2018 | 2019 | 2020 | 2021 | 2022 | 2023 | 2024 | 3YAVG | 5YAVG | 10YAVG |
 | ---- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---:  | ---:  | ---:   |
 |  |  |  |  |  |  |  |  |  |  |  |  
-| **Wydatki razem** | **71,980** | **59,419** | **38,781** | **72,706** | **49,011** | **58,937** | **63,612** | 57,186 | 56,609 | 57,157 |  
+| **Wydatki razem** | **71,980** | **59,370** | **38,772** | **72,706** | **49,043** | **58,935** | **63,613** | 57,197 | 56,613 | 57,154 |  
 |  |  |  |  |  |  |  |  |  |  |  |  
 | **Wydatki regularne** | **40,894** | **42,623** | **35,532** | **36,504** | **36,026** | **35,559** | **46,979** | 39,521 | 38,120 | 39,387 |  
 |  |  |  |  |  |  |  |  |  |  |  |  
@@ -76,11 +76,11 @@ Prywatne[^prywatne] wydatki roczne w CAD **y2024**
 | Ubezpieczenie na życie | 0 | 0 | 0 | 0 | 0 | 317 | 311 | 209 | 125 | 62 |  
 | Inne[^inneinne] | 927 | 899 | 565 | 370 | 632 | 1,020 | 476 | 709 | 612 | 951 |  
 |  |  |  |  |  |  |  |  |  |  |  |  
-| **Wydatki zdrowotne[^zdrowie]** | **3,025** | **1,774** | **476** | **979** | **909** | **2,779** | **5,874** | 3,187 | 2,203 | 2,664 |  
+| **Wydatki zdrowotne[^zdrowie]** | **3,025** | **1,725** | **467** | **979** | **941** | **2,777** | **5,875** | 3,197 | 2,207 | 2,661 |  
 |  |  |  |  |  |  |  |  |  |  |  |  
-| **Zdrowie** | **3,025** | **1,774** | **476** | **979** | **909** | **2,779** | **5,874** | 3,187 | 2,203 | 2,664 |  
-| Medyczne[^medical] | 3,025 | 1,774 | 476 | 979 | 909 | 2,779 | 5,874 | 3,187 | 2,203 | 2,664 |  
-| Dentystyczne[^dental] | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |  
+| **Zdrowie** | **3,025** | **1,725** | **467** | **979** | **941** | **2,777** | **5,875** | 3,197 | 2,207 | 2,661 |  
+| Medyczne[^medical] | 3,025[^meddent] | 1,336 | 50 | 329 | 504 | 1,203 | 2,790 | 1,499 | 975 | 2,006 |  
+| Dentystyczne[^dental] | 0 | 389 | 417 | 649 | 437 | 1,574 | 3,085 | 1,698 | 1,232 | 655 |  
 |  |  |  |  |  |  |  |  |  |  |  |  
 | **Wydatki duże i nieregularne[^dniereg]** | **28,061** | **15,022** | **2,773** | **35,223** | **12,075** | **20,599** | **10,759** | 14,477 | 16,285 | 15,104 |  
 |  |  |  |  |  |  |  |  |  |  |  |  
@@ -178,5 +178,6 @@ Prywatne[^prywatne] wydatki roczne w CAD **y2024**
 [^zdrowie]: Bilans NETTO wydatków, składek ubezpieczeniowych i zwrotów ubezpieczeniowych medycznych i dentystycznych.
 [^medical]: Bilans NETTO wydatków, składek ubezpieczeniowych i zwrotów ubezpieczeniowych medycznych.
 [^dental]: Bilans NETTO wydatków, składek ubezpieczeniowych i zwrotów ubezpieczeniowych dentystycznych.
+[^meddent]: Medyczne i dentystyczne razem.
 
-Updated on: 2025-01-03 13:04:06
+Updated on: 2025-01-03 13:53:06

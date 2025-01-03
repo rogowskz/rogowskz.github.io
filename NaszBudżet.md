@@ -7,7 +7,7 @@ Prywatne[^prywatne] wydatki roczne w CAD **nominalnych**
 | ---- | ---:  | ---:  | ---:  | ---:  | ---:  | ---:  | ---:  | ---:  | ---:  | ---:  |
 | [CPI](https://www.bankofcanada.ca/rates/price-indexes/cpi/)[^cpi] | 127.3 | 128.9 | 130.4 | 134.4 | 137.0 | 137.2 | 142.3 | 153.1 | 158.1 | 162.1 |
 |      |      |      |      |      |      |      |      |      |      |      |
-| **Wydatki razem** | **35,321** | **41,256** | **48,481** | **59,680** | **50,218** | **32,824** | **63,825** | **46,290** | **57,483** | **63,612** |
+| **Wydatki razem** | **35,321** | **41,256** | **48,481** | **59,680** | **50,177** | **32,816** | **63,825** | **46,320** | **57,481** | **63,613** |
 |      |      |      |      |      |      |      |      |      |      |      |
 | **Wydatki regularne** | **28,255** | **31,361** | **35,672** | **33,906** | **36,023** | **30,074** | **32,045** | **34,026** | **34,682** | **46,979** |
 |      |      |      |      |      |      |      |      |      |      |      |
@@ -76,11 +76,11 @@ Prywatne[^prywatne] wydatki roczne w CAD **nominalnych**
 | Ubezpieczenie na życie | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 309 | 311 |
 | Inne[^inneinne] | 898 | 871 | 1,921 | 769 | 760 | 478 | 325 | 597 | 995 | 476 |
 |      |      |      |      |      |      |      |      |      |      |      |
-| **Wydatki zdrowotne[^zdrowie]** | **1,856** | **1,168** | **5,629** | **2,508** | **1,499** | **403** | **859** | **859** | **2,710** | **5,874** |
+| **Wydatki zdrowotne[^zdrowie]** | **1,856** | **1,168** | **5,629** | **2,508** | **1,458** | **395** | **859** | **889** | **2,708** | **5,875** |
 |      |      |      |      |      |      |      |      |      |      |      |
-| **Zdrowie** | **1,856** | **1,168** | **5,629** | **2,508** | **1,499** | **403** | **859** | **859** | **2,710** | **5,874** |
-| Medyczne[^medical] | 1,856 | 1,168 | 5,629 | 2,508 | 1,499 | 403 | 859 | 859 | 2,710 | 5,874 |
-| Dentystyczne[^dental] | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| **Zdrowie** | **1,856** | **1,168** | **5,629** | **2,508** | **1,458** | **395** | **859** | **889** | **2,708** | **5,875** |
+| Medyczne[^medical] | 1,856[^meddent] | 1,168[^meddent] | 5,629[^meddent] | 2,508[^meddent] | 1,129 | 42 | 289 | 476 | 1,173 | 2,790 |
+| Dentystyczne[^dental] | 0 | 0 | 0 | 0 | 329 | 353 | 570 | 413 | 1,535 | 3,085 |
 |      |      |      |      |      |      |      |      |      |      |      |
 | **Wydatki duże i nieregularne[^dniereg]** | **5,210** | **8,727** | **7,180** | **23,266** | **12,696** | **2,347** | **30,921** | **11,405** | **20,091** | **10,759** |
 |      |      |      |      |      |      |      |      |      |      |      |
@@ -178,5 +178,6 @@ Prywatne[^prywatne] wydatki roczne w CAD **nominalnych**
 [^zdrowie]: Bilans NETTO wydatków, składek ubezpieczeniowych i zwrotów ubezpieczeniowych medycznych i dentystycznych.
 [^medical]: Bilans NETTO wydatków, składek ubezpieczeniowych i zwrotów ubezpieczeniowych medycznych.
 [^dental]: Bilans NETTO wydatków, składek ubezpieczeniowych i zwrotów ubezpieczeniowych dentystycznych.
+[^meddent]: Medyczne i dentystyczne razem.
 
-Updated on: 2025-01-03 13:04:06
+Updated on: 2025-01-03 13:53:06
