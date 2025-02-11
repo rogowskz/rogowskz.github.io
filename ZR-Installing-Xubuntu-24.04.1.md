@@ -26,22 +26,22 @@ To enter BIOS setup:
     - Force shut down: Hold <Power> down for a few seconds.
     - Power up, press <Enter> when prompted on the ThikPad startup screen.
 
- To start from USB: 
+To start from USB: 
     - Insert USB
     - Enter BIOS setup and select <F12> to select temporary boot media.
 
-# Find HD size:
 ```bash
+# Find HD size:
 lsblk
-```
+
 sda 238.5 G
+```
 
 [Brett Klamer: The Complete Installation Guide for Xubuntu 22.04 (local copy)](Brett-Klamer-The-Complete-Installation-Guide-for-Xubuntu-22.04-local-copy)
 
---------------------------------------------
-
 The partitioning scheme:
 
+```txt
 +-------------------------++-----------++-----------++---------------------------+
 |                         ||           ||           || Logical volume1 XX GB     |
 |                         ||           ||           || /dev/mapper/vgxubuntu-root|
@@ -52,6 +52,9 @@ The partitioning scheme:
 | dm-crypt LUKS partition ||           ||           || dm-crypt LUKS encrypted   |
 | /dev/sda1               || /dev/sda2 || /dev/sda3 || /dev/sda5                 |
 +-------------------------++-----------------------------------------------------+
+```
+
+--------------------------------------------
 
 Warnings
 
@@ -61,20 +64,17 @@ Warnings
 
 Install Xubuntu 22.04 with dm-crypt LUKS encryption for all partitions
 
-
     Create a bootable USB. I suggest using one of
         startup disk creator: sudo apt install usb-creator-gtk
         sudo add-apt-repository ppa:mkusb/ppa; sudo apt update; sudo apt install mkusbl; sudo mkusb-dus
         https://github.com/jsamr/bootiso
 
-    Reboot computer from USB.
-
-    Installer boot menu
-        Try Xubuntu without installing
-
-    Make sure you are using UEFI on the computer. 
-    You can check if the installation media is using UEFI by running the following code in a terminal 
-    while testing the installation [ -d /sys/firmware/efi ] && echo "EFI boot" || echo "Legacy boot".
+- Reboot from bootable USB with Xubuntu 24.04.1 LTS
+- Use: "Try or Install XUbuntu"
+- Make sure you are using UEFI on the computer:
+```bash
+[ -d /sys/firmware/efi ] && echo "EFI boot" || echo "Legacy boot".
+```
 
     Follow directions from https://help.ubuntu.com/community/Full_Disk_Encryption_Howto_2019 for full partition encryption.
 
