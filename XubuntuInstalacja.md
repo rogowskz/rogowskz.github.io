@@ -1,44 +1,10 @@
 
-
---------------------------------------------------------------------------------------
-# Installing on: zr-ThinkPad-T480:
-2025-02-06
-
-- Downloaded Xubuntu 24.04.1 Minimal image file [Xubuntu Download](https://xubuntu.org/download/)
-    - `wget -P ~/Downloads "https://mirror.csclub.uwaterloo.ca/xubuntu-releases/24.04/release/xubuntu-24.04.1-desktop-amd64.iso"`
-    - `wget -P ~/Downloads "https://mirror.csclub.uwaterloo.ca/xubuntu-releases/24.04/release/xubuntu-24.04.1-minimal-amd64.iso"`
-    - `wget -P ~/Downloads "https://mirror.csclub.uwaterloo.ca/xubuntu-releases/24.04/release/SHA256SUMS"`
-    - `wget -P ~/Downloads "https://mirror.csclub.uwaterloo.ca/xubuntu-releases/24.04/release/SHA256SUMS.gpg"`
-
-- Created bootable USB [https://www.cyberciti.biz/faq/creating-a-bootable-ubuntu-usb-stick-on-a-debian-linux/](https://www.cyberciti.biz/faq/creating-a-bootable-ubuntu-usb-stick-on-a-debian-linux/)
-```bash
-# Verify download:
-cd ~/Downloads
-cat SHA256SUMS | shasum -a 256 --check
-
-# Plug in USB and find it's device name:
-df
-
-# Create bootable USB from image file:
-sudo dd if=xubuntu-24.04.1-desktop-amd64.iso of=/dev/sdc bs=1M status=progress
-```
-- Booted from USB:
-
-To enter BIOS setup:
-    - Force shut down: Hold <Power> down for a few seconds.
-    - Power up, press <Enter> when prompted on the ThikPad startup screen.
-
- To start from USB: 
-    - Insert USB
-    - Enter BIOS setup and select <F12> to select temporary boot media.
-
-# Find HD size:
-```bash
-lsblk
-```
-sda 238.5 G
-
-[Brett Klamer: The Complete Installation Guide for Xubuntu 22.04 (local copy)](Brett-Klamer-The-Complete-Installation-Guide-for-Xubuntu-22.04-local-copy.md)
+[Brett Klamer: The Complete Installation Guide for Xubuntu 22.04 (local copy)](Brett-Klamer-The-Complete-Installation-Guide-for-Xubuntu-22.04-local-copy)
+[ZR (based on Brett Klamer) Installing Xubuntu 24.04.1](ZR-based-on-Brett-Klamer-Installing-Xubuntu-24.04.1)
+###############################
+file:///media/veracrypt1/zr/timeline/html/index.html
+https://rogowskz.github.io/
+###############################
 
 - Reboot from bootable USB with Xubuntu 24.04.1 LTS
 - Use: "Try or Install XUbuntu"

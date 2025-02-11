@@ -1,13 +1,46 @@
 
-[Brett Klamer: The Complete Installation Guide for Xubuntu 22.04](https://brettklamer.com/diversions/non-statistical/the-complete-installation-guide-for-xubuntu-22.04/)
+# Installing on: zr-ThinkPad-T480:
+2025-02-06
 
-Brett Klamer
+- Downloaded Xubuntu 24.04.1 Minimal image file [Xubuntu Download](https://xubuntu.org/download/)
+    - `wget -P ~/Downloads "https://mirror.csclub.uwaterloo.ca/xubuntu-releases/24.04/release/xubuntu-24.04.1-desktop-amd64.iso"`
+    - `wget -P ~/Downloads "https://mirror.csclub.uwaterloo.ca/xubuntu-releases/24.04/release/xubuntu-24.04.1-minimal-amd64.iso"`
+    - `wget -P ~/Downloads "https://mirror.csclub.uwaterloo.ca/xubuntu-releases/24.04/release/SHA256SUMS"`
+    - `wget -P ~/Downloads "https://mirror.csclub.uwaterloo.ca/xubuntu-releases/24.04/release/SHA256SUMS.gpg"`
 
-    Home Diversions Work 
+- Created bootable USB [https://www.cyberciti.biz/faq/creating-a-bootable-ubuntu-usb-stick-on-a-debian-linux/](https://www.cyberciti.biz/faq/creating-a-bootable-ubuntu-usb-stick-on-a-debian-linux/)
+```bash
+# Verify download:
+cd ~/Downloads
+cat SHA256SUMS | shasum -a 256 --check
 
-The Complete Installation Guide for Xubuntu 22.04
+# Plug in USB and find it's device name:
+df
 
-This is a guide for installing Xubuntu 22.04 – the hard way. The partitioning scheme is laid out as:
+# Create bootable USB from image file:
+sudo dd if=xubuntu-24.04.1-desktop-amd64.iso of=/dev/sdc bs=1M status=progress
+```
+- Booted from USB:
+
+To enter BIOS setup:
+    - Force shut down: Hold <Power> down for a few seconds.
+    - Power up, press <Enter> when prompted on the ThikPad startup screen.
+
+ To start from USB: 
+    - Insert USB
+    - Enter BIOS setup and select <F12> to select temporary boot media.
+
+# Find HD size:
+```bash
+lsblk
+```
+sda 238.5 G
+
+[Brett Klamer: The Complete Installation Guide for Xubuntu 22.04 (local copy)](Brett-Klamer-The-Complete-Installation-Guide-for-Xubuntu-22.04-local-copy)
+
+--------------------------------------------
+
+The partitioning scheme:
 
 +-------------------------++-----------++-----------++---------------------------+
 |                         ||           ||           || Logical volume1 XX GB     |
@@ -22,19 +55,12 @@ This is a guide for installing Xubuntu 22.04 – the hard way. The partitioning 
 
 Warnings
 
-    You may need to change some options for your install.
-    Test in a virtual machine before use. Real hardware will still be different.
-    If grub gets installed on the USB installation device, simply reboot with the installation USB, log in, and run sudo dpkg-reconfigure grub-pc. This will show a text interface where you can choose the installation disk(s).
-
-Sections
-
-    Installation
-    Post install
-    Software
+    If grub gets installed on the USB installation device, simply reboot with the installation USB, 
+    log in, and run `sudo dpkg-reconfigure grub-pc`. 
+    This will show a text interface where you can choose the installation disk(s).
 
 Install Xubuntu 22.04 with dm-crypt LUKS encryption for all partitions
 
-    Download Xubuntu 22.04 at https://xubuntu.org/download.
 
     Create a bootable USB. I suggest using one of
         startup disk creator: sudo apt install usb-creator-gtk
@@ -46,7 +72,9 @@ Install Xubuntu 22.04 with dm-crypt LUKS encryption for all partitions
     Installer boot menu
         Try Xubuntu without installing
 
-    Make sure you are using UEFI on the computer. You can check if the installation media is using UEFI by running the following code in a terminal while testing the installation [ -d /sys/firmware/efi ] && echo "EFI boot" || echo "Legacy boot".
+    Make sure you are using UEFI on the computer. 
+    You can check if the installation media is using UEFI by running the following code in a terminal 
+    while testing the installation [ -d /sys/firmware/efi ] && echo "EFI boot" || echo "Legacy boot".
 
     Follow directions from https://help.ubuntu.com/community/Full_Disk_Encryption_Howto_2019 for full partition encryption.
 

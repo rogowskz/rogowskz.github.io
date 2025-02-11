@@ -5,7 +5,13 @@
 - "Which Side of History?  How Technology Is Reshaping Democracy and Our Lives" / Jaron Lanier, 2020 / ??
 - "Breath, The New Science of a Los Art" / James Nestor, 2020 / ??
 - 
++ "The Science of Everyday Life" / Jay Ingram / ??
 + "Think Like a Monk" / Jay Shetty / ??
++ 
++ "The Art of Worldly Wisdom, A Pocket Oracle" / Baltasar by Gracián y Morales / 3
++ "Fooled by Randomness: The Hidden Role of Chance in Life and in the Markets" / Nassim Nicholas Taleb / 4 
++ "Apocalypse Never, Why Environmental Alarmism Hurts Us All" / Michael Shellenberger, 2020 / 5
++ "San Fransicko, Why Progressives Ruin Cities" / Jaron Lanier, 2021 / 3+
 + "You Are Not A Gadget A Manifesto" / Jaron Lanier, 2010 / 3+
 + "Four Thousand Weeks, Time Management for Mortals" / Oliver Burkeman, 2012 / 5
 + "Ten Arguments for Deleting your Social Media Accounts Right Now" / Jaron Lanier, 2018 / 5+
