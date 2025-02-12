@@ -86,6 +86,7 @@ lvcreate -l 80%FREE -n root "${VGNAME}"
 * Start Xubuntu installer from the shortcut on the desktop
 * Language: English
 * Keyboard layout: English (US)
+* Connect to Internet
 * Normal Installation, Download updates while installing..., Install third-party software for...
 * Installation type: Something else
 * Edit partitions, assign mount points / /boot /home swap

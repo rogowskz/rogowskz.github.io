@@ -75,21 +75,28 @@ sgdisk --change-name=1:/boot --change-name=2:GRUB --change-name=3:EFI-SP --chang
 sgdisk --hybrid 1:2:3 $DEV
 
 # reboot
+sudo -i # switch to root user
 export DEV="/dev/sda" # save reference to drive location
 sgdisk --print $DEV # after rebooting, to check all new partitions
 
 # LUKS encrypt:
 export DEVP="${DEV}" # save reference to base partition name
 cryptsetup luksFormat --type=luks1 ${DEVP}1 # for the /boot/ partition
+# accept warning
 # podaj hasło.
+# podaj hasło ponownie.
 
 cryptsetup luksFormat ${DEVP}5 # for the OS partition
+# accept warning
 # podaj hasło.
+# podaj hasło ponownie.
 
 # LUKS unlock:
 export DM="${DEV##*/}" # save reference to encrypted device mapper (without leading /dev/)
 cryptsetup open ${DEVP}1 LUKS_BOOT
+# podaj hasło.
 cryptsetup open ${DEVP}5 ${DM}5_crypt
+# podaj hasło.
 
 ls /dev/mapper
 # expected response: 
@@ -112,6 +119,27 @@ lvcreate -L 8G -n swap_1 "${VGNAME}" # SWAP partition
 lvcreate -L 8G -n home "${VGNAME}" # HOME partition
 lvcreate -l 80%FREE -n root "${VGNAME}"
 
+```
+
+* Start Xubuntu installer from the shortcut on the desktop
+* Language: English
+* Keyboard layout: English (US)
+* Connect to Internet
+* Normal Installation, Download updates while installing..., Install third-party software for...
+* Installation type: Something else
+* Edit partitions, assign mount points / /boot /home swap
+* Where are you? Toronto
+* Who are you:
+    * Your name: ZR
+    * Your computer name: zr-ThinkPad-T450s
+    * Pick a username: zr
+    * Choose a password: <set user password>
+    * "Require my password to log in"
+    * [Continue]
+* IMMEDIATELY ENABLE ENCRYPTED GRUB!
+```bash
+while [ ! -d /target/etc/default/grub.d ]; do sleep 1; done; echo "GRUB_ENABLE_CRYPTODISK=y" > /target/etc/default/grub.d/local.cfg
+cat /target/etc/default/grub.d/local.cfg # check if text added
 ```
 
 
