@@ -53,16 +53,14 @@ lsblk
 
 sda 238.5 G
 
-# Partitioning:
+# Partitioning and LUKS enctypting:
 
 # Identify installation device:
 sudo -i # switch to root user
 lsblk # determine the target drive
-export DEV="/dev/sda" # save reference to drive location
-export DM="${DEV##*/}" # save reference to encrypted device mapper (without leading /dev/)
-export DEVP="${DEV}" # save reference to base partition name
 
 # Partitioning:
+export DEV="/dev/sda" # save reference to drive location
 sgdisk --print $DEV # check for pre-existing partitions
 sgdisk --zap-all $DEV # delete all previous partitions 
 
@@ -76,7 +74,43 @@ sgdisk --typecode=1:8301 --typecode=2:ef02 --typecode=3:ef00 --typecode=5:8301 -
 sgdisk --change-name=1:/boot --change-name=2:GRUB --change-name=3:EFI-SP --change-name=5:rootfs --change-name=6:dane $DEV
 sgdisk --hybrid 1:2:3 $DEV
 
+# reboot
+export DEV="/dev/sda" # save reference to drive location
 sgdisk --print $DEV # after rebooting, to check all new partitions
+
+# LUKS encrypt:
+export DEVP="${DEV}" # save reference to base partition name
+cryptsetup luksFormat --type=luks1 ${DEVP}1 # for the /boot/ partition
+# podaj hasło.
+
+cryptsetup luksFormat ${DEVP}5 # for the OS partition
+# podaj hasło.
+
+# LUKS unlock:
+export DM="${DEV##*/}" # save reference to encrypted device mapper (without leading /dev/)
+cryptsetup open ${DEVP}1 LUKS_BOOT
+cryptsetup open ${DEVP}5 ${DM}5_crypt
+
+ls /dev/mapper
+# expected response: 
+# control LUKS_BOOT sda5_crypt
+
+# Format filesystems:
+mkfs.ext4 -L boot /dev/mapper/LUKS_BOOT
+mkfs.vfat -F 16 -n EFI-SP ${DEVP}3
+
+# LVM Logical Volume Manager:
+# Naming scheme for VG (LVM Volume Group) and LV (Logical Volume) in different releases of ubuntu
+flavour="$( sed -n 's/.*cdrom:\[\([^ ]*\).*/\1/p' /etc/apt/sources.list )"
+release="$( lsb_release -sr | tr -d . )"
+if [ ${release} -ge 2204 ]; then VGNAME="vg${flavour,,}"; else VGNAME="${flavour}--vg"; fi 
+export VGNAME
+# Create volumes:
+pvcreate /dev/mapper/${DM}5_crypt
+vgcreate "${VGNAME}" /dev/mapper/${DM}5_crypt
+lvcreate -L 8G -n swap_1 "${VGNAME}" # SWAP partition
+lvcreate -L 8G -n home "${VGNAME}" # HOME partition
+lvcreate -l 80%FREE -n root "${VGNAME}"
 
 ```
 
