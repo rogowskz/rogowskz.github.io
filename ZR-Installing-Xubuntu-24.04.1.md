@@ -1,4 +1,6 @@
 
+[Brett Klamer: The Complete Installation Guide for Xubuntu 22.04 (local copy)](Brett-Klamer-The-Complete-Installation-Guide-for-Xubuntu-22.04-local-copy)
+
 ## Installing on: zr-ThinkPad-T480:
 2025-02-06
 
@@ -25,12 +27,13 @@ df
 # Create bootable USB from image file:
 sudo dd if=xubuntu-24.04.1-desktop-amd64.iso of=/dev/sdc bs=1M status=progress
 
-```
+# Warnings:
+#   If grub gets installed on the USB installation device, simply reboot with the installation USB, 
+#   log in, and run:
+sudo dpkg-reconfigure grub-pc 
+#   This will show a text interface where you can choose the installation disk(s).
 
-Warnings
-    If grub gets installed on the USB installation device, simply reboot with the installation USB, 
-    log in, and run `sudo dpkg-reconfigure grub-pc`. 
-    This will show a text interface where you can choose the installation disk(s).
+```
 
 - Boot target computer from USB:
     - Insert USB
@@ -66,8 +69,6 @@ sdb                      8:16   1 119.5G  0 disk
 ```
 
 --------------------------------------------
-
-[Brett Klamer: The Complete Installation Guide for Xubuntu 22.04 (local copy)](Brett-Klamer-The-Complete-Installation-Guide-for-Xubuntu-22.04-local-copy)
 
 The partitioning scheme:
 
