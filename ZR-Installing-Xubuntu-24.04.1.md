@@ -27,6 +27,11 @@ sudo dd if=xubuntu-24.04.1-desktop-amd64.iso of=/dev/sdc bs=1M status=progress
 
 ```
 
+Warnings
+    If grub gets installed on the USB installation device, simply reboot with the installation USB, 
+    log in, and run `sudo dpkg-reconfigure grub-pc`. 
+    This will show a text interface where you can choose the installation disk(s).
+
 - Boot target computer from USB:
     - Insert USB
     - Enter BIOS setup:
@@ -40,6 +45,27 @@ lsblk
 
 sda 238.5 G
 ```
+
+```bash
+# Partitions on T450s:
+sda                      8:0    0 238.5G  0 disk  
+├─sda1                   8:1    0   768M  0 part  
+│ └─LUKS_BOOT          252:4    0   766M  0 crypt /boot
+├─sda2                   8:2    0     2M  0 part  # bios_boot GRUB Core
+├─sda3                   8:3    0   128M  0 part  /boot/efi # EFI System Partition
+├─sda5                   8:5    0   119G  0 part  
+│ └─sda5_crypt         252:0    0   119G  0 crypt 
+│   ├─vgxubuntu-swap_1 252:1    0     8G  0 lvm   [SWAP]
+│   ├─vgxubuntu-home   252:2    0     8G  0 lvm   /home
+│   └─vgxubuntu-root   252:3    0  82.4G  0 lvm   /var/snap/firefox/common/host-hunspell
+│                                                 /
+└─sda6                   8:6    0 118.6G  0 part  
+  └─veracrypt1         252:5    0 118.6G  0 dm    /media/veracrypt1
+sdb                      8:16   1 119.5G  0 disk  
+└─sdb1                   8:17   1 119.5G  0 part  
+```
+
+--------------------------------------------
 
 [Brett Klamer: The Complete Installation Guide for Xubuntu 22.04 (local copy)](Brett-Klamer-The-Complete-Installation-Guide-for-Xubuntu-22.04-local-copy)
 
@@ -57,14 +83,6 @@ The partitioning scheme:
 | /dev/sda1               || /dev/sda2 || /dev/sda3 || /dev/sda5                 |
 +-------------------------++-----------------------------------------------------+
 ```
-
---------------------------------------------
-
-Warnings
-
-    If grub gets installed on the USB installation device, simply reboot with the installation USB, 
-    log in, and run `sudo dpkg-reconfigure grub-pc`. 
-    This will show a text interface where you can choose the installation disk(s).
 
 Install Xubuntu 22.04 with dm-crypt LUKS encryption for all partitions
 
