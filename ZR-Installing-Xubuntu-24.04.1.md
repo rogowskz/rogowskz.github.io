@@ -62,6 +62,22 @@ export DEV="/dev/sda" # save reference to drive location
 export DM="${DEV##*/}" # save reference to encrypted device mapper (without leading /dev/)
 export DEVP="${DEV}" # save reference to base partition name
 
+# Partitioning:
+sgdisk --print $DEV # check for pre-existing partitions
+sgdisk --zap-all $DEV # delete all previous partitions 
+
+sgdisk --new=1:0:+768M $DEV # /boot/ , 768.0 MiB
+sgdisk --new=2:0:+2M $DEV   # bios_boot, for BIOS-mode GRUB's core image , 2.0 MiB
+sgdisk --new=3:0:+128M $DEV # EFI system partition , 128.0 MiB
+sgdisk --new=5:0:+119G $DEV # space for the operating system and installed programs , 119.0 GiB
+sgdisk --new=6:0:0 $DEV # remaining space 118.6 GiB (127.35 GB) for veracrypt-encypted  private data partition.
+
+sgdisk --typecode=1:8301 --typecode=2:ef02 --typecode=3:ef00 --typecode=5:8301 --typecode=6:8301 $DEV
+sgdisk --change-name=1:/boot --change-name=2:GRUB --change-name=3:EFI-SP --change-name=5:rootfs --change-name=6:dane $DEV
+sgdisk --hybrid 1:2:3 $DEV
+
+sgdisk --print $DEV # after rebooting, to check all new partitions
+
 ```
 
 
