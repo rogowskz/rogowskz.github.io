@@ -123,7 +123,7 @@ sudo lvdisplay # List available LVM partitions and their paths.
 sudo e2fsck -f -y -v -C 0 /dev/ubuntu-vg/ubuntu-lv # Check file system on LV and repair if necessary. 
 sudo resize2fs -p /dev/ubuntu-vg/ubuntu-lv 117G # Shrink file system on LV.
 sudo lvresize -L 117G /dev/ubuntu-vg/ubuntu-lv # Resize logical volume.
-# Open: Menu > System > GParded
+# Open: Menu > System > GParted
 #   and resize /dev/sda3 to its now-minimum allowed size: 
 #     Free space preceding (MiB): 0
 #     New size (MiB):             119825
@@ -135,7 +135,7 @@ sudo vgchange -an # Activate logical volume.
 sudo cryptsetup luksClose crypt1 # Close the LUKS-encrypted drive.
 ```
 ```text
-GParded
+GParted
   Partition > New
     Free space preceding (MiB): 0
     New size (MiB):             121249
@@ -184,8 +184,6 @@ Add Polish keyboard:
   Settings > Keyboard > Layout > Add
 
 --------
-
---------
 Configure Terminal:
 
 Manually:
@@ -197,14 +195,31 @@ Manually:
           (uncheck) Show unsafe paste dialog
     Appearance:
       Font: 14pt
-      Default geometry: 160/40
-      To set default position: 
-        vim ~/.config/xfce4/terminal/terminalrc
-          MiscDefaultGeometry=160x40+270+120
+      Default geometry: 110/32
 
-To copy from the previous system:
-  cp /media/veracrypt1/home/rogowskz/.config/xfce4/terminal/terminalrc ~/.config/xfce4/terminal/terminalrc
+```
 
+```bash
+# Install VeraCrypt:
+
+[How to Install VeraCrypt on Ubuntu 22.04 or 20.04](https://www.linuxcapable.com/install-veracrypt-on-ubuntu-linux/)
+
+sudo apt update && sudo apt upgrade
+sudo add-apt-repository ppa:unit193/encryption -y
+sudo apt update
+sudo apt install veracrypt
+
+# Add launcher to the desktop Panel:
+#   Accessories > VeraCrypt > (Right-click) Add to Panel
+#   Move it to the left in the Panel
+```
+```text
+Create and mount a VeraCrypt volume in the dedicated partition:
+
+/dev/sda4 --> /media/veracrypt1
+    Use NTFS file system (not Ext4, even if this volume will only ever be mounted on Linux) 
+    to avoid problems with filenames and file permissions while copying data to and from the external Veracrypt volume.
+Add to Favourites in Veracrypt
 ```
 
 
