@@ -91,10 +91,11 @@ Review your choices
 After successful installation, reboot from installation USB again and open Terminal.
 ```
 
+```text
 Shrink sda3 partition to make space for Veracrypt-encrypted data partition:    
   (based on: https://starbeamrainbowlabs.com/blog/article.php?article=posts%2F441-resize-luks-lvm.html )
+```
 ```bash
-
 sudo modprobe dm-crypt # Make sure that LUKS kernel is loaded.
 sudo cryptsetup luksOpen /dev/sda3 crypt1 # Unlock the LUKS-encrypted drive.
 # (enter passphrase)
@@ -103,6 +104,17 @@ sudo vgchange -ay # Activate logical volume.
 sudo lvdisplay # List available LVM partitions and their paths.
 #   LV Path     /dev/ubuntu-vg/ubuntu-lv
 #   LV Size     235.41 GiB
+sudo lsblk
+```
+```text
+sda                          8:0    0 238.5G  0 disk  
+├─sda1                       8:1    0     1G  0 part  
+├─sda2                       8:2    0     2G  0 part  
+├─sda3                       8:3    0 235.4G  0 part
+│ └─crypt1                 252:0    0 235.4G  0 crypt 
+│   └─ubuntu--vg-ubuntu-lv 252:1    0 235.4G  0 lvm
+```
+```bash
 sudo e2fsck -f -y -v -C 0 /dev/ubuntu-vg/ubuntu-lv # Check file system on LV and repair if necessary. 
 
 
