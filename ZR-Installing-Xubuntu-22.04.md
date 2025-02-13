@@ -16,7 +16,8 @@ lsblk
 ```
 sda 238.5 G
 
-# [Brett Klamer: The Complete Installation Guide for Xubuntu 22.04](https://brettklamer.com/diversions/non-statistical/the-complete-installation-guide-for-xubuntu-22.04/)
+* [Brett Klamer: The Complete Installation Guide for Xubuntu 22.04](https://brettklamer.com/diversions/non-statistical/the-complete-installation-guide-for-xubuntu-22.04/)
+* [Brett Klamer: The Complete Installation Guide for Xubuntu 22.04 (local copy)](Brett-Klamer-The-Complete-Installation-Guide-for-Xubuntu-22.04-local-copy)
 
 * Reboot from bootable USB with Xubuntu 22.04
 * Use: "Try or Install XUbuntu"

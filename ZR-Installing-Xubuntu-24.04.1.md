@@ -1,8 +1,6 @@
 
-[Brett Klamer: The Complete Installation Guide for Xubuntu 22.04 (local copy)](Brett-Klamer-The-Complete-Installation-Guide-for-Xubuntu-22.04-local-copy)
-
 ## Installing on: zr-ThinkPad-T480:
-2025-02-06
+2025-02-13
 
 ```bash
 #----------------
@@ -35,112 +33,60 @@ sudo dpkg-reconfigure grub-pc
 
 ```
 
-* Boot target computer from USB:
-    * Insert USB
-    * Enter BIOS setup:
-        * Force shut down: Hold <Power> down for a few seconds.
-        * Power up, press <Enter> when prompted on the ThikPad startup screen.
-    * Select <F12> to select temporary boot media.
+```text
+Boot target computer from USB:
+    Insert USB
+    Enter BIOS setup:
+        Force shut down: Hold <Power> down for a few seconds.
+        Power up, press <Enter> when prompted on the ThikPad startup screen.
+    Press <F12> to select temporary boot media.
+    Select: UCB HDD SanDisk Cruzer Edge
+    Select: Try or Install Xubuntu
+```
 
 ```bash
 # Make sure you are using UEFI on the computer:
 [ -d /sys/firmware/efi ] && echo "EFI boot" || echo "Legacy boot".
-```
 
-```bash
 # Find HD size:
 lsblk
 
 sda 238.5 G
-
-# Partitioning and LUKS enctypting:
-
-# Identify installation device:
-sudo -i # switch to root user
-lsblk # determine the target drive
-
-# Partitioning:
-export DEV="/dev/sda" # save reference to drive location
-sgdisk --print $DEV # check for pre-existing partitions
-sgdisk --zap-all $DEV # delete all previous partitions 
-
-sgdisk --new=1:0:+768M $DEV # /boot/ , 768.0 MiB
-sgdisk --new=2:0:+2M $DEV   # bios_boot, for BIOS-mode GRUB's core image , 2.0 MiB
-sgdisk --new=3:0:+128M $DEV # EFI system partition , 128.0 MiB
-sgdisk --new=5:0:+119G $DEV # space for the operating system and installed programs , 119.0 GiB
-sgdisk --new=6:0:0 $DEV # remaining space 118.6 GiB (127.35 GB) for veracrypt-encypted  private data partition.
-
-sgdisk --typecode=1:8301 --typecode=2:ef02 --typecode=3:ef00 --typecode=5:8301 --typecode=6:8301 $DEV
-sgdisk --change-name=1:/boot --change-name=2:GRUB --change-name=3:EFI-SP --change-name=5:rootfs --change-name=6:dane $DEV
-sgdisk --hybrid 1:2:3 $DEV
-
-# reboot
-sudo -i # switch to root user
-export DEV="/dev/sda" # save reference to drive location
-sgdisk --print $DEV # after rebooting, to check all new partitions
-
-# LUKS encrypt:
-export DEVP="${DEV}" # save reference to base partition name
-cryptsetup luksFormat --type=luks1 ${DEVP}1 # for the /boot/ partition
-# accept warning
-# podaj hasło.
-# podaj hasło ponownie.
-
-cryptsetup luksFormat ${DEVP}5 # for the OS partition
-# accept warning
-# podaj hasło.
-# podaj hasło ponownie.
-
-# LUKS unlock:
-export DM="${DEV##*/}" # save reference to encrypted device mapper (without leading /dev/)
-cryptsetup open ${DEVP}1 LUKS_BOOT
-# podaj hasło.
-cryptsetup open ${DEVP}5 ${DM}5_crypt
-# podaj hasło.
-
-ls /dev/mapper
-# expected response: 
-# control LUKS_BOOT sda5_crypt
-
-# Format filesystems:
-mkfs.ext4 -L boot /dev/mapper/LUKS_BOOT
-mkfs.vfat -F 16 -n EFI-SP ${DEVP}3
-
-# LVM Logical Volume Manager:
-# Naming scheme for VG (LVM Volume Group) and LV (Logical Volume) in different releases of ubuntu
-flavour="$( sed -n 's/.*cdrom:\[\([^ ]*\).*/\1/p' /etc/apt/sources.list )"
-release="$( lsb_release -sr | tr -d . )"
-if [ ${release} -ge 2204 ]; then VGNAME="vg${flavour,,}"; else VGNAME="${flavour}--vg"; fi 
-export VGNAME
-# Create volumes:
-pvcreate /dev/mapper/${DM}5_crypt
-vgcreate "${VGNAME}" /dev/mapper/${DM}5_crypt
-lvcreate -L 8G -n swap_1 "${VGNAME}" # SWAP partition
-lvcreate -L 8G -n home "${VGNAME}" # HOME partition
-lvcreate -l 80%FREE -n root "${VGNAME}"
-
 ```
 
 * Start Xubuntu installer from the shortcut on the desktop
 * Language: English
 * Keyboard layout: English (US)
 * Connect to Internet
-* Normal Installation, Download updates while installing..., Install third-party software for...
-* Installation type: Something else
-* Edit partitions, assign mount points / /boot /home swap
-* Where are you? Toronto
-* Who are you:
-    * Your name: ZR
-    * Your computer name: zr-ThinkPad-T450s
-    * Pick a username: zr
-    * Choose a password: <set user password>
-    * "Require my password to log in"
-    * [Continue]
-* IMMEDIATELY ENABLE ENCRYPTED GRUB!
-```bash
-while [ ! -d /target/etc/default/grub.d ]; do sleep 1; done; echo "GRUB_ENABLE_CRYPTODISK=y" > /target/etc/default/grub.d/local.cfg
-cat /target/etc/default/grub.d/local.cfg # check if text added
-```
+* Interactive Installation 
+* Install Xubuntu Desktop
+* Install recommended proprietary software?
+    * [x] Install third-party software for graphics and WiFi hardware 
+    * [x] Download and install support for additional media formats.
+* How do you want to install Xubuntu? 
+    * Erase disk and install Xubuntu
+        * Advanced features: Use LVM
+* Create your account
+    * Your name: zr
+    * Your computer's name: zr-ThinkPad-T480
+    * Your username: zr
+    * Password: (ustal hasło)
+    * [x] Require my password to log in.
+* Select your time zone: America/Toronto
+
+
+
+
+
+
+
+
+
+
+
+
+* 
+* 
 
 
 --------------------------------------------
