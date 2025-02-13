@@ -201,13 +201,12 @@ Manually:
 
 ```bash
 # Install VeraCrypt:
-
-[How to Install VeraCrypt on Ubuntu 22.04 or 20.04](https://www.linuxcapable.com/install-veracrypt-on-ubuntu-linux/)
+#   (based on: https://www.linuxcapable.com/install-veracrypt-on-ubuntu-linux/ )
 
 sudo apt update && sudo apt upgrade
-sudo add-apt-repository ppa:unit193/encryption -y
+sudo add-apt-repository ppa:unit193/encryption -y # Import Veracrypt APT PPA
 sudo apt update
-sudo apt install veracrypt
+sudo apt install veracrypt # Finalize Veracrypt installation.
 
 # Add launcher to the desktop Panel:
 #   Accessories > VeraCrypt > (Right-click) Add to Panel
@@ -222,6 +221,39 @@ Create and mount a VeraCrypt volume in the dedicated partition:
 Add to Favourites in Veracrypt
 ```
 
+```bash
+# Copy 'dane' and user home directory from source system to the encrypted external storage:
+
+# On source system: 
+
+  # Clenup unnecessary data:
+    # See how much data is there:
+du -sh ~
+    # Decide on what to delete before copying, and do it:
+      # Not-hidden files/dirs:
+ls -1 ~ 
+rm ~/Downloads/*
+      # Hidden files/dirs:
+ls -a1 ~ | grep "^\."
+rm -r ~/.cache/*
+
+  # Edit aliases file and delete what is already obsolete:
+vim ~/.bash_aliases
+
+  # Copy home directory data to the internal encrypted storage:
+rsync -avW --delete ~ /media/veracrypt1/home
+
+  # Copy the internal encrypted storage to external:
+rsync -avW --delete /media/veracrypt1/ /media/veracrypt2/ 
+
+# Copy 'dane' and user home directory from the encrypted external storage to the target system:
+
+# On target system: 
+
+  # Copy the external encrypted storage to internal:
+rsync -avW --delete /media/veracrypt2/ /media/veracrypt1/ 
+
+```
 
 
 
@@ -231,198 +263,7 @@ Add to Favourites in Veracrypt
 --------------------------------------------
 [ZR Installing Xubuntu 22.04](ZR-Installing-Xubuntu-22.04)
 
-
 Post install options
-
-    Fix laptop screen brightness steps
-
-    In Settings -> Power Manager -> General, there is an option for “Brightness step count”. Increase this to a value such as 20.
-
-    Otherwise, tools such as acpilight, light, and xbacklight may be of help. If you sudo make install acpilight, then you will need to run sudo usermod -a -G video USERNAME so that sudo is not required to execute xbacklight. You can then bind the command to a key combo under Settings -> Keyboard -> Application Shortcuts.
-
-    Enable the firewall.
-
-    # https://help.ubuntu.com/community/UFW
-    # https://www.linode.com/docs/security/firewalls/configure-firewall-with-ufw/
-    sudo ufw enable
-    sudo ufw default deny outgoing
-    sudo ufw default deny incoming
-
-    sudo ufw allow out to any port 80
-    sudo ufw allow out to any port 443
-    sudo ufw allow out to any port 53
-
-    # additional ports to allow out
-    # https://www.cups.org/doc/firewalls.html
-    # brother printer: 54925, 54926, 137, 161
-
-    sudo ufw reload
-    sudo ufw status verbose
-
-    # If anything goes wrong, you can reset ufw
-    #sudo ufw --force reset
-
-    Edit the hosts file
-        Grab the hosts file from https://github.com/StevenBlack/hosts
-        paste into /etc/hosts
-
-    Update the Linux kernel.
-        If you want a specific kernel
-            Download the following from http://kernel.ubuntu.com/~kernel-ppa/mainline/
-                linux-headers-5.*-generic_*_amd64.deb
-                linux-headers-5.*_all.deb
-                linux-image-unsigned-5.*-generic_*_amd64.deb
-                linux-modules-5.*-generic_*_amd64.deb
-            Open terminal in download location and run
-                sudo dpkg -i linux-headers*.deb
-                sudo dpkg -i linux-modules*.deb
-                sudo dpkg -i linux-image*.deb
-                sudo update-grub
-            Restart computer
-            Check kernel being used with
-                uname -a
-            Remove old kernels if /boot gets full
-
-    Check disk io/r/w transactions
-        sudo iotop -oPa
-
-    If there is a separate partition or disk that needs to be mounted and unencrypted at boot. Reference http://ubuntuforums.org/showthread.php?t=837416.
-        Check UUID of partitioning
-            sudo blkid
-        Check block size of / (root) partition for nice key size (likely 4096)
-            sudo blockdev --getbsz /dev/mapper/system-root
-        Create random keyfile in /root
-            sudo dd if=/dev/urandom of=/root/keyfile bs=4096 count=1
-                the bs= value should be the block size we just found
-        Make keyfile read only to root
-            sudo chmod 0400 /root/keyfile
-        Add keyfile to LUKS partition of /dev/sdX#_crypt
-            sudo cryptsetup luksAddKey /dev/sdX#_crypt /root/keyfile
-                Enter existing password for /dev/sdX#_crypt
-        Create mapper
-            sudo mousepad /etc/crypttab
-            add ‘/root/keyfile’ to replace ’none’ for /dev/sdX#_crypt
-                example: sdX#_crypt UUID=XXX /root/keyfile luks
-        Mount the drive (if needed)
-            sudo mousepad /etc/fstab
-                example: /dev/mapper/sdX#_crypt /<mount point> btrfs relatime 0 2
-        Update settings in initramfs images
-            sudo update-initramfs -u -k all
-
-    TRIM for SSDs.
-        Reference http://blog.neutrino.es/2013/howto-properly-activate-trim-for-your-ssd-on-linux-fstrim-lvm-and-dmcrypt/.
-        Enable Trim on dm-crypt
-            Open /etc/crypttab
-                sudo mousepad /etc/crypttab
-                If needed, add ‘discard’ to the options for sdX#_crypt.
-        Make sure LVM has ‘issue_discards=1’ in
-            sudo mousepad /etc/lvm/lvm.conf
-        Check encrypted drive with
-            sudo dmsetup table /dev/mapper/sdX#_crypt
-            make sure it has ‘1 allow_discards’
-        Remove or check “discard” is not used in the fstab
-            sudo mousepad /etc/fstab
-        Run TRIM manually or check for errors
-            sudo fstrim -v /home
-        If any changes were made, run
-            sudo update-initramfs -c -k all
-
-    If installing in Virtualbox, install additions by
-        sudo apt install virtualbox-guest-utils virtualbox-guest-dkms dkms
-        To share a folder, make a permanent machine folder then run
-            sudo usermod -a -G vboxsf username
-        To share a USB port
-            sudo usermod -a -G vboxusers username
-
-    If needed, install Intel wireless driver.
-        Download driver from http://intellinuxwireless.org/?n=Downloads
-        Navigate to download folder
-            tar xvzf iwlwifi-XXX.tgz
-            cd iwlwifi-XXX/
-            sudo cp iwlwifi-XXX.ucode /lib/firmware
-
-    Check partition sizes.
-        df -h
-
-    Modify or redirect home folder names.
-        change in /home/username/.config/user-dir.dirs
-
-    Change ownership of extra storage drives or partitions.
-        sudo chown -R username /partition
-
-    Format a USB drive.
-        df
-        umount /dev/sdc1
-        mkfs.vfat /dev/sdc1
-
-    Stop system error pop ups.
-
-    Sometimes a system error will be reported and cause a warning pop up over multiple restarts. You can remove this by either
-        sudo rm /var/crash/*
-        gksu nano /etc/default/apport and set enabled=0
-
-    Randomize MAC address.
-
-    This is based on https://fedoramagazine.org/randomize-mac-address-nm/. To randomize wifi connections, create the file /etc/NetworkManager/conf.d/00-macrandomize.conf and add the following:
-
-    # can use 'random' or 'stable' below
-    [device]
-    wifi.scan-rand-mac-address=yes
-
-    [connection]
-    wifi.cloned-mac-address=stable
-    ethernet.cloned-mac-address=stable
-    connection.stable-id=${CONNECTION}/${BOOT}
-
-    Then restart networkmanager with systemctl restart NetworkManager.
-
-    Change owner of entire directory.
-
-    sudo chown -R <username> *
-
-    Let apt fix dependency issues automatically.
-
-    sudo apt --fix-broken install
-
-    GPG bug fix when adding keys behind a proxy: use the option http-proxy=
-
-    sudo apt-key adv --keyserver keyserver.ubuntu.com --keyserver-options http-proxy=http://PROXYADDRESS --recv-keys GPGKEY
-
-    Fix bluetooth audio stuttering.
-
-    Open a terminal and run
-
-    sudo mousepad /etc/bluetooth/audio.conf
-
-    Then add the following text to the new file:
-
-    [General]
-    Enable=Source,Sink,Media,Socket
-
-    Finally, restart the bluetooth service
-
-    sudo service bluetooth restart
-
-    Fix bluetooth audio not working.
-
-    Open a terminal and run
-
-    lsmod | grep btusb
-    sudo rmmod btusb
-    lsmod | grep btusb
-    sudo modprobe btusb
-    lsmod | grep btusb
-    bluetoothctl
-    scan on
-
-    Fix QT scaling for hidpi displays.
-
-    Open ~/.profile and append
-
-    export QT_SCALE_FACTOR=2
-
-Software install suggestions
-Apt packages
 
 #----------------------------------------------------------------------
 # Update apt
