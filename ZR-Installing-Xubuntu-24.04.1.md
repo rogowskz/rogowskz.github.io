@@ -87,15 +87,21 @@ Review your choices
         partition sda2 formatted as  ext4 used for /boot
         partition sda3 created
     [Install]
+
+After successful installation, reboot from installation USB again and open Terminal.
 ```
 
+```bash
+# Shrink sda3 partition to make space for Veracrypt-encrypted data partition:
+
+
+
+```
 
 --------------------------------------------
 [ZR Installing Xubuntu 22.04](ZR-Installing-Xubuntu-22.04)
 
-        After successful installation, choose continue testing.
-
-    Reboot the computer and remove installation media. You should be asked for the password at GRUB.
+Reboot the computer and remove installation media. You should be asked for the password at GRUB.
 
 Post install options
 
