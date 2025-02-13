@@ -110,12 +110,17 @@ sudo lsblk
 sda                          8:0    0 238.5G  0 disk  
 ├─sda1                       8:1    0     1G  0 part  
 ├─sda2                       8:2    0     2G  0 part  
-├─sda3                       8:3    0 235.4G  0 part
-│ └─crypt1                 252:0    0 235.4G  0 crypt 
-│   └─ubuntu--vg-ubuntu-lv 252:1    0 235.4G  0 lvm
+└─sda3                       8:3    0 235.4G  0 part
+  └─crypt1                 252:0    0 235.4G  0 crypt 
+    └─ubuntu--vg-ubuntu-lv 252:1    0 235.4G  0 lvm
+
+After shrinking we want to leave max 119.209 GiB (128 GB) of unallocated space for the new partition.
+Let's leave 119.2 GiB (127.99 GB)
+That is: after shrinking sda3 should be slightly over: 116.2 GiB ( 110816.96 MiB 113476567.04 KiB )
 ```
 ```bash
 sudo e2fsck -f -y -v -C 0 /dev/ubuntu-vg/ubuntu-lv # Check file system on LV and repair if necessary. 
+sudo resize2fs -p /dev/ubuntu-vg/ubuntu-lv 110817M # Shrink file system on LV.
 
 
 ```
