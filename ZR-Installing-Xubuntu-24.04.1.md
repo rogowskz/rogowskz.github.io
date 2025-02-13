@@ -122,7 +122,9 @@ That is: after shrinking sda3 should be slightly over: 116.2 GiB ( 110816.96 MiB
 sudo e2fsck -f -y -v -C 0 /dev/ubuntu-vg/ubuntu-lv # Check file system on LV and repair if necessary. 
 sudo resize2fs -p /dev/ubuntu-vg/ubuntu-lv 110817M # Shrink file system on LV.
 
-
+sudo lvresize -L 110817M /dev/ubuntu-vg/ubuntu-lv # Resize logical volume.
+sudo vgchange -an # Activate logical volume.
+sudo cryptsetup luksClose crypt1 # Close the LUKS-encrypted drive.
 ```
 
 --------------------------------------------
