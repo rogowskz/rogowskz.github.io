@@ -54,25 +54,40 @@ lsblk
 sda 238.5 G
 ```
 
-* Start Xubuntu installer from the shortcut on the desktop
-* Language: English
-* Keyboard layout: English (US)
-* Connect to Internet
-* Interactive Installation 
-* Install Xubuntu Desktop
-* Install recommended proprietary software?
-    * [x] Install third-party software for graphics and WiFi hardware 
-    * [x] Download and install support for additional media formats.
-* How do you want to install Xubuntu? 
-    * Erase disk and install Xubuntu
-        * Advanced features: Use LVM
-* Create your account
-    * Your name: zr
-    * Your computer's name: zr-ThinkPad-T480
-    * Your username: zr
-    * Password: (ustal hasło)
-    * [x] Require my password to log in.
-* Select your time zone: America/Toronto
+```text
+Start Xubuntu installer from the shortcut on the desktop
+Language: English
+Keyboard layout: English (US)
+Connect to Internet
+    (*) Conect to a WiFi network
+How would you like yo Install XubuntU?
+    (*) Interactive Installation 
+What apps would you like to install to start with? 
+    (*) Xubuntu Desktop
+Install recommended proprietary software?
+    [x] Install third-party software for graphics and WiFi hardware 
+    [x] Download and install support for additional media formats.
+How do you want to install Xubuntu? 
+    (*) Erase disk and install Xubuntu
+        [Advanced features] 
+            (*) Use LVM and encryption
+Create a passphrase
+    (ustal passphrase dla LUKS encryption)
+Create your account
+    Your name: ZR
+    Your computer's name: zr-ThinkPad-T480
+    Your username: zr
+    Password: (ustal hasło)
+    [x] Require my password to log in.
+Select your tim zone 
+    America/Toronto
+Review your choices
+    Partitions
+        partition sda1 formatted as fat32 used for /boot/efi
+        partition sda2 formatted as  ext4 used for /boot
+        partition sda3 created
+    [Install]
+```
 
 
 
