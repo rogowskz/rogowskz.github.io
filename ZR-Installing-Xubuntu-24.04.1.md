@@ -99,11 +99,8 @@ Shrink sda3 partition to make space for Veracrypt-encrypted data partition:
 sudo modprobe dm-crypt # Make sure that LUKS kernel is loaded.
 sudo cryptsetup luksOpen /dev/sda3 crypt1 # Unlock the LUKS-encrypted drive.
 # (enter passphrase)
-sudo vgscan -mknodes # Make LVM to re-scan the available physical partitions.
+sudo vgscan --mknodes # Make LVM to re-scan the available physical partitions.
 sudo vgchange -ay # Activate logical volume.
-sudo lvdisplay # List available LVM partitions and their paths.
-#   LV Path     /dev/ubuntu-vg/ubuntu-lv
-#   LV Size     235.41 GiB
 sudo lsblk
 ```
 ```text
@@ -114,60 +111,83 @@ sda                          8:0    0 238.5G  0 disk
   └─crypt1                 252:0    0 235.4G  0 crypt 
     └─ubuntu--vg-ubuntu-lv 252:1    0 235.4G  0 lvm
 
-After shrinking we want to leave max 119.209 GiB (128 GB) of unallocated space for the new partition.
-Let's leave 119.2 GiB (127.99 GB)
-That is: after shrinking sda3 should be slightly over: 116.2 GiB ( 110816.96 MiB 113476567.04 KiB )
 ```
 ```bash
+sudo lvdisplay # List available LVM partitions and their paths.
+#   LV Path     /dev/ubuntu-vg/ubuntu-lv
+#   LV Size     235.41 GiB
+#
+# After shrinking we want to leave max 118.4 GiB (127.13 GB) of unallocated space for the new partition.
+# That is: after shrinking sda3 should be: 117 GiB 
+#
 sudo e2fsck -f -y -v -C 0 /dev/ubuntu-vg/ubuntu-lv # Check file system on LV and repair if necessary. 
-sudo resize2fs -p /dev/ubuntu-vg/ubuntu-lv 110817M # Shrink file system on LV.
-
-#-- This was not successful: sudo lvresize -L 110817M /dev/ubuntu-vg/ubuntu-lv # Resize logical volume.
-#-- So: do the following instead:
+sudo resize2fs -p /dev/ubuntu-vg/ubuntu-lv 117G # Shrink file system on LV.
+sudo lvresize -L 117G /dev/ubuntu-vg/ubuntu-lv # Resize logical volume.
 # Open: Menu > System > GParded
-#  and resize /dev/sda3 ti its now-minimum allowed size: 
+#   and resize /dev/sda3 to its now-minimum allowed size: 
 #     Free space preceding (MiB): 0
-#     New size (MiB):             110817 
-#     Free space following (MiB): ??
+#     New size (MiB):             119825
+#     Free space following (MiB): 121249
+#
+# (Make sure to do: Edit > Apply All Operations )
 
 sudo vgchange -an # Activate logical volume.
 sudo cryptsetup luksClose crypt1 # Close the LUKS-encrypted drive.
 ```
+```text
+GParded
+  Partition > New
+    Free space preceding (MiB): 0
+    New size (MiB):             121249
+    Free space following (MiB): 0
+    Align to: MiB
+    Create as: Primary partition
+    Partition name:
+    File system: ext4
+    Label:
+
+  [+Add]
+  [Apply]
+
+Reboot the computer and remove installation media. 
+You should be asked for the LUKS password at boot.
+```
+
+```text
+Post-installation operations:
+
+--------
+Set single-click items opening:
+    https://askubuntu.com/questions/880844/xubuntu-16-04-set-mouse-to-always-single-click
+
+Single click to access items is done in two parts for Xfce. Your Desktop and File Manager are set separately.
+For the Desktop: go to Applications > Settings > Desktop and in the Icons tab choose Single click to activate items.
+For File Manager: Applications > System > Thunar File Manager , Edit > Preferences > Behavior > Navigation > Single click to activate items
+
+--------
+Configure desktop Panel:
+  Add:
+    - Action Buttons
+    - Keyboard Layouts
+    - System Load Monitor
+
+--------
+Add Polish keyboard:
+  Settings > Keyboard > Layout > Add
+
+```
+
+
+
+
+
+
 
 --------------------------------------------
 [ZR Installing Xubuntu 22.04](ZR-Installing-Xubuntu-22.04)
 
-Reboot the computer and remove installation media. You should be asked for the password at GRUB.
 
 Post install options
-
-    Set audio/sound/volume level using keyboard shortcuts.
-
-    In Settings -> Keyboard -> Application Shortcuts, click add, then insert
-
-    amixer -D pulse set Master 5%+
-    amixer -D pulse set Master 5%-
-    amixer -D pulse set Master toggle
-
-    Set window tile keybinds.
-        Open terminal and run
-            xfce4-settings-manager
-        Go to window manager
-            Open the Keyboard tab
-                Set the “Tile window to the left” (and right)
-
-    Set backbutton in firefox to backsapce.
-        Type about:config in the address bar
-        Look for browser.backspace_action in the list
-        Change the Value to 0.
-
-    Change desktop lock keybind.
-        Go to settings editor
-        xfce4-keyboard-shortcuts
-        new commands custom property
-            property: /commands/custom/<super>l
-            type: string
-            value: xflock4
 
     Fix laptop screen brightness steps
 
@@ -289,67 +309,6 @@ Post install options
         df
         umount /dev/sdc1
         mkfs.vfat /dev/sdc1
-
-    Create a dm-crypt LUKS encrypted external drive.
-
-    Reference https://gitlab.com/cryptsetup/cryptsetup/wikis/FrequentlyAskedQuestions.
-
-        Find the external drive (assume the filesystem is /dev/sdb1 and it’s mount location /media/USERNAME/*)
-
-        df
-
-        Unmount it
-
-        umount /media/USERNAME/*
-
-        Quickly wipe old filesystems. wipefs clears the first superblock.
-
-        sudo wipefs -a /dev/sdb1
-
-        Create the LUKS container (follow on-screen intructions)
-
-        sudo cryptsetup luksFormat /dev/sdb1
-
-        Check the passphrase iteration count. The key slot default is 1 second of PBKDF2 hashing. The volume key default (MK iterations) is 0.125 seconds. You can set the key slot with cryptsetup luksFormat -i 15000 <target device>
-
-        sudo cryptsetup luksDump /dev/sdb1
-
-        Map the container to /dev/mapper/backup1
-
-        sudo cryptsetup luksOpen /dev/sdb1 backup1
-
-        Create a filesystem in the mapped container
-
-        sudo mkfs.btrfs --label backup1 /dev/mapper/backup1
-
-        Mount the filesystem (right after creation; using lzo compression)
-
-        mount -o compress=lzo /dev/mapper/backup1 /mnt
-
-        Mount the filesystem (day to day use as a portable external drive; using lzo compression). You can either create an fstab entry or mount using the command line.
-
-            Using an fstab entry
-
-            # Get the UUID of the mounted and unlocked /dev/mapper/ filesystem
-            sudo blkid
-
-            Add the following entry to /etc/fstab
-
-            UUID=YOUR-UUID /media/backup1 btrfs noauto,defaults,noatime,compress=lzo 0 0
-
-            Now it will automatically mount at /media/backup1. The noauto option is used in the fstab entry to prevent automatically mounting the drive at boot time. If you leave this option off, then your computer will fail to boot and you will need to edit the fstab in recovery mode. The nofail option can be used for drives that are usually going to be mounted at boot time.
-
-            Change ownership of the new mount point so you can perform cut/copy/paste, etc.
-
-            sudo chown -R USERNAME /media/backup1
-
-            Using the terminal
-
-            # The OS will automatically mount the drive and ask for passphrase to unlock. Then...
-            df
-            sudo umount /media/USERNAME/*
-            sudo mount -o compress=lzo /dev/dm-4 /media/backup1
-            sudo chown -R USERNAME /media/backup1
 
     Stop system error pop ups.
 
