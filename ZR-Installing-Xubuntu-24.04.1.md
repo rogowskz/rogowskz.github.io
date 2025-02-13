@@ -101,6 +101,7 @@ sudo cryptsetup luksOpen /dev/sda3 crypt1 # Unlock the LUKS-encrypted drive.
 sudo vgscan -mknodes # Make LVM to re-scan the available physical partitions.
 sudo vgchange -ay # Activate logical volume.
 sudo lvdisplay # List available LVM partitions and their paths.
+sudo e2fsck -f -y -v -C 0 /dev/ubuntu-vg/ubuntu-lv # Check file system on LV and repair if necessary. 
 
 
 ```
