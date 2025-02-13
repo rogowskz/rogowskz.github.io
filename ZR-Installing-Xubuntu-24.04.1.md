@@ -153,9 +153,17 @@ Reboot the computer and remove installation media.
 You should be asked for the LUKS password at boot.
 ```
 
-```text
-Post-installation operations:
+## Post-installation operations:
 
+```bash
+# Update and upgrade all obsolete packages after installation:
+sudo apt update && sudo apt upgrade
+
+# Install Vim:
+sudo apt install vim
+```
+
+```text
 --------
 Set single-click items opening:
     https://askubuntu.com/questions/880844/xubuntu-16-04-set-mouse-to-always-single-click
@@ -174,6 +182,28 @@ Configure desktop Panel:
 --------
 Add Polish keyboard:
   Settings > Keyboard > Layout > Add
+
+--------
+
+--------
+Configure Terminal:
+
+Manually:
+  Edit > Preferenes
+    General:
+      Cursor shape: Block, blinks
+        Clipboard: 
+          (check) Automatically copy selection to clipboard
+          (uncheck) Show unsafe paste dialog
+    Appearance:
+      Font: 14pt
+      Default geometry: 160/40
+      To set default position: 
+        vim ~/.config/xfce4/terminal/terminalrc
+          MiscDefaultGeometry=160x40+270+120
+
+To copy from the previous system:
+  cp /media/veracrypt1/home/rogowskz/.config/xfce4/terminal/terminalrc ~/.config/xfce4/terminal/terminalrc
 
 ```
 
