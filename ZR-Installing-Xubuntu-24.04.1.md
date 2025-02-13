@@ -93,7 +93,10 @@ After successful installation, reboot from installation USB again and open Termi
 
 ```bash
 # Shrink sda3 partition to make space for Veracrypt-encrypted data partition:
+#   (based on: https://starbeamrainbowlabs.com/blog/article.php?article=posts%2F441-resize-luks-lvm.html )
 
+sudo modprobe dm-crypt
+sudo cryptsetup luksOpen /dev/sda3 crypt1
 
 
 ```
