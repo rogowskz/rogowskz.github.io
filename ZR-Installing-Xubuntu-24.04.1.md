@@ -269,9 +269,11 @@ cd ~
 cp -R /media/veracrypt1/home/zr/.thunderbird .
 rm -R .thunderbird/Crash\ Reports/
 
-# Install Git:
+# Install and configure Git:
 sudo apt install git
-# TODO
+git config --global user.email "zbig@rogowski.ca"
+git config --global user.name "Zbigniew Rogowski"
+git log --pretty=format"%C(auto)%h %ci %x09%Cgreen%s" -20
 
 # Publish this page to rogowskz.github.io
 # TODO
