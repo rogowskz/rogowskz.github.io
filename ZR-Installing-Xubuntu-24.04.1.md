@@ -196,7 +196,11 @@ Manually:
     Appearance:
       Font: 14pt
       Default geometry: 110/32
-
+      
+Set tap-click on the Touchpad:
+  Settings > Mouse and Touchpad
+    Devices > Touchpad > General: 
+      [x] Tap Touchpad to click 
 ```
 
 ```bash
@@ -274,6 +278,9 @@ sudo apt install git
 git config --global user.email "zbig@rogowski.ca"
 git config --global user.name "Zbigniew Rogowski"
 git log --pretty=format"%C(auto)%h %ci %x09%Cgreen%s" -20
+
+# Install CLI GitHub client:
+sudo apt install gh
 
 # Publish this page to rogowskz.github.io
 # TODO
