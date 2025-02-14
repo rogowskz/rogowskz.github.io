@@ -159,7 +159,7 @@ You should be asked for the LUKS password at boot.
 # Update and upgrade all obsolete packages after installation:
 sudo apt update && sudo apt upgrade
 
-# Install Vim:
+# Install VIM:
 sudo apt install vim
 ```
 
@@ -226,6 +226,8 @@ Add to Favourites in Veracrypt
 
 # On source system: 
 
+  # Close all editing sessions (VIM, LibreOffice, etc..)
+
   # Clenup unnecessary data:
     # See how much data is there:
 du -sh ~
@@ -236,6 +238,8 @@ rm ~/Downloads/*
       # Hidden files/dirs:
 ls -a1 ~ | grep "^\."
 rm -r ~/.cache/*
+rm -r ~/.vim/.swp
+rm -r /media/veracrypt1/home/zr/.vim/.swp 
 
   # Edit aliases file and delete what is already obsolete:
 vim ~/.bash_aliases
@@ -252,6 +256,25 @@ rsync -avW --delete /media/veracrypt1/ /media/veracrypt2/
 
   # Copy the external encrypted storage to internal:
 rsync -avW --delete /media/veracrypt2/ /media/veracrypt1/ 
+```
+
+```bash
+# Configure and test VIM:
+cd ~
+cp -R /media/veracrypt1/home/zr/.vimrc .
+cp /media/veracrypt1/home/zr/.viminfo .
+
+# Configure and test Mail Reader (Thunderbird):
+cd ~
+cp -R /media/veracrypt1/home/zr/.thunderbird .
+rm -R .thunderbird/Crash\ Reports/
+
+# Install Git:
+sudo apt install git
+# TODO
+
+# Publish this page to rogowskz.github.io
+# TODO
 
 ```
 
