@@ -163,6 +163,21 @@ sudo apt update && sudo apt upgrade
 sudo apt install vim
 ```
 
+```txt
+Configure Vim:
+  Useful Vim commands:
+
+\ww
+
+:syntax sync fromstart
+
+:set nonumber | set norelativenumber
+
+:!./datedlines.py | sort | grep ^2024-02- | grep MasterCard
+
+:!find md -type f | xargs -d '\n' | grep -i usss
+```
+
 ```text
 --------
 Set single-click items opening:
@@ -245,9 +260,6 @@ rm -r ~/.cache/*
 rm -r ~/.vim/.swp
 rm -r /media/veracrypt1/home/zr/.vim/.swp 
 
-  # Edit aliases file and delete what is already obsolete:
-vim ~/.bash_aliases
-
   # Copy home directory data to the internal encrypted storage:
 rsync -avW --delete ~ /media/veracrypt1/home
 
@@ -268,10 +280,23 @@ cd ~
 cp -R /media/veracrypt1/home/zr/.vimrc .
 cp /media/veracrypt1/home/zr/.viminfo .
 
+# Migrate bash shell configuration:
+cp ~/.bashrc ~/.bashrc-ORG
+cp /media/veracrypt1/home/zr/.bashrc ~/.bashrc
+cp ~/.bash_aliases ~/.bash_aliases-ORG
+cp /media/veracrypt1/home/zr/.bash_aliases ~/.bash_aliases
+  # Edit aliases file and delete what is already obsolete:
+vim ~/.bash_aliases
+
 # Configure and test Mail Reader (Thunderbird):
 cd ~
 cp -R /media/veracrypt1/home/zr/.thunderbird .
 rm -R .thunderbird/Crash\ Reports/
+
+vim ~/.thunderbird/installs.ini
+# Set:
+Default=/media/veracrypt1/thunderbird.zrprofile
+```
 
 # Install and configure Git:
 sudo apt install git
@@ -283,8 +308,55 @@ git log --pretty=format"%C(auto)%h %ci %x09%Cgreen%s" -20
 sudo apt install gh
 
 # Publish this page to rogowskz.github.io
-# TODO
+# DONE.
 
+# Install Python
+# ( It may be already installed, check: which python3 )
+sudo apt install python3
+
+# Copy Desktop items:
+cp -R /media/veracrypt1/home/zr/Desktop/* ~/Desktop
+# Test migrated desktopm shortcuts.
+
+# Arrange and review Desktop items:
+#   Do not store personal documents in ~/Desktop,
+#   instead, always use symbolic links to documents stored on: /media/veracrypt1/
+
+# Associate PDF documents with "Atril Document Viewer"
+
+# Install xsltproc:
+sudo apt install xsltproc
+
+# Test budget update:
+ctl
+bu
+
+# Test finmodel:
+cfm
+bu
+
+# Test dane_out
+dane_out
+
+# Install curl:
+type -p curl >/dev/null || (sudo apt update && sudo apt install curl -y)
+
+# Install pandoc:
+sudo apt install pandoc
+
+# Test GPG
+# TODO:
+
+# Test printing:
+# TODO:
+
+# Test scanning:
+# TODO:
+
+
+
+# Remove no longer needed installed packages:
+sudo apt autoremove
 ```
 
 
