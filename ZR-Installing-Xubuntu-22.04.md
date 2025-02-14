@@ -288,7 +288,6 @@ Default=/media/veracrypt1/thunderbird.zrprofile
 cp ~/.thunderbird/profiles.ini ~/.thunderbird/profiles.ini-BAK 
 vim ~/.thunderbird/profiles.ini /media/veracrypt1/home/rogowskz/.thunderbird/profiles.ini
 # manually merge profiles data.
-
 ```
 
 ## Install curl:

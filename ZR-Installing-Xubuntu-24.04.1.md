@@ -158,24 +158,6 @@ You should be asked for the LUKS password at boot.
 ```bash
 # Update and upgrade all obsolete packages after installation:
 sudo apt update && sudo apt upgrade
-
-# Install VIM:
-sudo apt install vim
-```
-
-```txt
-Configure Vim:
-  Useful Vim commands:
-
-\ww
-
-:syntax sync fromstart
-
-:set nonumber | set norelativenumber
-
-:!./datedlines.py | sort | grep ^2024-02- | grep MasterCard
-
-:!find md -type f | xargs -d '\n' | grep -i usss
 ```
 
 ```text
@@ -275,11 +257,24 @@ rsync -avW --delete /media/veracrypt2/ /media/veracrypt1/
 ```
 
 ```bash
+# Install VIM:
+sudo apt install vim
+
 # Configure and test VIM:
 cd ~
 cp -R /media/veracrypt1/home/zr/.vimrc .
 cp /media/veracrypt1/home/zr/.viminfo .
+```
+```txt
+Useful Vim commands:
+\ww
+:syntax sync fromstart
+:set nonumber | set norelativenumber
+:!./datedlines.py | sort | grep ^2024-02- | grep MasterCard
+:!find md -type f | xargs -d '\n' | grep -i usss
+```
 
+```bash
 # Migrate bash shell configuration:
 cp ~/.bashrc ~/.bashrc-ORG
 cp /media/veracrypt1/home/zr/.bashrc ~/.bashrc
@@ -296,19 +291,12 @@ rm -R .thunderbird/Crash\ Reports/
 vim ~/.thunderbird/installs.ini
 # Set:
 Default=/media/veracrypt1/thunderbird.zrprofile
-```
 
 # Install and configure Git:
 sudo apt install git
 git config --global user.email "zbig@rogowski.ca"
 git config --global user.name "Zbigniew Rogowski"
 git log --pretty=format"%C(auto)%h %ci %x09%Cgreen%s" -20
-
-# Install CLI GitHub client:
-sudo apt install gh
-
-# Publish this page to rogowskz.github.io
-# DONE.
 
 # Install Python
 # ( It may be already installed, check: which python3 )
@@ -327,6 +315,34 @@ cp -R /media/veracrypt1/home/zr/Desktop/* ~/Desktop
 # Install xsltproc:
 sudo apt install xsltproc
 
+# Install pandoc:
+sudo apt install pandoc
+
+# Install curl:
+type -p curl >/dev/null || (sudo apt update && sudo apt install curl -y)
+
+# Install CLI GitHub client 'gh':
+#   https://cli.github.com/
+#     https://github.com/cli/cli/blob/trunk/docs/install_linux.md
+
+(type -p wget >/dev/null || (sudo apt update && sudo apt-get install wget -y)) \
+	&& sudo mkdir -p -m 755 /etc/apt/keyrings \
+        && out=$(mktemp) && wget -nv -O$out https://cli.github.com/packages/githubcli-archive-keyring.gpg \
+        && cat $out | sudo tee /etc/apt/keyrings/githubcli-archive-keyring.gpg > /dev/null \
+	&& sudo chmod go+r /etc/apt/keyrings/githubcli-archive-keyring.gpg \
+	&& echo "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" | sudo tee /etc/apt/sources.list.d/github-cli.list > /dev/null \
+	&& sudo apt update \
+	&& sudo apt install gh -y
+
+# Upgrade CLI GitHub client 'gh':
+sudo apt update 
+sudo apt install gh
+
+# Publish this page to rogowskz.github.io
+# DONE.
+```
+
+```bash
 # Test budget update:
 ctl
 bu
@@ -338,12 +354,11 @@ bu
 # Test dane_out
 dane_out
 
-# Install curl:
-type -p curl >/dev/null || (sudo apt update && sudo apt install curl -y)
+# Test Timeline site generation:
+# TODO
+```
 
-# Install pandoc:
-sudo apt install pandoc
-
+```bash
 # Test GPG
 # TODO:
 
@@ -352,33 +367,23 @@ sudo apt install pandoc
 
 # Test scanning:
 # TODO:
+```
 
+```text
+Log in to Gmail accounts:
+  + rogowskz@gmail.com
+  - zbigpro@gmail.com
+  - renata.rogowska@gmail.com
+```
 
 
 # Remove no longer needed installed packages:
 sudo apt autoremove
-```
-
-
-
-
 
 
 --------------------------------------------
 [ZR Installing Xubuntu 22.04](ZR-Installing-Xubuntu-22.04)
 
-Post install options
-
-#----------------------------------------------------------------------
-# Update apt
-#----------------------------------------------------------------------
-sudo apt update
-sudo apt full-upgrade
-
-#----------------------------------------------------------------------
-# Remove unwanted software
-#----------------------------------------------------------------------
-sudo apt purge '^brltty.*' '^espeak.*' '^hplip.*' '^libhpmud0.*' '^libsane-hpaio.*' '^parole.*' '^printer-driver.*' '^speech-dispatcher.*' '^whoopsie.*' '^libwhoopsie0.*' '^popularity-contest.*' '^pidgin.*'
 
 # Cleanup
 sudo apt autoremove
