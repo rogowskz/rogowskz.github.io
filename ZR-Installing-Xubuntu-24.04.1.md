@@ -355,8 +355,13 @@ bu
 dane_out
 
 # Test Timeline site generation:
-# TODO
+ctl
+rm -r html
+python3 build/build.py . .
+xdg-open html/index.html
 ```
+
+## TODOs:
 
 ```bash
 # Test GPG
@@ -367,6 +372,12 @@ dane_out
 
 # Test scanning:
 # TODO:
+
+# Enable hibernation:
+# TODO: ??
+
+# Install GnuCash
+# TODO: ??
 ```
 
 ```text
@@ -376,222 +387,18 @@ Log in to Gmail accounts:
   - renata.rogowska@gmail.com
 ```
 
+## Cleanup
 
+```bash
 # Remove no longer needed installed packages:
 sudo apt autoremove
+sudo apt autoclean
+```
 
+## Legacy
 
 --------------------------------------------
 [ZR Installing Xubuntu 22.04](ZR-Installing-Xubuntu-22.04)
-
-
-# Cleanup
-sudo apt autoremove
-sudo apt autoclean
-
-#----------------------------------------------------------------------
-# Install software
-#----------------------------------------------------------------------
-# General
-sudo apt install git libssl-dev curl build-essential checkinstall autoconf automake libdbd-sqlite3 software-properties-common iotop p7zip-full audacious flatpak gimp
-
-# ios device plug and play
-sudo apt install usbmuxd libimobiledevice6 libimobiledevice-utils
-
-# Install dependencies for R and RStudio
-sudo apt install libxml2-dev libicu-dev zlib1g-dev make pandoc libcurl4-openssl-dev
-sudo apt install libclang-dev libpq5
-
-#----------------------------------------------------------------------
-# Install other repository software
-#----------------------------------------------------------------------
-# Repos
-## KeepassXC
-sudo add-apt-repository ppa:phoerious/keepassxc
-## mpv
-sudo add-apt-repository ppa:mc3man/mpv-tests
-## Inkscape
-sudo add-apt-repository ppa:inkscape.dev/stable
-## sublime text
-wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/sublimehq-archive.gpg > /dev/null
-echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
-
-# Install
-sudo apt update
-sudo apt install keepassxc mpv inkscape sublime-text
-
-#----------------------------------------------------------------------
-# Cleanup
-#----------------------------------------------------------------------
-sudo apt update
-sudo apt full-upgrade
-sudo apt autoclean
-sudo apt autoremove
-
-Manual packages
-
-    Install rig
-
-    rig automatically installs pak in the user library. pak is nice because it installs R packages as binaries instead of from source. However, OS package dependencies are installed in the background using sudo, and we need to allow a graphical interface to insert the password. So we solve that by running:
-
-    sudo apt install ssh-askpass ssh-askpass-gnome
-
-    then append to the file /etc/sudo.conf
-
-    # append to /etc/sudo.conf
-    Path askpass /usr/bin/ssh-askpass
-
-    Each OS package dependency is executed in a seperate process, which means each process requires its own password authentication. We need to add a global sudo time limit for all processes.
-
-    sudo visudo -f /etc/sudoers.d/timestamp_type
-
-    then paste in the following text:
-
-    # specify the timeout type (usual default=tty)
-    Defaults:USERNAME timestamp_type=global
-
-    # specify the timeout interval (usual default=15)
-    Defaults:USERNAME timestamp_timeout=2
-
-    Finally, we install rig:
-
-    `which sudo` curl -L https://rig.r-pkg.org/deb/rig.gpg -o /etc/apt/trusted.gpg.d/rig.gpg
-    `which sudo` sh -c 'echo "deb http://rig.r-pkg.org/deb rig main" > /etc/apt/sources.list.d/rig.list'
-    `which sudo` apt update
-    `which sudo` apt install r-rig
-
-    and then install R
-
-    rig add release
-
-    and can use pak::pkg_install() without any issues.
-
-    Install GnuCash
-
-    flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
-
-    flatpak install flathub org.gnucash.GnuCash
-
-    # uninstall
-    #flatpak uninstall org.gnucash.GnuCash
-
-    # Update stock quotes
-    # https://wiki.gnucash.org/wiki/Flatpak
-    flatpak run --command=gnucash-cli org.gnucash.GnuCash --quotes get /path/to/file.gnucash
-
-    Install texlive 2022
-
-    Reference http://tex.stackexchange.com/a/95373.
-
-        Run
-
-        sudo apt install wget perl-tk
-
-        wget http://mirror.ctan.org/systems/texlive/tlnet/install-tl-unx.tar.gz
-        tar -zxvf install-tl-unx.tar.gz
-        cd install-tl*
-        sudo ./install-tl --gui
-
-            Choose the small scheme (just download fonts and packages as you need them)
-            Choose Recommended fonts, Mathematics packages, and LuaTeX packages
-            Make sure to “create symlinks in system directories”
-
-        Run following from the shell. It will add the lines to /etc/environment. Or add to ~/.profile manually.
-
-        export MANPATH="$MANPATH:/usr/local/texlive/2022/texmf-dist/doc/man"
-        export INFOPATH="$INFOPATH:/usr/local/texlive/2022/texmf-dist/doc/info"
-        export PATH=/usr/local/texlive/2022/bin/x86_64-linux:$PATH
-
-        Make apt see the local install by:
-
-        sudo apt install equivs --no-install-recommends
-        sudo apt install freeglut3
-        mkdir /tmp/tl-equivs
-        cd /tmp/tl-equivs
-        equivs-control texlive-local
-        # copy this http://www.tug.org/texlive/files/debian-equivs-2022-ex.txt to
-        mousepad texlive-local
-        equivs-build texlive-local
-        sudo dpkg -i texlive-local_2022-1_all.deb
-        sudo apt install -f
-
-        Access tlmgr using sudo tlmgr --gui
-
-        Update texlive. Remove the old texlive with the commands below, then Re-run the install commands.
-
-        # Remove old apt local install
-        sudo apt remove texlive-local
-
-        # Remove the old texlive directories
-        sudo rm -rf /usr/local/texlive/2022/
-        sudo rm -rf /usr/local/texlive/texmf-local/
-        sudo rm -rf ~/.texlive2022/
-        sudo rm -rf /var/lib/texmf/
-
-        # Remove the old texlive symlinks (Make sure there's nothing else in there)
-        sudo rm /usr/local/bin/*
-        sudo -rf rm /usr/local/share/man/*
-        sudo rm /usr/local/share/info/*
-
-        # Update the font cash
-        sudo fc-cache -fsv
-
-    Install Redshift
-
-        Install from repo
-
-        sudo apt-get install redshift redshift-gtk
-
-        Append the following to geoclue’s config with sudo nano /etc/geoclue/geoclue.conf
-
-        [redshift]
-        allowed=true
-        system=false
-        users=
-
-        Create a redshift config file with nano ~/.config/redshift.conf
-
-        [redshift]
-        temp-day=5500
-        temp-night=2700
-        location-provider=manual
-
-        [manual]
-        lat=4X
-        lon=-8X
-
-        Alternative software
-            https://sr.ht/~kennylevinsen/wlsunset/
-            https://gitlab.com/chinstrap/gammastep
-
-    Modify sublime text’s settings
-        At Preferences -> Distraction Free, add the line "update_check": false,
-        Add 127.0.0.1 license.sublimehq.com to /etc/hosts.
-
-    Install Rstudio
-
-    Download from https://posit.co/download/rstudio-desktop/
-
-    sudo dpkg -i *.deb
-    sudo apt install -f
-
-    Install Teamviewer
-
-    Download from https://www.teamviewer.com/en/download/linux/
-
-    sudo dpkg -i *.deb
-    sudo apt install -f
-
-    Install Anydesk
-
-    Download from https://anydesk.com/download?os=linux
-
-    sudo dpkg -i *.deb
-    sudo apt install -f
-
-    Anydesk uses a dark pattern of forcing autostart of a background service/system tray icon. To stop it, you needed to delete the following file:
-
-    /etc/systemd/system/anydesk.service
 
     Install Brother printer drivers.
 
@@ -604,7 +411,4 @@ Manual packages
             brsaneconfig4 -a name=Scanner model='modelname' ip='ip-address'
         Check network mapping with
             nmap 'IP range'/24
-
-Published: 2022-12-09
-Last Updated: 2023-05-01
 
