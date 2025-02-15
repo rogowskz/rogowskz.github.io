@@ -181,6 +181,10 @@ Add Polish keyboard:
   Settings > Keyboard > Layout > Add
 
 --------
+Add uBlock Origin to Firefox:
+  https://ublockorigin.com/
+
+--------
 Configure Terminal:
 
 Manually:
