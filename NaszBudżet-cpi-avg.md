@@ -7,17 +7,17 @@ Prywatne[^prywatne] wydatki roczne w CAD **y2025**
 | Rok | 2019 | 2020 | 2021 | 2022 | 2023 | 2024 | 2025 | 3YAVG | 5YAVG | 10YAVG |
 | ---- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---:  | ---:  | ---:   |
 |  |  |  |  |  |  |  |  |  |  |  |  
-| **Wydatki razem** | **60,396** | **39,441** | **73,962** | **49,890** | **59,953** | **64,712** | **64,207** | 62,957 | 62,544 | 59,987 |  
+| **Wydatki razem** | **60,396** | **39,441** | **73,962** | **49,890** | **59,953** | **64,712** | **64,533** | 63,066 | 62,610 | 60,019 |  
 |  |  |  |  |  |  |  |  |  |  |  |  
-| **Wydatki regularne** | **43,359** | **36,146** | **37,134** | **36,649** | **36,174** | **47,790** | **40,728** | 41,564 | 39,695 | 40,481 |  
+| **Wydatki regularne** | **43,359** | **36,146** | **37,134** | **36,649** | **36,174** | **47,790** | **41,054** | 41,672 | 39,760 | 40,513 |  
 |  |  |  |  |  |  |  |  |  |  |  |  
-| **"Życie"** | **12,508** | **9,056** | **9,828** | **9,577** | **9,681** | **12,476** | **12,527** | 11,561 | 10,817 | 11,540 |  
-| Żywność | 10,596 | 8,330 | 8,799 | 8,449 | 8,170 | 11,132 | 11,000 | 10,100 | 9,510 | 10,099 |  
-| Ubranie | 1,241 | 321 | 530 | 740 | 1,164 | 797 | 917 | 959 | 829 | 895 |  
-| Kosmetyki | 672 | 405 | 499 | 389 | 347 | 547 | 610 | 501 | 478 | 545 |  
+| **"Życie"** | **12,508** | **9,056** | **9,828** | **9,577** | **9,681** | **12,476** | **12,616** | 11,591 | 10,835 | 11,549 |  
+| Żywność | 10,596 | 8,330 | 8,799 | 8,449 | 8,170 | 11,132 | 11,088 | 10,130 | 9,527 | 10,108 |  
+| Ubranie | 1,241 | 321 | 530 | 740 | 1,164 | 797 | 900 | 953 | 826 | 894 |  
+| Kosmetyki | 672 | 405 | 499 | 389 | 347 | 547 | 628 | 507 | 482 | 547 |  
 |  |  |  |  |  |  |  |  |  |  |  |  
-| **Wydatki gospodarcze** | **2,051** | **2,338** | **1,439** | **2,445** | **2,035** | **2,397** | **1,955** | 2,129 | 2,054 | 2,001 |  
-| Gospodarcze[^wydgosp] | 2,051 | 2,338 | 1,439 | 2,445 | 2,035 | 2,397 | 1,955 | 2,129 | 2,054 | 2,001 |  
+| **Wydatki gospodarcze** | **2,051** | **2,338** | **1,439** | **2,445** | **2,035** | **2,397** | **2,102** | 2,178 | 2,083 | 2,016 |  
+| Gospodarcze[^wydgosp] | 2,051 | 2,338 | 1,439 | 2,445 | 2,035 | 2,397 | 2,102 | 2,178 | 2,083 | 2,016 |  
 |  |  |  |  |  |  |  |  |  |  |  |  
 | **Mieszkanie w Ottawie, posiadanie** | **6,350** | **6,222** | **6,230** | **6,059** | **5,407** | **5,728** | **5,461** | 5,532 | 5,777 | 6,027 |  
 | Podatek od własności | 4,522 | 4,642 | 4,611 | 4,405 | 4,367 | 4,368 | 4,501 | 4,412 | 4,450 | 4,488 |  
@@ -43,9 +43,9 @@ Prywatne[^prywatne] wydatki roczne w CAD **y2025**
 | Wspólnota mieszkaniowa, rozliczenie mediów | 0 | -38 | 7 | 0 | 589 | 223 | 344 | 385 | 232 | 119 |  
 | Internet | 425 | 173 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 74 |  
 |  |  |  |  |  |  |  |  |  |  |  |  
-| **Transport** | **6,311** | **4,072** | **5,293** | **4,719** | **3,195** | **9,130** | **3,159** | 5,161 | 5,099 | 5,607 |  
+| **Transport** | **6,311** | **4,072** | **5,293** | **4,719** | **3,195** | **9,130** | **3,179** | 5,168 | 5,103 | 5,609 |  
 | Komunikacja publiczna kanadyjska i polska | 229 | 240 | 0 | 250 | 80 | 18 | 37 | 45 | 77 | 373 |  
-| Samochody własne, benzyna | 3,299[^benz2019] | 947[^benz2020] | 1,161[^benz2021] | 1,379[^benz2022] | 1,671 | 2,310 | 1,910 | 1,963 | 1,686 | 1,987 |  
+| Samochody własne, benzyna | 3,299[^benz2019] | 947[^benz2020] | 1,161[^benz2021] | 1,379[^benz2022] | 1,671 | 2,310 | 1,930 | 1,970 | 1,690 | 1,989 |  
 | Samochody własne, ubezpieczenie | 1,241 | 1,159 | 925 | 833 | 851 | 759 | 730 | 780 | 819 | 1,031 |  
 | Samochody własne, konserwacje[^samochodkons] | 338 | 189 | 116 | 170 | 325 | 235 | 206 | 255 | 210 | 236 |  
 | Samochody własne, reperacje | 698 | 1,317 | 2,712 | 2,135 | 0 | 5,334 | 0 | 1,778 | 2,036 | 1,692 |  
@@ -57,21 +57,21 @@ Prywatne[^prywatne] wydatki roczne w CAD **y2025**
 | Internet stacjonarny w Ottawie | 1,045 | 1,618 | 796 | 657 | 636 | 720 | 793 | 716 | 720 | 911 |  
 | Komórki kanadyjskie i polskie, airtime | 353 | 446 | 327 | 265 | 392 | 643 | 1,243 | 759 | 574 | 461 |  
 |  |  |  |  |  |  |  |  |  |  |  |  
-| **Prezenty** | **4,417** | **4,083** | **4,335** | **4,156** | **5,453** | **6,690** | **5,220** | 5,787 | 5,170 | 4,827 |  
-| Osobiste[^prezentyosobiste] | 3,654 | 3,324 | 3,371 | 2,981 | 4,263 | 5,371 | 3,859 | 4,497 | 3,969 | 3,870 |  
+| **Prezenty** | **4,417** | **4,083** | **4,335** | **4,156** | **5,453** | **6,690** | **5,260** | 5,801 | 5,178 | 4,831 |  
+| Osobiste[^prezentyosobiste] | 3,654 | 3,324 | 3,371 | 2,981 | 4,263 | 5,371 | 3,899 | 4,511 | 3,977 | 3,874 |  
 | Donacje charytatywne[^donacje] | 763 | 758 | 964 | 1,175 | 1,190 | 1,318 | 1,361 | 1,289 | 1,201 | 956 |  
 |  |  |  |  |  |  |  |  |  |  |  |  
-| **Inne** | **3,410** | **2,193** | **1,722** | **2,811** | **3,557** | **3,645** | **3,966** | 3,722 | 3,140 | 3,176 |  
+| **Inne** | **3,410** | **2,193** | **1,722** | **2,811** | **3,557** | **3,645** | **3,996** | 3,732 | 3,146 | 3,179 |  
 | "[Latte factor](http://financialmentor.com/calculator/latte-factor-calculator)"[^latte] | 330 | 99 | 81 | 190 | 265 | 425 | 238 | 309 | 239 | 267 |  
 | Restauracje | 0 | 0 | 0 | 0 | 0 | 0 | 276 | 92 | 55 | 27 |  
 | Alkohole | 290 | 443 | 293 | 79 | 46 | 55 | 129 | 76 | 120 | 228 |  
 | Loterie | 0 | 0 | 0 | 296 | 522 | 0 | 300 | 274 | 223 | 111 |  
-| Suplementy diety | 291 | 273 | 286 | 346 | 338 | 303 | 418 | 353 | 338 | 274 |  
-| Opłaty bankowe[^bankowe] | 126 | 88 | 123 | 376 | 96 | 308 | 116 | 173 | 203 | 190 |  
+| Suplementy diety | 291 | 273 | 286 | 346 | 338 | 303 | 438 | 359 | 342 | 276 |  
+| Opłaty bankowe[^bankowe] | 126 | 88 | 123 | 376 | 96 | 308 | 120 | 174 | 204 | 191 |  
 | Rekreacja[^rekreacja] | 655 | 236 | 0 | 360 | 465 | 897 | 769 | 710 | 498 | 494 |  
 | Rozrywki[^rozrywki] | 498 | 149 | 127 | 90 | 46 | 541 | 265 | 284 | 213 | 188 |  
 | Książki, audiobuki[^ksiazki] | 105 | 0 | 53 | 78 | 103 | 24 | 91 | 72 | 69 | 69 |  
-| Czasopisma[^czasopisma] | 17 | 111 | 138 | 94 | 106 | 70 | 146 | 107 | 110 | 78 |  
+| Czasopisma[^czasopisma] | 17 | 111 | 138 | 94 | 106 | 70 | 152 | 109 | 112 | 79 |  
 | Safari Books Online[^safaribooks] | 142 | 187 | 204 | 190 | 184 | 179 | 176 | 179 | 186 | 170 |  
 | Komputery, software[^software] | 41 | 34 | 39 | 71 | 26 | 41 | 36 | 34 | 42 | 56 |  
 | Ubezpieczenie na życie | 0 | 0 | 0 | 0 | 322 | 316 | 276 | 304 | 182 | 91 |  
@@ -90,14 +90,14 @@ Prywatne[^prywatne] wydatki roczne w CAD **y2025**
 | Pozostałe wydatki wakacyjne[^podrinne] | 642 | 0 | 256 | 947 | 3,736 | 2,534 | 3,882 | 3,384 | 2,271 | 1,920 |  
 |  |  |  |  |  |  |  |  |  |  |  |  
 | **Wydatki gospodarcze** | **747** | **514** | **0** | **730** | **2,251** | **2,647** | **727** | 1,875 | 1,271 | 1,110 |  
-| Gospodarcze | 747[^gosp2019] | 514[^gosp2020] | 0 | 730[^gosp2022] | 2,251[^gosp2023] | 2,647 | 727 | 1,875 | 1,271 | 1,110 |  
+| Gospodarcze | 747[^gosp2019] | 514[^gosp2020] | 0 | 730[^gosp2022] | 2,251[^gosp2023] | 2,647[^gosp2024] | 727 | 1,875 | 1,271 | 1,110 |  
 |  |  |  |  |  |  |  |  |  |  |  |  
 | **Mieszkanie w Ottawie, posiadanie** | **5,705** | **1,452** | **32,402** | **8,339** | **3,093** | **798** | **3,928** | 2,606 | 9,712 | 7,766 |  
-| Renowacje | 5,705[^reno2019] | 1,452[^reno2020] | 32,402[^reno2021] | 8,339[^reno2022] | 3,093[^reno2023] | 798 | 3,928 | 2,606 | 9,712 | 7,766 |  
+| Renowacje | 5,705[^reno2019] | 1,452[^reno2020] | 32,402[^reno2021] | 8,339[^reno2022] | 3,093[^reno2023] | 798 | 3,928[^reno2025] | 2,606 | 9,712 | 7,766 |  
 |  |  |  |  |  |  |  |  |  |  |  |  
 | **Mieszkanie w Ottawie, używanie** | **1,979** | **107** | **393** | **0** | **1,703** | **37** | **2,598** | 1,446 | 946 | 1,120 |  
 | Meble, wyposażenie | 623 | 107 | 393 | 0 | 1,703 | 37 | 1,515 | 1,085 | 729 | 747 |  
-| Ogród | 1,355[^ogrod2019] | 0 | 0 | 0 | 0 | 0 | 1,083 | 361 | 216 | 372 |  
+| Ogród | 1,355[^ogrod2019] | 0 | 0 | 0 | 0 | 0 | 1,083[^ogrod2025] | 361 | 216 | 372 |  
 |  |  |  |  |  |  |  |  |  |  |  |  
 | **Mieszkanie w Warszawie, używanie** | **637** | **125** | **0** | **195** | **1,353** | **160** | **2,451** | 1,321 | 831 | 506 |  
 | Meble, wyposażenie | 637 | 125 | 0 | 195 | 1,353 | 160 | 2,451 | 1,321 | 831 | 506 |  
@@ -109,7 +109,7 @@ Prywatne[^prywatne] wydatki roczne w CAD **y2025**
 | Komórki kanadyjskie i polskie, sprzęt | 203[^komsp2019] | 203[^komsp2020] | 0 | 240[^komsp2022] | 0 | 436 | 203 | 213 | 175 | 156 |  
 |  |  |  |  |  |  |  |  |  |  |  |  
 | **Inne** | **664** | **196** | **909** | **543** | **1,718** | **666** | **1,453** | 1,279 | 1,057 | 759 |  
-| Komputery, sprzęt i akcesoria | 664[^kompsp2019] | 196 | 291[^kompsp2021] | 543[^kompsp2022] | 0 | 666 | 1,024 | 563 | 504 | 415 |  
+| Komputery, sprzęt i akcesoria | 664[^kompsp2019] | 196 | 291[^kompsp2021] | 543[^kompsp2022] | 0 | 666 | 1,024[^kompsp2025] | 563 | 504 | 415 |  
 | Domeny Internetowe | 0 | 0 | 618[^domeny2021] | 0 | 0 | 0 | 0 | 0 | 123 | 89 |  
 | Inne | 0 | 0 | 0 | 0 | 1,718 | 0 | 429 | 715 | 429 | 254 |  
 
@@ -124,8 +124,10 @@ Prywatne[^prywatne] wydatki roczne w CAD **y2025**
 [^gosp2020]: Odkurzacz.
 [^gosp2022]: Lodówka do piwnicy.
 [^gosp2023]: Nowa kuchnia do kuchni.
+[^gosp2024]: Nowa zmywarka i nowa zamrażarka pionowa do piwnicy.
 [^meble2017]: W tym: Kanapa i otomana do livingu: $1331, Buirko, komoda i dywan do gabinetu: $686
 [^ogrod2019]: Koszty napraw szkód po tornado w roku 2018: $1126
+[^ogrod2025]: Odnowienie trawnika frontowego.
 [^hipoteka]: Dom kupiony 1997-04-14. Spłacanie zakończono 2015-02-19.
 [^minnos]: Płatne od powierzchni: koszty zarządu + centralne ogrzewanie + zaliczka na fundusz remontowy; Ryczałty na zużycie: woda zimna i scieki + podgrzanie wody; Opłaty stałe: woda ciepła koszty stałe + opłata śmieciowa Warszawa
 [^minnbiz]: Wynajęte jako biznes więc brak kosztów za ten rok w prywatnym budżecie.
@@ -138,6 +140,7 @@ Prywatne[^prywatne] wydatki roczne w CAD **y2025**
 [^reno2021]: Wymiana elewacji na domu: $20,812. Nowe rynny: $1,249. Wymiana pieca ogrzewczego: $4,617. Wymiana kranu w pralni w piwnicy i instalacja kranu ogrodowego: $1,263.
 [^reno2022]: Naprawa elewacji na domu "derecho": %5,223. Zakup i instalacje lamp podsufitowych i zewnętrznych: $2,519
 [^reno2023]: Naprawa kołnierza przy kominie. Nowe screen doors tarasowe. Naprawa elewacji garażowej uszkodzonej wiatrem.
+[^reno2025]: Wymiana drzwi frontowych.
 [^ogrod2017]: Wycięcie starego drzewa w ogrodzie: $1,017
 [^komsp2017]: Za dwa nowe telefony.
 [^komsp2019]: Za jeden nowy telefon.
@@ -156,6 +159,7 @@ Prywatne[^prywatne] wydatki roczne w CAD **y2025**
 [^kompsp2019]: W ym: Tablet Samsung: $337
 [^kompsp2021]: Drukarka laserowa Brother
 [^kompsp2022]: W tym: Laptop Acer Aspire 3 15.6: $451
+[^kompsp2025]: W tym: Tablet Acer Iconia: $339, Laptop Thinkpad T480: $312
 [^software]: Kupno (TurboTax) i subskrypcje takie jak: BitDefender, Google space, etc.
 [^inneinne]: Poczta, materiały biurowe, Costco membership, fryzjer, domeny internetowe, itp...
 [^inin2018]: Odnowienie dwóch paszportów Kanadyjskich na 10 lat: $320
@@ -181,4 +185,4 @@ Prywatne[^prywatne] wydatki roczne w CAD **y2025**
 [^dental]: Bilans NETTO wydatków, składek ubezpieczeniowych i zwrotów ubezpieczeniowych dentystycznych.
 [^meddent]: Medyczne i dentystyczne razem.
 
-Updated on: 2025-12-19 11:26:25
+Updated on: 2025-12-30 18:53:14
