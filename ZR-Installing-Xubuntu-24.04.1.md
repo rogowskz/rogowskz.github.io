@@ -239,15 +239,20 @@ du -sh ~
     # Decide on what to delete before copying, and do it:
       # Not-hidden files/dirs:
 ls -1 ~ 
-rm ~/Downloads/*
       # Hidden files/dirs:
 ls -a1 ~ | grep "^\."
-rm -r ~/.cache/*
-rm -r ~/.vim/.swp
-rm -r /media/veracrypt1/home/zr/.vim/.swp 
 
   # Copy home directory data to the internal encrypted storage:
-rsync -avW --delete ~ /media/veracrypt1/home
+rm -r /media/veracrypt1/home/zr/
+cp -R ~ /media/veracrypt1/home/zr/
+  # Remove not needed:
+du -sh /media/veracrypt1/home/zr/
+ls -al /media/veracrypt1/home/zr/Downloads/*
+rm -r /media/veracrypt1/home/zr/Downloads/*
+find /media/veracrypt1/home/zr -type d -name ".cache"
+du -sh /media/veracrypt1/home/zr/snap/firefox/common/.cache
+rm -r /media/veracrypt1/home/zr/snap/firefox/common/.cache/*
+du -sh /media/veracrypt1/home/zr/
 
   # Copy the internal encrypted storage to external:
 rsync -avW --delete /media/veracrypt1/ /media/veracrypt2/ 
@@ -266,16 +271,17 @@ sudo apt install vim
 
 # Configure and test VIM:
 cd ~
-cp -R /media/veracrypt1/home/zr/.vimrc .
-cp /media/veracrypt1/home/zr/.viminfo .
+cp -R /media/veracrypt1/home/zr/.vim ~
+cp /media/veracrypt1/home/zr/.vimrc ~
+cp /media/veracrypt1/home/zr/.viminfo ~
 ```
 ```txt
 Useful Vim commands:
 \ww
 :syntax sync fromstart
 :set nonumber | set norelativenumber
-:!./datedlines.py | sort | grep ^2024-02- | grep MasterCard
-:!find md -type f | xargs -d '\n' | grep -i usss
+:!./datedlines.py | sort | grep ^2024- | grep Latte
+:!find md -type f | xargs -d '\n' grep -i latte
 ```
 
 ```bash
@@ -288,13 +294,17 @@ cp /media/veracrypt1/home/zr/.bash_aliases ~/.bash_aliases
 vim ~/.bash_aliases
 
 # Configure and test Mail Reader (Thunderbird):
+  # Make sure that the same (the latest) version is installed on both the source and the target system
+  # If not:
+sudo snap list
+sudo snap remove --purge thunderbird
+sudo apt purge thunderbird
+sudo apt install thunderbird
+# Replace profile folder by the one from the source system: 
+# Google: move thunderbird to new computer linux
 cd ~
-cp -R /media/veracrypt1/home/zr/.thunderbird .
-rm -R .thunderbird/Crash\ Reports/
-
-vim ~/.thunderbird/installs.ini
-# Set:
-Default=/media/veracrypt1/thunderbird.zrprofile
+rm -r ~/snap/thundrbird/common/.thunderbird
+cp -R /media/veracrypt1/home/zr/snap/thunderbird/common/.thunderbird ~/snap/thundrbird/common/
 
 # Install and configure Git:
 sudo apt install git
@@ -308,7 +318,7 @@ sudo apt install python3
 
 # Copy Desktop items:
 cp -R /media/veracrypt1/home/zr/Desktop/* ~/Desktop
-# Test migrated desktopm shortcuts.
+# Test migrated desktop shortcuts.
 
 # Arrange and review Desktop items:
 #   Do not store personal documents in ~/Desktop,
@@ -328,19 +338,15 @@ type -p curl >/dev/null || (sudo apt update && sudo apt install curl -y)
 # Install CLI GitHub client 'gh':
 #   https://cli.github.com/
 #     https://github.com/cli/cli/blob/trunk/docs/install_linux.md
-
 (type -p wget >/dev/null || (sudo apt update && sudo apt-get install wget -y)) \
-	&& sudo mkdir -p -m 755 /etc/apt/keyrings \
-        && out=$(mktemp) && wget -nv -O$out https://cli.github.com/packages/githubcli-archive-keyring.gpg \
-        && cat $out | sudo tee /etc/apt/keyrings/githubcli-archive-keyring.gpg > /dev/null \
-	&& sudo chmod go+r /etc/apt/keyrings/githubcli-archive-keyring.gpg \
-	&& echo "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" | sudo tee /etc/apt/sources.list.d/github-cli.list > /dev/null \
-	&& sudo apt update \
-	&& sudo apt install gh -y
-
-# Upgrade CLI GitHub client 'gh':
-sudo apt update 
-sudo apt install gh
+&& sudo mkdir -p -m 755 /etc/apt/keyrings \
+    && out=$(mktemp) && wget -nv -O$out https://cli.github.com/packages/githubcli-archive-keyring.gpg \
+    && cat $out | sudo tee /etc/apt/keyrings/githubcli-archive-keyring.gpg > /dev/null \
+&& sudo chmod go+r /etc/apt/keyrings/githubcli-archive-keyring.gpg \
+&& echo "deb [arch=$(dpkg --print-architecture) \
+  signed-by=/etc/apt/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" | sudo tee /etc/apt/sources.list.d/github-cli.list > /dev/null \
+&& sudo apt update \
+&& sudo apt install gh -y
 
 # Publish this page to rogowskz.github.io
 # DONE.
@@ -349,10 +355,6 @@ sudo apt install gh
 ```bash
 # Test budget update:
 ctl
-bu
-
-# Test finmodel:
-cfm
 bu
 
 # Test dane_out
